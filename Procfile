@@ -1,0 +1,1 @@
+web: gunicorn hiatus_backend.wsgi --log-file
