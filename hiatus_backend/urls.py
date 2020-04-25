@@ -1,16 +1,13 @@
 """hiatus_backend URL Configuration
 """
 from django.urls import path, include
-from rest_framework import routers
-from hiatus_backend.api import views
+from django.contrib import admin
+from django.conf.urls import include
 
-# Router Patterns
-router = routers.DefaultRouter()
-router.register(r'users', views.UserViewSet)
-router.register(r'groups', views.GroupViewSet)
 
 # URL Patterns
 urlpatterns = [
-    path('', include(router.urls)),
-    path('api_auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('admin/', admin.site.urls),
+    path('api/', include('api.urls')),
+    # path('api/adv/', include(adventure.urls)),
 ]
