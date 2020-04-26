@@ -28,7 +28,7 @@ SECRET_KEY = '*ck(f!off=gdz^c(uddsbg%smbz*_^2#_fda59c76@o_b)&u#3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hiatus-mud.herokuapp.com/']
 
 
 # Application definition
