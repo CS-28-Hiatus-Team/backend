@@ -5,11 +5,12 @@ from rest_framework import serializers
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['id', 'user_name', 'email', 'password',
-                  'current_room', 'health_pts', 'phrase']
+        fields = ['id', 'username', 'email', 'password']
+# Refactor to AbstractBaseUser and include       
+# 'current_room', 'health_pts', 'phrase' needed for character
 
 
 class GroupSerializer(serializers.ModelSerializer):
     class Meta:
         model = Group
-        fields = ['id', 'current_room']
+        fields = ['name']
