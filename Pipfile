@@ -10,7 +10,10 @@ autopep8 = "*"
 [packages]
 django = "*"
 djangorestframework = "*"
-psycopg2 = "*"
+pytz = "*"
+sqlparse = "*"
+dj-database-url = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
