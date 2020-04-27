@@ -1,0 +1,9 @@
+Django
+djangorestframework
+django
+django-heroku
+pytz
+sqlparse
+dj-database-url
+gunicorn
+psycopg2
