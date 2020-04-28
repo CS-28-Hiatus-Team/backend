@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "013b8f22d3ca9b38d62bdedfd8e60ac20a5b028b74efeb631d46be43ac82f424"
+            "sha256": "3cdf69995376937eb47538348de2fd8560f91beb750b761c2a663f0cef97ae82"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -93,13 +93,6 @@
                 "sha256:f118a95c7480f5be0df8afeb9a11bd199aa20afab7a96bcf20409b411a3a85f0"
             ],
             "version": "==2.9.2"
-        },
-        "decouple": {
-            "hashes": [
-                "sha256:c253c1cc62b76e9720a066f334552548c6de1884bc3bdf456ddb62d61b867b09"
-            ],
-            "index": "pypi",
-            "version": "==0.0.7"
         },
         "defusedxml": {
             "hashes": [
@@ -288,10 +281,10 @@
         },
         "pytz": {
             "hashes": [
-                "sha256:1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d",
-                "sha256:b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"
+                "sha256:a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed",
+                "sha256:c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
             ],
-            "version": "==2019.3"
+            "version": "==2020.1"
         },
         "requests": {
             "hashes": [
