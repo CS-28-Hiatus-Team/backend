@@ -15,6 +15,7 @@ gunicorn = "*"
 django-heroku = "*"
 django-rest-api = "*"
 decouple = "*"
+whitenoise = "*"
 
 [dev-packages]
 autopep8 = "*"
