@@ -1,14 +1,21 @@
-from django.urls import path, include
+
+from django.urls import path, include, re_path
+from rest_framework.authtoken import views
 from rest_framework import routers
-from api import views
+from .views import UserViewSet, GroupViewSet, RoomViewSet, PlayerViewSet
 
-# Router Patterns
+# TODO: break out router for adv views to another app
 router = routers.DefaultRouter()
-router.register(r'users', views.UserViewSet)
-router.register(r'groups', views.GroupViewSet)
+router.register(r'users', UserViewSet)
+router.register(r'groups', GroupViewSet)
+router.register(r'rooms', RoomViewSet)
+router.register(r'players', PlayerViewSet)
 
-# URL Patterns
 urlpatterns = [
+    path('auth/', include('rest_auth.urls')),
+    path('registration/', include('rest_auth.registration.urls')),
+    re_path(r'^api-token-auth/', views.obtain_auth_token),
     path('', include(router.urls)),
-    path('api_auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('rooms/', RoomViewSet),
+    path('players/', PlayerViewSet)
 ]
