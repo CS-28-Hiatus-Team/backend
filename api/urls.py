@@ -9,6 +9,6 @@ router.register(r'groups', views.GroupViewSet)
 
 # URL Patterns
 urlpatterns = [
-    path('', include(router.urls)),
-    path('api_auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('', include('rest_auth.urls')),
+    path('registration/', include('rest_auth.registration.urls'))
 ]
