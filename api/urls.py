@@ -11,5 +11,5 @@ router.register(r'groups', views.GroupViewSet)
 # URL Patterns
 urlpatterns = [
     path('', include('rest_auth.urls')),
-    path('registration/', include('rest_auth.registration.urls'))
+    path('registration/', include('rest_auth.registration.urls')),
 ]
