@@ -1,14 +1,13 @@
 from django.db import models
 from django.contrib.postgres.fields import ArrayField
 import uuid
-from django.contrib.auth.models import User
+from django.contrib.auth.models import AbstractUser
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
 
-# # create room class of models
 
-
+## Rooms
 class Room(models.Model):
     id = models.AutoField(primary_key=True, unique=True)
     # id = models.UUIDField(default=uuid.uuid4, unique=True, primary_key=True)
@@ -37,22 +36,20 @@ class Room(models.Model):
         setattr(destination, f"{reverse_dir}_to", self.id)
         self.save()
 
-    # fn to create player naming/id
-    def player_handle(self, active_playerID):
-        return[p.user.username for p in Player.objects.filter(rm_current=self.id) if p.id != int(active_playerID)]
+    # # fn to create player naming/id
+    # def player_handle(self, active_playerID):
+    #     return[p.user.username for p in Player.objects.filter(rm_current=self.id) if p.id != int(active_playerID)]
 
-    # fn to create player uuid
-    def playerUUID(self, active_playerID):
-        return[p.uuid for p in Player.objects.filter(rm_current=self.id) if p.id != int(active_playerID)]
+    # # fn to create player uuid
+    # def playerUUID(self, active_playerID):
+    #     return[p.uuid for p in Player.objects.filter(rm_current=self.id) if p.id != int(active_playerID)]
 
-
-class Player(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+## Extended User
+class Player(AbstractUser):
+    # user = models.OneToOneField(User, on_delete=models.CASCADE)
+    # player_name = models.AbstractBaseUser
     rm_current = models.IntegerField(default=0)
-    # uuid = models.UUIDField(default=uuid.uuid4, unique=True)
-    user = models.ForeignKey(User, blank=True, null=True,
-                             on_delete=models.SET_NULL, verbose_name="User")
-    #items = models.CharField(max_length=500, default=" ")
+    
 
     # create fn to initialize
 
@@ -71,14 +68,14 @@ class Player(models.Model):
             return self.room()
 
 
-@receiver(post_save, sender=User)
+@receiver(post_save, sender=Player)
 # fn to create player
 def create_player(sender, instance, created, **kwargs):
     if created:
-        Player.objects.create(user=instance)
-        Token.objects.create(user=instance)
+        Player.objects.create(player=instance)
+        Token.objects.create(player=instance)
 
 
-@receiver(post_save, sender=User)
+@receiver(post_save, sender=Player)
 def save_player(sender, instance, **kwargs):
     instance.Player.save()

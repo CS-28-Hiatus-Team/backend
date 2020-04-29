@@ -2,11 +2,11 @@
 from django.urls import path, include, re_path
 from rest_framework.authtoken import views
 from rest_framework import routers
-from .views import UserViewSet, GroupViewSet, RoomViewSet, PlayerViewSet
+from .views import GroupViewSet, RoomViewSet, PlayerViewSet
 
 # TODO: break out router for adv views to another app
 router = routers.DefaultRouter()
-router.register(r'users', UserViewSet)
+# router.register(r'users', UserViewSet)
 router.register(r'groups', GroupViewSet)
 router.register(r'rooms', RoomViewSet)
 router.register(r'players', PlayerViewSet)
