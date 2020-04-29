@@ -114,6 +114,8 @@ DATABASES = {
     }
 }
 
+# Custom User
+AUTH_USER_MODEL = 'api.Player'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
