@@ -49,7 +49,7 @@ class Room(models.Model):
 class Player(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     rm_current = models.IntegerField(default=0)
-    # uuid = models.UUIDField(default=uuid.uuid4, unique=True)
+    uuid = models.UUIDField(default=uuid.uuid4, unique=True)
     user = models.ForeignKey(User, blank=True, null=True,
                              on_delete=models.SET_NULL, verbose_name="User")
     #items = models.CharField(max_length=500, default=" ")

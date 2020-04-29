@@ -17,13 +17,13 @@ class GroupSerializer(serializers.ModelSerializer):
         fields = ['name']
 
 
-class RoomSerializer(serializers.ModelSerializer):
+class RoomSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Room
         fields = ('__all__')
 
 
-class PlayerSerializer(serializers.ModelSerializer):
+class PlayerSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Player
         fields = ('__all__')
