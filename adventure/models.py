@@ -1,85 +1,79 @@
 from django.db import models
-from django.contrib.postgres.fields import ArrayField
-import uuid
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
-
-# # create room class of models
-
+import uuid
 
 class Room(models.Model):
-    id = models.AutoField(primary_key=True, unique=True)
-    # id = models.UUIDField(default=uuid.uuid4, unique=True, primary_key=True)
-    name = models.CharField(max_length=50, default="ROOM NAME")
-    desc = models.CharField(max_length=500, default="ROOM DESCRIPTION")
-    #items = models.CharField(max_length=500, default=" ")
-    #map = models.IntegerField(max_length=500, default=" ")
-    NORTH = models.CharField(max_length=150, blank=True)
-    SOUTH = models.CharField(max_length=150, blank=True)
-    EAST = models.CharField(max_length=150, blank=True)
-    WEST = models.CharField(max_length=150, blank=True)
-    map = ArrayField(ArrayField(models.IntegerField(
-        null=True, blank=True), null=True, blank=True), blank=True,)
+    title = models.CharField(max_length=50, default="DEFAULT TITLE")
+    description = models.CharField(max_length=500, default="DEFAULT DESCRIPTION")
+    n_to = models.IntegerField(default=0)
+    s_to = models.IntegerField(default=0)
+    e_to = models.IntegerField(default=0)
+    w_to = models.IntegerField(default=0)
+    x = models.IntegerField(default=0)
+    y = models.IntegerField(default=0)
 
-    def __str__(self):
-        return self.name
-
-    # create function to connect rooms
-
-    def rm_connects(self, destination, heading):
-        destinationID = destination.id
-        reverse_dirs = {"NORTH": "SOUTH", "SOUTH": "NORTH",
-                        "EAST": "WEST", "WEST": "EAST"}
-        reverse_dir = reverse_dirs[heading]
-        setattr(self, f"{heading}_to", destinationID)
-        setattr(destination, f"{reverse_dir}_to", self.id)
+    def connectRoomByID(self, destinationRoomID, direction):
+        if direction == "n":
+            self.n_to = destinationRoomID
+        elif direction == "s":
+            self.s_to = destinationRoomID
+        elif direction == "e":
+            self.e_to = destinationRoomID
+        elif direction == "w":
+            self.w_to = destinationRoomID
+        else:
+            print("Invalid direction")
+            return
         self.save()
 
-    # fn to create player naming/id
-    def player_handle(self, active_playerID):
-        return[p.user.username for p in Player.objects.filter(rm_current=self.id) if p.id != int(active_playerID)]
-
-    # fn to create player uuid
-    def playerUUID(self, active_playerID):
-        return[p.uuid for p in Player.objects.filter(rm_current=self.id) if p.id != int(active_playerID)]
-
+    def connectRooms(self, destinationRoom, direction):
+        destinationRoomID = destinationRoom.id
+        try:
+            destinationRoom = Room.objects.get(id=destinationRoomID)
+        except Room.DoesNotExist:
+            print("That room does not exist")
+        else:
+            if direction == "n":
+                self.n_to = destinationRoomID
+            elif direction == "s":
+                self.s_to = destinationRoomID
+            elif direction == "e":
+                self.e_to = destinationRoomID
+            elif direction == "w":
+                self.w_to = destinationRoomID
+            else:
+                print("Invalid direction")
+                return
+            self.save()
+    def playerNames(self, currentPlayerID):
+        return [p.user.username for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
+    def playerUUIDs(self, currentPlayerID):
+        return [p.uuid for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
 
 class Player(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    rm_current = models.IntegerField(default=0)
+    currentRoom = models.IntegerField(default=0)
     uuid = models.UUIDField(default=uuid.uuid4, unique=True)
-    user = models.ForeignKey(User, blank=True, null=True,
-                             on_delete=models.SET_NULL, verbose_name="User")
-    #items = models.CharField(max_length=500, default=" ")
-
-    # create fn to initialize
-
-    def init(self):
-        if self.rm_current == 0:
-            self.rm_current == Room.objects.first().id
-            self.x = Room.objects.first().x
-            self.y = Room.objects.first().y
+    def initialize(self):
+        if self.currentRoom == 0:
+            self.currentRoom = Room.objects.first().id
             self.save()
-
     def room(self):
         try:
-            return Room.objects.get(id=self.rm_current)
+            return Room.objects.get(id=self.currentRoom)
         except Room.DoesNotExist:
-            self.init()
+            self.initialize()
             return self.room()
 
-
-@receiver(post_save, sender=Player)
-# fn to create player
-def create_player(sender, instance, created, **kwargs):
+@receiver(post_save, sender=User)
+def create_user_player(sender, instance, created, **kwargs):
     if created:
         Player.objects.create(user=instance)
         Token.objects.create(user=instance)
 
-
-@receiver(post_save, sender=Player)
-def save_player(sender, instance, **kwargs):
-    instance.Player.save()
-
+@receiver(post_save, sender=User)
+def save_user_player(sender, instance, **kwargs):
+    instance.player.save()
