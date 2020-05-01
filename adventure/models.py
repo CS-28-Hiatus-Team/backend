@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
@@ -5,9 +6,11 @@ from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
 import uuid
 
+
 class Room(models.Model):
     title = models.CharField(max_length=50, default="DEFAULT TITLE")
-    description = models.CharField(max_length=500, default="DEFAULT DESCRIPTION")
+    description = models.CharField(
+        max_length=500, default="DEFAULT DESCRIPTION")
     n_to = models.IntegerField(default=0)
     s_to = models.IntegerField(default=0)
     e_to = models.IntegerField(default=0)
@@ -15,52 +18,57 @@ class Room(models.Model):
     x = models.IntegerField(default=0)
     y = models.IntegerField(default=0)
 
-    def connectRoomByID(self, destinationRoomID, direction):
-        if direction == "n":
-            self.n_to = destinationRoomID
-        elif direction == "s":
-            self.s_to = destinationRoomID
-        elif direction == "e":
-            self.e_to = destinationRoomID
-        elif direction == "w":
-            self.w_to = destinationRoomID
-        else:
-            print("Invalid direction")
-            return
-        self.save()
-
     def connectRooms(self, destinationRoom, direction):
         destinationRoomID = destinationRoom.id
+        print("destid", destinationRoomID)
+
         try:
+            print("try fired!", destinationRoomID)
             destinationRoom = Room.objects.get(id=destinationRoomID)
         except Room.DoesNotExist:
             print("That room does not exist")
         else:
             if direction == "n":
                 self.n_to = destinationRoomID
+                print('elif n', self.n_to)
             elif direction == "s":
                 self.s_to = destinationRoomID
+                print('elif n', self.n_to)
             elif direction == "e":
+                print('elif e')
                 self.e_to = destinationRoomID
             elif direction == "w":
+                print('elif w')
                 self.w_to = destinationRoomID
             else:
                 print("Invalid direction")
                 return
             self.save()
+
     def playerNames(self, currentPlayerID):
         return [p.user.username for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
+
     def playerUUIDs(self, currentPlayerID):
         return [p.uuid for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
+
+
+class Item(models.Model):
+    name = models.CharField(max_length=50, default="DEFAULT ITEM")
+    description = models.CharField(
+        max_length=500, default="DEFAULT DESCRIPTION")
+    item_type = models.CharField(max_length=50, default="DEFAULT TYPE")
+
 
 class Player(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     currentRoom = models.IntegerField(default=0)
     uuid = models.UUIDField(default=uuid.uuid4, unique=True)
+
     def initialize(self):
         if self.currentRoom == 0:
             self.currentRoom = Room.objects.first().id
             self.save()
+
     def room(self):
         try:
             return Room.objects.get(id=self.currentRoom)
@@ -68,12 +76,14 @@ class Player(models.Model):
             self.initialize()
             return self.room()
 
-@receiver(post_save, sender=User)
+
+@receiver(post_save, sender=settings.AUTH_USER_MODEL)
 def create_user_player(sender, instance, created, **kwargs):
     if created:
-        Player.objects.create(user=instance)
-        Token.objects.create(user=instance)
+        Player.objects.get_or_create(user=instance)
+        Token.objects.get_or_create(user=instance)
 
-@receiver(post_save, sender=User)
+
+@receiver(post_save, sender=settings.AUTH_USER_MODEL)
 def save_user_player(sender, instance, **kwargs):
     instance.player.save()
