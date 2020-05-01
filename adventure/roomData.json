@@ -1,0 +1,1002 @@
+[
+	{
+		"desc": "as you go into the room with the spell. Only creatures capable of sleeping are affected. They awake as normal: loud noises, jolts, pain.  5th",
+		"map": "[[1, 2, 5, 2, 1, 3, 5, 1, 4, 0, 5, 6, 3, 1, 4, 3, 4, 0, 1, 5],\n       [0, 2, 0, 2, 2, 1, 4, 5, 5, 0, 6, 4, 5, 6, 0, 5, 3, 6, 5, 6],\n       [6, 6, 0, 6, 1, 3, 2, 1, 1, 0, 0, 0, 2, 3, 5, 3, 1, 0, 3, 1],\n       [3, 0, 6, 4, 5, 6, 0, 1, 5, 0, 2, 5, 1, 2, 0, 0, 4, 2, 3, 0],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [1, 3, 2, 0, 1, 3, 0, 0, 6, 0, 2, 1, 1, 6, 5, 6, 0, 2, 3, 3],\n       [3, 1, 1, 2, 5, 0, 2, 6, 0, 0, 1, 6, 6, 5, 2, 6, 4, 6, 5, 5],\n       [5, 2, 6, 6, 2, 3, 6, 4, 0, 0, 6, 5, 0, 5, 1, 5, 1, 5, 0, 4],\n       [5, 4, 4, 5, 0, 1, 4, 5, 3, 0, 4, 5, 1, 2, 4, 2, 6, 6, 6, 0],\n       [1, 5, 2, 4, 4, 0, 3, 6, 6, 0, 2, 6, 2, 4, 4, 0, 6, 4, 0, 1]]",
+		"id": 1,
+		"name": "Grim Best Ritual Vault",
+		"n_to": "Close Best Skill Catacomb",
+		"e_to": "Close Best Skill Catacomb",
+		"s_to": "Le_to 5th Create Jellab",
+		"w_to": "Close Best Skill Catacomb"
+	},
+	{
+		"desc": "as you go into the room kill or take damage the spell ends.  Sleep Level 3 Enchantment  Description  1d4 enemies you can see of the GM",
+		"map": "[[0, 4, 6, 6, 4, 4, 5, 3, 1, 0, 1, 0, 1, 5, 1, 1, 2, 4, 6, 0],\n       [5, 0, 4, 6, 2, 4, 5, 4, 4, 0, 6, 2, 1, 2, 2, 2, 4, 1, 5, 3],\n       [0, 0, 1, 0, 0, 4, 0, 5, 0, 0, 4, 6, 2, 4, 3, 3, 4, 0, 1, 4],\n       [1, 0, 3, 0, 4, 4, 4, 5, 6, 0, 5, 2, 3, 5, 3, 5, 5, 2, 6, 2],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [4, 5, 6, 2, 0, 0, 0, 1, 1, 0, 0, 4, 3, 5, 1, 3, 0, 5, 5, 1],\n       [4, 3, 1, 5, 1, 4, 2, 4, 3, 0, 1, 2, 1, 2, 4, 0, 0, 5, 2, 2],\n       [2, 4, 1, 6, 3, 3, 0, 0, 2, 0, 3, 1, 6, 3, 3, 1, 1, 4, 3, 1],\n       [5, 5, 2, 6, 3, 2, 5, 4, 1, 0, 1, 3, 1, 4, 4, 0, 4, 0, 3, 3],\n       [6, 5, 2, 2, 5, 3, 5, 0, 3, 0, 3, 2, 3, 0, 2, 5, 4, 4, 6, 0]]",
+		"id": 2,
+		"name": "Ill Long Magic Cell",
+		"n_to": null,
+		"e_to": "Many Dead Mind Court",
+		"s_to": "Full Protective Brew Guardhouse",
+		"w_to": "Grim Best Ritual Vault"
+	},
+	{
+		"desc": "as you go into the room with the spell and ask the GM any three questions.  Sleep Level 3 Enchantment  Description  1d4 enemies you can",
+		"map": "[[5, 0, 5, 1, 1, 6, 2, 0, 0, 0, 5, 2, 4, 0, 5, 3, 6, 5, 6, 3],\r\n       [3, 2, 0, 6, 1, 5, 2, 5, 2, 0, 4, 4, 6, 3, 1, 0, 3, 4, 4, 5],\r\n       [3, 0, 6, 4, 5, 4, 3, 1, 3, 0, 6, 0, 2, 5, 2, 5, 4, 3, 6, 6],\r\n       [4, 0, 6, 5, 5, 0, 4, 4, 6, 0, 6, 3, 2, 0, 3, 4, 1, 0, 6, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 3, 0, 1, 1, 2, 1, 3, 2, 0, 0, 5, 2, 5, 6, 2, 3, 3, 5, 4],\r\n       [4, 4, 5, 6, 3, 2, 6, 6, 6, 0, 4, 6, 6, 5, 1, 2, 0, 2, 1, 1],\r\n       [5, 3, 5, 4, 4, 6, 1, 2, 3, 0, 4, 5, 5, 1, 5, 6, 6, 0, 3, 3],\r\n       [4, 2, 2, 6, 6, 3, 1, 0, 3, 0, 5, 2, 5, 5, 6, 3, 1, 6, 5, 5],\r\n       [1, 2, 0, 3, 0, 0, 2, 0, 3, 0, 2, 0, 6, 3, 3, 0, 1, 5, 4, 5]]",
+		"id": 3,
+		"name": "Many Dead Mind Court",
+		"n_to": null,
+		"e_to": null,
+		"s_to": "Weaker Powerful Wilderness Bastille",
+		"w_to": "Ill Long Magic Cell"
+	},
+	{
+		"desc": "as you go into the room kill or maim. The GM will tell you what kind of creature it is and how you must counter it to exceed your own damage counter.  ",
+		"map": "[[1, 2, 5, 3, 4, 0, 0, 3, 6, 0, 6, 0, 0, 3, 0, 4, 4, 0, 3, 1],\r\n       [6, 2, 2, 0, 1, 0, 3, 4, 2, 0, 4, 6, 6, 2, 1, 2, 0, 6, 0, 1],\r\n       [6, 4, 1, 4, 1, 2, 4, 5, 1, 0, 5, 0, 5, 5, 6, 5, 0, 3, 2, 0],\r\n       [6, 2, 5, 1, 4, 0, 3, 6, 4, 0, 0, 0, 5, 1, 5, 3, 0, 5, 3, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 6, 3, 4, 6, 1, 1, 6, 5, 0, 2, 5, 1, 6, 4, 1, 4, 4, 6, 6],\r\n       [2, 0, 6, 0, 6, 6, 2, 3, 3, 0, 2, 1, 5, 3, 4, 3, 4, 1, 1, 1],\r\n       [6, 2, 0, 5, 4, 2, 3, 4, 4, 0, 5, 5, 3, 4, 0, 5, 2, 5, 0, 0],\r\n       [5, 0, 3, 4, 6, 6, 1, 2, 4, 0, 0, 0, 1, 5, 0, 3, 0, 6, 6, 0],\r\n       [0, 5, 4, 5, 3, 1, 5, 4, 5, 0, 3, 4, 0, 2, 3, 6, 6, 5, 6, 0]]",
+		"id": 4,
+		"name": "Dead Significant Poems Bullpen",
+		"n_to": "Grim Best Ritual Vault",
+		"e_to": "Full Protective Brew Guardhouse",
+		"s_to": "Next Same Uses Cloister",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room kill or capture any be_tos of all sizes and colors of be_to. You open so many doors and wide open spaces that the next creature in sight can hear your",
+		"map": "[[3, 2, 1, 5, 2, 5, 1, 6, 0, 0, 5, 6, 0, 0, 4, 4, 1, 0, 0, 5],\r\n       [6, 5, 6, 4, 3, 2, 3, 2, 0, 0, 6, 5, 5, 5, 3, 5, 1, 5, 0, 0],\r\n       [5, 6, 6, 1, 4, 1, 2, 0, 5, 0, 4, 2, 0, 4, 1, 2, 3, 2, 0, 0],\r\n       [5, 0, 1, 0, 3, 4, 2, 3, 1, 0, 3, 5, 2, 5, 0, 4, 4, 1, 2, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 5, 6, 4, 2, 2, 4, 4, 1, 0, 1, 1, 6, 6, 3, 1, 6, 5, 2, 3],\r\n       [5, 2, 6, 5, 3, 0, 4, 2, 6, 0, 0, 0, 6, 4, 1, 0, 6, 2, 1, 1],\r\n       [3, 3, 4, 3, 2, 4, 2, 3, 2, 0, 4, 0, 3, 5, 3, 1, 2, 0, 6, 2],\r\n       [3, 6, 5, 2, 3, 5, 0, 3, 6, 0, 1, 0, 5, 4, 6, 5, 3, 4, 1, 5],\r\n       [6, 4, 1, 4, 0, 0, 5, 2, 3, 0, 4, 0, 0, 4, 5, 2, 4, 5, 0, 3]]",
+		"id": 5,
+		"name": "Full Protective Brew Guardhouse",
+		"n_to": "Ill Long Magic Cell",
+		"e_to": "Weaker Powerful Wilderness Bastille",
+		"s_to": "Useful Physical +1 Cavern",
+		"w_to": "Dead Significant Poems Bullpen"
+	},
+	{
+		"desc": "maim any enemies you can see of the GMs choice fall asleep. Only creatures capable of sleeping are affected. They awake as normal: loud",
+		"map": "[[6, 6, 2, 2, 1, 5, 6, 6, 6, 0, 2, 5, 6, 0, 1, 0, 3, 2, 6, 5],\r\n       [5, 4, 4, 1, 0, 0, 3, 2, 0, 0, 2, 0, 5, 1, 4, 6, 4, 6, 5, 5],\r\n       [4, 3, 1, 1, 1, 1, 5, 5, 3, 0, 5, 4, 6, 0, 4, 3, 3, 1, 3, 1],\r\n       [4, 6, 0, 6, 0, 3, 3, 2, 2, 0, 6, 5, 4, 1, 3, 0, 3, 5, 5, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 1, 6, 6, 2, 6, 3, 2, 5, 0, 3, 1, 2, 4, 2, 5, 5, 1, 0, 4],\r\n       [1, 3, 0, 3, 5, 6, 6, 2, 1, 0, 4, 5, 5, 5, 4, 4, 0, 4, 4, 0],\r\n       [2, 6, 0, 4, 3, 4, 4, 3, 3, 0, 6, 3, 1, 2, 1, 3, 0, 5, 5, 1],\r\n       [3, 6, 2, 5, 2, 3, 2, 4, 3, 0, 1, 3, 2, 0, 4, 6, 2, 1, 4, 4],\r\n       [6, 5, 3, 3, 2, 0, 6, 6, 1, 0, 2, 3, 1, 1, 1, 0, 5, 0, 4, 0]]",
+		"id": 6,
+		"name": "Weaker Powerful Wilderness Bastille",
+		"n_to": "Many Dead Mind Court",
+		"e_to": null,
+		"s_to": "Ongoing Filthy Level Sty",
+		"w_to": "Full Protective Brew Guardhouse"
+	},
+	{
+		"desc": "as you go into the room kill or maim any enemies you can see of the GM. They take no damage and you cannot leave sight of the cage.  Contact Other Plane",
+		"map": "[[2, 5, 5, 1, 4, 3, 0, 5, 0, 0, 2, 6, 5, 1, 6, 4, 2, 1, 4, 4],\n       [3, 5, 0, 0, 1, 5, 4, 3, 0, 0, 5, 5, 3, 2, 4, 6, 6, 3, 5, 5],\n       [0, 0, 2, 2, 6, 4, 5, 4, 5, 0, 0, 6, 3, 1, 4, 6, 3, 0, 3, 3],\n       [0, 1, 3, 6, 3, 0, 1, 6, 1, 0, 2, 6, 5, 0, 3, 5, 6, 3, 6, 0],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [3, 1, 4, 0, 3, 0, 2, 1, 5, 0, 6, 5, 2, 3, 0, 4, 0, 0, 4, 2],\n       [0, 0, 5, 5, 4, 3, 4, 4, 3, 0, 1, 6, 6, 3, 5, 6, 4, 1, 4, 5],\n       [3, 4, 4, 3, 1, 4, 1, 4, 0, 0, 3, 3, 0, 5, 1, 1, 0, 1, 5, 0],\n       [6, 0, 0, 1, 6, 3, 1, 4, 6, 0, 1, 4, 0, 2, 5, 5, 3, 4, 2, 0],\n       [5, 5, 0, 0, 6, 6, 5, 2, 3, 0, 6, 6, 5, 1, 0, 3, 2, 0, 2, 3]]",
+		"id": 7,
+		"name": "Next Same Uses Cloister",
+		"n_to": "Dead Significant Poems Bullpen",
+		"e_to": "Useful Physical +1 Cavern",
+		"s_to": "Own Disenchant Place Sepulcher",
+		"w_to": null
+	},
+	{
+		"desc": "maim any creature within sight of you. It cannot come back to haunt you.  Sleep Level 3 Enchantment  Description ",
+		"map": "[[6, 4, 0, 6, 0, 1, 0, 3, 5, 0, 3, 1, 0, 0, 6, 0, 0, 6, 6, 4],\r\n       [4, 2, 3, 0, 5, 5, 0, 3, 1, 0, 2, 5, 4, 5, 0, 2, 3, 2, 5, 4],\r\n       [5, 1, 3, 5, 0, 4, 0, 5, 4, 0, 2, 0, 2, 0, 2, 3, 4, 4, 1, 2],\r\n       [1, 4, 0, 5, 3, 1, 3, 2, 1, 0, 0, 1, 0, 1, 3, 3, 3, 1, 4, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 1, 4, 0, 3, 3, 0, 1, 1, 0, 0, 1, 3, 5, 5, 3, 0, 1, 5, 2],\r\n       [0, 0, 0, 3, 3, 0, 5, 1, 2, 0, 5, 1, 1, 3, 5, 6, 4, 6, 6, 0],\r\n       [0, 6, 3, 6, 2, 6, 1, 1, 0, 0, 0, 2, 4, 5, 3, 2, 6, 6, 0, 5],\r\n       [4, 0, 0, 0, 3, 5, 0, 0, 6, 0, 1, 0, 5, 5, 6, 5, 6, 4, 6, 4],\r\n       [6, 1, 4, 2, 3, 0, 6, 1, 2, 0, 6, 0, 1, 6, 5, 4, 2, 1, 5, 5]]",
+		"id": 8,
+		"name": "Useful Physical +1 Cavern",
+		"n_to": "Full Protective Brew Guardhouse",
+		"e_to": "Ongoing Filthy Level Sty",
+		"s_to": "Modifier Disable Weapon Burrow",
+		"w_to": "Next Same Uses Cloister"
+	},
+	{
+		"desc": "as you go into the room with the spell and The spellbook may have some relation to the natural world, but the GM will be playing an important role",
+		"map": "[[3, 3, 6, 6, 3, 6, 5, 2, 3, 0, 6, 1, 6, 5, 2, 4, 0, 3, 1, 4],\r\n       [4, 6, 3, 4, 1, 6, 3, 6, 5, 0, 1, 3, 4, 2, 0, 0, 2, 5, 0, 6],\r\n       [3, 1, 0, 6, 0, 5, 6, 3, 3, 0, 6, 3, 5, 4, 4, 4, 6, 3, 2, 0],\r\n       [1, 5, 1, 5, 2, 4, 1, 0, 0, 0, 5, 1, 3, 2, 3, 2, 5, 2, 2, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 4, 1, 4, 6, 2, 4, 0, 3, 0, 2, 0, 4, 5, 2, 6, 5, 6, 2, 1],\r\n       [4, 4, 3, 0, 1, 5, 6, 5, 1, 0, 0, 1, 3, 2, 5, 2, 1, 1, 6, 1],\r\n       [6, 2, 6, 6, 6, 3, 0, 0, 6, 0, 5, 2, 1, 1, 1, 2, 0, 4, 2, 4],\r\n       [4, 6, 4, 3, 2, 5, 3, 2, 2, 0, 4, 3, 3, 6, 0, 1, 2, 6, 5, 2],\r\n       [1, 3, 3, 3, 1, 2, 5, 5, 4, 0, 0, 6, 2, 1, 1, 3, 4, 1, 2, 0]]",
+		"id": 9,
+		"name": "Ongoing Filthy Level Sty",
+		"n_to": "Weaker Powerful Wilderness Bastille",
+		"e_to": null,
+		"s_to": "Unreliable Safe Activities Alcove",
+		"w_to": "Useful Physical +1 Cavern"
+	},
+	{
+		"desc": "as you go into the room to ask these questions:  Is there a trap here and if so, what activates it? What does the trap do when activated? ",
+		"map": "[[4, 2, 1, 0, 5, 3, 5, 5, 5, 0, 5, 1, 4, 4, 5, 0, 5, 0, 0, 1],\r\n       [3, 0, 2, 1, 0, 1, 2, 0, 4, 0, 6, 3, 4, 1, 3, 4, 3, 5, 2, 1],\r\n       [0, 4, 5, 5, 2, 4, 6, 4, 3, 0, 3, 5, 2, 5, 2, 0, 5, 2, 5, 6],\r\n       [4, 6, 6, 3, 5, 2, 5, 5, 3, 0, 3, 4, 4, 3, 3, 3, 2, 1, 1, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 3, 5, 5, 1, 1, 0, 1, 2, 0, 3, 5, 0, 6, 4, 6, 2, 5, 1, 6],\r\n       [6, 4, 0, 0, 5, 5, 1, 2, 5, 0, 0, 2, 3, 3, 3, 5, 3, 2, 0, 3],\r\n       [2, 5, 2, 4, 5, 5, 1, 4, 3, 0, 0, 2, 2, 4, 3, 0, 5, 6, 6, 0],\r\n       [5, 3, 5, 4, 5, 4, 3, 5, 6, 0, 0, 5, 5, 2, 3, 3, 2, 2, 1, 6],\r\n       [0, 6, 5, 6, 3, 0, 4, 5, 1, 0, 3, 1, 6, 6, 2, 5, 6, 3, 4, 3]]",
+		"id": 10,
+		"name": "Own Disenchant Place Sepulcher",
+		"n_to": "Next Same Uses Cloister",
+		"e_to": "Modifier Disable Weapon Burrow",
+		"s_to": "First Cool Thrill Grave",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room kill the thing it crawls through the portal as if it were a ball of flame. The portal may open or close, but the creature remains in the",
+		"map": "[[6, 0, 4, 1, 2, 4, 1, 6, 0, 0, 1, 3, 6, 3, 2, 5, 5, 3, 1, 3],\r\n       [2, 0, 4, 3, 1, 3, 1, 0, 2, 0, 4, 5, 2, 2, 0, 3, 5, 5, 2, 3],\r\n       [5, 5, 1, 4, 4, 0, 6, 1, 3, 0, 2, 5, 4, 2, 1, 2, 2, 3, 4, 0],\r\n       [1, 1, 5, 5, 6, 3, 1, 5, 5, 0, 6, 5, 2, 4, 3, 0, 1, 5, 3, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 6, 0, 4, 4, 5, 3, 3, 4, 0, 3, 6, 5, 6, 1, 1, 5, 6, 6, 0],\r\n       [0, 2, 1, 4, 3, 4, 2, 2, 3, 0, 1, 0, 3, 6, 2, 5, 1, 3, 4, 1],\r\n       [4, 3, 2, 5, 1, 0, 4, 0, 0, 0, 3, 5, 1, 4, 6, 0, 5, 2, 3, 2],\r\n       [6, 0, 0, 1, 2, 2, 4, 2, 6, 0, 4, 4, 1, 5, 6, 1, 5, 1, 5, 0],\r\n       [4, 4, 5, 3, 0, 5, 6, 3, 4, 0, 5, 6, 2, 3, 0, 2, 5, 0, 6, 0]]",
+		"id": 11,
+		"name": "Modifier Disable Weapon Burrow",
+		"n_to": "Useful Physical +1 Cavern",
+		"e_to": "Unreliable Safe Activities Alcove",
+		"s_to": "Open Best Months Receptacle",
+		"w_to": "Own Disenchant Place Sepulcher"
+	},
+	{
+		"desc": "as you go into the room kill any non-heroes or drive them mad. The GM will then tell you one or more of these:  The person (not be_to or",
+		"map": "[[2, 0, 1, 6, 3, 6, 3, 2, 6, 0, 0, 1, 2, 5, 6, 5, 5, 2, 5, 3],\r\n       [2, 3, 5, 1, 0, 1, 2, 6, 5, 0, 6, 0, 6, 3, 2, 2, 5, 2, 1, 1],\r\n       [6, 2, 3, 3, 6, 1, 5, 2, 3, 0, 1, 1, 2, 6, 4, 3, 0, 5, 3, 1],\r\n       [0, 4, 6, 3, 2, 4, 4, 3, 1, 0, 6, 2, 2, 4, 4, 1, 6, 1, 5, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 1, 6, 3, 1, 6, 1, 2, 1, 0, 6, 3, 3, 6, 5, 4, 2, 0, 3, 6],\r\n       [5, 6, 4, 5, 1, 5, 0, 6, 4, 0, 2, 2, 4, 3, 4, 1, 4, 6, 5, 2],\r\n       [1, 2, 6, 0, 6, 0, 1, 2, 0, 0, 4, 6, 4, 3, 4, 3, 2, 5, 1, 2],\r\n       [1, 3, 5, 2, 4, 6, 2, 3, 3, 0, 0, 0, 2, 2, 1, 5, 5, 4, 6, 3],\r\n       [2, 6, 0, 3, 5, 1, 6, 4, 2, 0, 0, 4, 2, 4, 2, 6, 2, 1, 5, 4]]",
+		"id": 12,
+		"name": "Unreliable Safe Activities Alcove",
+		"n_to": "Ongoing Filthy Level Sty",
+		"e_to": null,
+		"s_to": "Ongoing Limited Choice Keep",
+		"w_to": "Modifier Disable Weapon Burrow"
+	},
+	{
+		"desc": "maim any creature within sight of the cage.  Contact Other Plane Level 5 Divination  Description  You send a request",
+		"map": "[[0, 1, 3, 1, 3, 2, 0, 3, 0, 0, 2, 5, 3, 1, 0, 4, 1, 5, 1, 5],\r\n       [5, 3, 4, 0, 2, 6, 4, 6, 6, 0, 0, 1, 1, 3, 2, 5, 6, 2, 3, 6],\r\n       [0, 2, 2, 2, 6, 0, 2, 0, 4, 0, 6, 4, 5, 1, 6, 6, 0, 4, 3, 2],\r\n       [5, 5, 6, 4, 6, 2, 3, 0, 4, 0, 5, 1, 1, 4, 5, 1, 0, 6, 3, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 0, 0, 4, 0, 2, 4, 2, 0, 0, 4, 4, 1, 2, 1, 0, 3, 3, 3, 5],\r\n       [6, 0, 3, 2, 4, 5, 4, 3, 1, 0, 3, 2, 2, 0, 5, 6, 0, 6, 4, 1],\r\n       [3, 4, 2, 5, 3, 5, 4, 5, 1, 0, 2, 2, 3, 2, 5, 2, 5, 5, 5, 2],\r\n       [1, 5, 4, 6, 0, 3, 3, 4, 2, 0, 3, 1, 6, 2, 3, 5, 5, 3, 0, 6],\r\n       [4, 1, 1, 0, 4, 2, 3, 2, 6, 0, 6, 2, 4, 5, 1, 6, 0, 5, 2, 5]]",
+		"id": 13,
+		"name": "First Cool Thrill Grave",
+		"n_to": "Own Disenchant Place Sepulcher",
+		"e_to": "Open Best Months Receptacle",
+		"s_to": "Strong Close Allies Confinement",
+		"w_to": null
+	},
+	{
+		"desc": "maim and you forget the spellyou may cast it again later.  ? On a 7-9, the spell is cast, but",
+		"map": "[[4, 3, 0, 6, 0, 1, 5, 0, 4, 0, 1, 6, 4, 4, 1, 3, 4, 2, 2, 2],\r\n       [1, 5, 5, 5, 1, 2, 6, 2, 0, 0, 5, 5, 3, 6, 0, 2, 4, 0, 5, 6],\r\n       [4, 4, 4, 0, 5, 0, 1, 4, 6, 0, 3, 2, 1, 2, 5, 3, 6, 3, 5, 2],\r\n       [3, 3, 2, 4, 3, 3, 6, 5, 2, 0, 6, 1, 5, 3, 5, 0, 3, 5, 4, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 2, 1, 3, 0, 6, 1, 1, 0, 0, 1, 1, 4, 6, 3, 5, 5, 3, 0, 5],\r\n       [2, 0, 1, 3, 1, 3, 1, 3, 4, 0, 3, 1, 6, 2, 3, 2, 4, 3, 3, 1],\r\n       [6, 2, 1, 3, 2, 1, 0, 5, 6, 0, 1, 6, 2, 2, 2, 0, 1, 1, 0, 0],\r\n       [0, 4, 1, 4, 4, 5, 5, 1, 3, 0, 4, 6, 0, 3, 0, 3, 6, 0, 6, 2],\r\n       [6, 3, 6, 3, 1, 2, 3, 4, 3, 0, 6, 6, 2, 4, 0, 2, 0, 5, 6, 2]]",
+		"id": 14,
+		"name": "Open Best Months Receptacle",
+		"n_to": "Modifier Disable Weapon Burrow",
+		"e_to": "Ongoing Limited Choice Keep",
+		"s_to": "Best Good Face Jail",
+		"w_to": "First Cool Thrill Grave"
+	},
+	{
+		"desc": "The spellbook may have some relevance to your nature, but the GM will give you one to four of",
+		"map": "[[5, 6, 2, 0, 4, 4, 2, 3, 5, 0, 6, 4, 4, 3, 3, 1, 6, 6, 4, 3],\r\n       [0, 4, 5, 5, 3, 6, 0, 3, 2, 0, 2, 2, 0, 0, 4, 6, 0, 6, 3, 0],\r\n       [5, 3, 1, 2, 2, 2, 6, 6, 6, 0, 4, 0, 6, 3, 1, 1, 2, 6, 3, 3],\r\n       [1, 3, 6, 6, 1, 6, 2, 3, 3, 0, 3, 3, 3, 0, 3, 2, 1, 1, 3, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 2, 1, 0, 1, 5, 3, 4, 6, 0, 6, 6, 0, 6, 0, 6, 2, 0, 2, 0],\r\n       [4, 2, 4, 1, 5, 1, 0, 2, 2, 0, 3, 1, 1, 4, 3, 2, 3, 1, 1, 1],\r\n       [3, 3, 6, 6, 4, 6, 5, 2, 5, 0, 1, 2, 3, 6, 6, 4, 3, 1, 2, 6],\r\n       [0, 6, 4, 5, 1, 3, 1, 1, 3, 0, 2, 1, 2, 2, 1, 5, 0, 0, 6, 2],\r\n       [4, 6, 0, 2, 6, 6, 4, 2, 3, 0, 5, 2, 5, 3, 2, 1, 3, 4, 5, 4]]",
+		"id": 15,
+		"name": "Ongoing Limited Choice Keep",
+		"n_to": "Unreliable Safe Activities Alcove",
+		"e_to": null,
+		"s_to": "Diabolist Cheap Effects Recess",
+		"w_to": "Open Best Months Receptacle"
+	},
+	{
+		"desc": "as you go into the room with the spell and The spellbook may have some value for an item you touch, but is ultimately your spellbook. ",
+		"map": "[[0, 0, 3, 0, 2, 4, 1, 4, 6, 0, 2, 5, 3, 6, 1, 1, 3, 6, 1, 3],\r\n       [6, 0, 1, 6, 3, 1, 4, 5, 5, 0, 5, 1, 2, 4, 2, 1, 5, 3, 0, 6],\r\n       [1, 4, 0, 1, 2, 6, 4, 3, 1, 0, 6, 3, 1, 2, 4, 4, 6, 5, 2, 0],\r\n       [1, 6, 5, 2, 4, 4, 3, 2, 0, 0, 1, 4, 4, 3, 4, 6, 5, 4, 2, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 1, 5, 0, 5, 6, 4, 0, 0, 0, 4, 2, 5, 6, 6, 2, 3, 1, 3, 4],\r\n       [5, 5, 1, 1, 0, 4, 1, 1, 1, 0, 2, 2, 2, 0, 6, 2, 5, 2, 4, 0],\r\n       [4, 2, 6, 5, 0, 4, 4, 2, 3, 0, 1, 6, 5, 0, 6, 3, 1, 0, 1, 6],\r\n       [0, 2, 2, 3, 2, 4, 0, 0, 2, 0, 5, 6, 6, 0, 0, 5, 0, 4, 2, 6],\r\n       [4, 6, 4, 0, 5, 0, 2, 0, 3, 0, 0, 3, 1, 4, 6, 5, 6, 6, 2, 4]]",
+		"id": 16,
+		"name": "Strong Close Allies Confinement",
+		"n_to": "First Cool Thrill Grave",
+		"e_to": "Best Good Face Jail",
+		"s_to": "Dark Strange Wilderness Mausoleum",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room with the spell and the corresponding spellbook. The spellbook may have some relation to the natural world, but the soul of a being of your choice",
+		"map": "[[4, 4, 6, 4, 5, 1, 1, 0, 4, 0, 5, 3, 3, 4, 5, 2, 4, 6, 1, 0],\r\n       [3, 5, 5, 4, 1, 3, 3, 6, 1, 0, 5, 3, 2, 6, 0, 1, 6, 0, 5, 1],\r\n       [1, 6, 0, 0, 5, 5, 4, 1, 6, 0, 2, 2, 0, 1, 1, 1, 6, 3, 6, 3],\r\n       [2, 2, 6, 3, 2, 2, 6, 2, 2, 0, 6, 6, 1, 5, 2, 0, 0, 1, 4, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [4, 6, 0, 6, 5, 5, 4, 0, 2, 0, 1, 4, 4, 2, 5, 1, 2, 1, 2, 0],\r\n       [1, 5, 3, 1, 4, 6, 5, 3, 4, 0, 5, 1, 1, 6, 5, 3, 5, 2, 5, 4],\r\n       [4, 2, 2, 0, 4, 2, 3, 5, 5, 0, 2, 1, 0, 6, 3, 0, 4, 2, 4, 0],\r\n       [5, 2, 6, 6, 0, 6, 4, 0, 2, 0, 6, 2, 6, 2, 6, 4, 5, 3, 3, 6],\r\n       [5, 6, 1, 4, 3, 5, 5, 2, 5, 0, 5, 4, 2, 1, 6, 3, 6, 0, 1, 2]]",
+		"id": 17,
+		"name": "Best Good Face Jail",
+		"n_to": "Open Best Months Receptacle",
+		"e_to": "Diabolist Cheap Effects Recess",
+		"s_to": "Obvious New Effects Crypt",
+		"w_to": "Strong Close Allies Confinement"
+	},
+	{
+		"desc": "as you go into the room with them. Nothing is ever recaptured once freed.  Shelter Level 9 Evocation Ongoing  Description  You create",
+		"map": " [[4, 1, 0, 0, 1, 1, 1, 6, 1, 0, 0, 0, 6, 3, 6, 0, 0, 0, 3, 4],\r\n       [1, 1, 4, 4, 6, 1, 6, 1, 1, 0, 2, 3, 3, 5, 3, 4, 6, 0, 5, 3],\r\n       [0, 4, 5, 2, 3, 4, 0, 5, 6, 0, 2, 2, 6, 1, 5, 5, 5, 6, 6, 5],\r\n       [4, 1, 6, 2, 0, 5, 5, 1, 6, 0, 2, 0, 1, 2, 2, 5, 2, 2, 5, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 2, 4, 3, 0, 1, 4, 1, 3, 0, 6, 5, 1, 1, 6, 0, 5, 5, 5, 6],\r\n       [4, 1, 5, 6, 4, 5, 5, 0, 2, 0, 1, 6, 3, 3, 2, 3, 2, 3, 5, 4],\r\n       [6, 0, 1, 1, 5, 6, 1, 6, 5, 0, 3, 3, 2, 1, 6, 4, 5, 6, 0, 4],\r\n       [1, 0, 6, 5, 6, 3, 3, 5, 5, 0, 4, 3, 2, 1, 0, 6, 5, 4, 5, 0],\r\n       [6, 5, 5, 1, 2, 0, 2, 5, 1, 0, 2, 1, 4, 2, 0, 3, 4, 6, 6, 2]]",
+		"id": 18,
+		"name": "Diabolist Cheap Effects Recess",
+		"n_to": "Ongoing Limited Choice Keep",
+		"e_to": null,
+		"s_to": "Major More Skin Jellab",
+		"w_to": "Best Good Face Jail"
+	},
+	{
+		"desc": "as you go into the room with the spell and the corresponding spellbook. The spellbook may have some value for an item you touch, but is ultimately your spellbook. ",
+		"map": "[[0, 3, 6, 6, 4, 0, 1, 2, 5, 0, 4, 5, 6, 1, 6, 2, 2, 3, 4, 4],\r\n       [2, 3, 6, 4, 1, 3, 2, 4, 2, 0, 1, 4, 6, 0, 3, 2, 4, 5, 2, 0],\r\n       [2, 6, 0, 2, 4, 4, 6, 6, 4, 0, 1, 3, 1, 2, 6, 6, 1, 6, 0, 4],\r\n       [5, 0, 6, 3, 0, 1, 3, 5, 0, 0, 6, 2, 4, 4, 1, 5, 5, 3, 5, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 0, 4, 5, 2, 2, 4, 0, 6, 0, 4, 4, 6, 4, 3, 3, 5, 2, 6, 0],\r\n       [6, 1, 5, 4, 2, 2, 4, 0, 2, 0, 2, 1, 6, 1, 3, 2, 0, 5, 3, 0],\r\n       [6, 5, 5, 3, 4, 1, 0, 2, 0, 0, 4, 4, 5, 4, 0, 2, 0, 0, 3, 3],\r\n       [4, 6, 2, 4, 1, 1, 3, 3, 4, 0, 4, 6, 5, 3, 3, 2, 4, 6, 2, 0],\r\n       [5, 5, 5, 0, 4, 3, 6, 6, 2, 0, 6, 0, 0, 1, 6, 0, 2, 5, 2, 0]]\r",
+		"id": 19,
+		"name": "Dark Strange Wilderness Mausoleum",
+		"n_to": "Strong Close Allies Confinement",
+		"e_to": "Obvious New Effects Crypt",
+		"s_to": "7th Full Suspicion Tower",
+		"w_to": null
+	},
+	{
+		"desc": "be used as a trapdoor.  Backstab When you attack a surprised or defenseless enemy with a melee weapon, you can",
+		"map": "[[2, 3, 2, 1, 0, 0, 1, 5, 2, 0, 1, 3, 6, 4, 6, 6, 2, 2, 5, 1],\r\n       [0, 1, 5, 5, 1, 0, 5, 6, 3, 0, 3, 3, 1, 0, 1, 0, 5, 5, 1, 1],\r\n       [0, 5, 2, 2, 6, 3, 5, 0, 5, 0, 6, 3, 3, 2, 3, 3, 5, 4, 4, 4],\r\n       [5, 6, 0, 4, 3, 1, 4, 2, 6, 0, 5, 0, 2, 2, 2, 5, 3, 1, 4, 5],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 4, 5, 2, 4, 2, 6, 4, 2, 0, 1, 4, 4, 3, 0, 0, 2, 2, 5, 0],\r\n       [3, 5, 3, 3, 6, 6, 2, 6, 3, 0, 0, 0, 5, 5, 2, 1, 2, 4, 6, 1],\r\n       [6, 0, 1, 4, 2, 2, 3, 2, 0, 0, 1, 3, 4, 6, 3, 4, 3, 0, 0, 4],\r\n       [1, 0, 6, 6, 3, 5, 3, 5, 0, 0, 0, 5, 6, 3, 0, 6, 5, 2, 0, 6],\r\n       [4, 4, 5, 5, 4, 0, 6, 0, 4, 0, 5, 6, 3, 6, 6, 3, 6, 5, 5, 6]]",
+		"id": 20,
+		"name": "Obvious New Effects Crypt",
+		"n_to": "Best Good Face Jail",
+		"e_to": "Major More Skin Jellab",
+		"s_to": "New Grim Creature Reformatory",
+		"w_to": "Dark Strange Wilderness Mausoleum"
+	},
+	{
+		"desc": "ask the GM any three questions.  Sleep Level 3 Enchantment  Description  1d4 enemies you can",
+		"map": "[[5, 2, 2, 6, 3, 3, 3, 4, 6, 0, 4, 1, 1, 2, 1, 6, 5, 4, 3, 6],\r\n       [0, 3, 4, 0, 5, 1, 1, 2, 4, 0, 2, 5, 1, 1, 2, 5, 1, 5, 0, 1],\r\n       [3, 6, 3, 2, 0, 5, 4, 4, 6, 0, 3, 6, 5, 1, 2, 1, 1, 5, 5, 0],\r\n       [4, 0, 3, 4, 1, 1, 1, 0, 1, 0, 5, 6, 2, 0, 4, 0, 1, 1, 4, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 2, 2, 0, 3, 6, 1, 3, 2, 0, 4, 1, 5, 6, 3, 5, 4, 2, 3, 4],\r\n       [5, 5, 5, 6, 5, 5, 5, 4, 6, 0, 6, 2, 0, 6, 4, 5, 1, 2, 1, 3],\r\n       [1, 2, 0, 6, 3, 4, 5, 6, 1, 0, 1, 2, 0, 2, 4, 3, 1, 1, 4, 6],\r\n       [4, 1, 6, 4, 2, 6, 0, 4, 0, 0, 3, 4, 2, 5, 4, 1, 1, 3, 0, 3],\r\n       [4, 0, 6, 2, 2, 4, 1, 3, 4, 0, 2, 2, 4, 5, 1, 0, 0, 6, 3, 2]]",
+		"id": 21,
+		"name": "Major More Skin Jellab",
+		"n_to": "Diabolist Cheap Effects Recess",
+		"e_to": null,
+		"s_to": "Ongoing Last Creature Penitentiary",
+		"w_to": "Obvious New Effects Crypt"
+	},
+	{
+		"desc": "maim enemies with.  7th Level Dominate Level 7 Enchantment Ongoing  Description  Your touch pushes your",
+		"map": "[[5, 1, 2, 4, 2, 3, 4, 1, 0, 0, 2, 4, 0, 2, 3, 6, 1, 4, 2, 4],\r\n       [2, 4, 2, 6, 2, 1, 4, 2, 6, 0, 4, 3, 5, 6, 3, 4, 5, 5, 4, 2],\r\n       [0, 2, 6, 3, 2, 1, 3, 1, 3, 0, 4, 1, 2, 2, 3, 2, 5, 4, 3, 4],\r\n       [2, 1, 5, 3, 0, 4, 3, 5, 0, 0, 3, 2, 4, 4, 2, 5, 6, 2, 3, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 0, 5, 5, 1, 4, 0, 6, 3, 0, 4, 6, 2, 4, 6, 6, 4, 5, 0, 4],\r\n       [2, 4, 1, 5, 2, 4, 2, 5, 4, 0, 4, 4, 1, 1, 5, 6, 2, 4, 5, 6],\r\n       [2, 5, 4, 4, 2, 3, 1, 4, 5, 0, 5, 0, 6, 6, 3, 5, 3, 2, 5, 1],\r\n       [4, 6, 2, 4, 2, 1, 3, 1, 1, 0, 3, 4, 6, 3, 4, 5, 3, 5, 6, 5],\r\n       [3, 0, 4, 6, 4, 3, 5, 5, 4, 0, 2, 3, 0, 2, 6, 0, 1, 0, 4, 1]]",
+		"id": 22,
+		"name": "7th Full Suspicion Tower",
+		"n_to": "Dark Strange Wilderness Mausoleum",
+		"e_to": "New Grim Creature Reformatory",
+		"s_to": "Own Best Mystery Catacomb",
+		"w_to": null
+	},
+	{
+		"desc": "be manipulated through spells, parley, and other effects. All moves against the trapped creature are at +1. You can free the soul at",
+		"map": "[[5, 3, 3, 4, 4, 4, 4, 1, 0, 0, 3, 6, 5, 3, 4, 0, 0, 1, 6, 0],\r\n       [5, 1, 1, 3, 3, 3, 0, 1, 0, 0, 3, 5, 2, 2, 0, 1, 3, 3, 2, 0],\r\n       [4, 1, 3, 2, 3, 5, 4, 6, 4, 0, 4, 0, 2, 5, 0, 5, 4, 2, 3, 5],\r\n       [4, 0, 2, 3, 4, 0, 2, 1, 6, 0, 0, 2, 6, 2, 4, 2, 4, 1, 4, 6],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 1, 0, 1, 1, 6, 3, 4, 4, 0, 4, 6, 3, 3, 2, 1, 3, 3, 5, 0],\r\n       [4, 6, 5, 0, 3, 6, 5, 0, 6, 0, 4, 5, 2, 4, 6, 3, 5, 5, 5, 3],\r\n       [4, 6, 5, 2, 5, 6, 3, 6, 0, 0, 6, 1, 1, 3, 0, 5, 1, 2, 2, 6],\r\n       [4, 2, 1, 5, 0, 0, 1, 4, 0, 0, 6, 0, 1, 1, 0, 4, 0, 3, 1, 3],\r\n       [4, 3, 5, 2, 1, 3, 1, 0, 2, 0, 1, 2, 4, 0, 0, 1, 5, 1, 6, 1]]",
+		"id": 23,
+		"name": "New Grim Creature Reformatory",
+		"n_to": "Obvious New Effects Crypt",
+		"e_to": "Ongoing Last Creature Penitentiary",
+		"s_to": "Close Safe Cast Vault",
+		"w_to": "7th Full Suspicion Tower"
+	},
+	{
+		"desc": "as you go into the room with the spell and the caged creature can hear your thoughts and you cannot leave sight of the cage.  Contact Other Plane ",
+		"map": "[[3, 0, 1, 3, 3, 1, 4, 4, 1, 0, 3, 1, 1, 4, 4, 2, 5, 2, 1, 4],\r\n       [4, 6, 4, 6, 5, 0, 4, 4, 3, 0, 1, 6, 2, 3, 5, 4, 0, 6, 2, 4],\r\n       [2, 4, 5, 6, 2, 3, 2, 6, 6, 0, 4, 0, 1, 2, 4, 1, 5, 6, 0, 1],\r\n       [5, 6, 2, 1, 5, 5, 0, 5, 6, 0, 6, 3, 3, 5, 3, 1, 3, 4, 6, 6],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [5, 0, 1, 1, 1, 4, 0, 6, 0, 0, 1, 2, 1, 1, 4, 3, 5, 1, 4, 0],\r\n       [5, 3, 1, 4, 3, 6, 6, 4, 0, 0, 3, 3, 1, 6, 4, 3, 4, 2, 1, 4],\r\n       [3, 3, 6, 3, 3, 0, 1, 2, 0, 0, 6, 5, 1, 6, 0, 3, 5, 2, 2, 4],\r\n       [0, 1, 5, 2, 1, 4, 1, 0, 2, 0, 0, 2, 0, 5, 6, 2, 2, 1, 6, 2],\r\n       [3, 0, 1, 4, 3, 2, 4, 5, 3, 0, 2, 2, 0, 1, 6, 0, 4, 0, 2, 0]]",
+		"id": 24,
+		"name": "Ongoing Last Creature Penitentiary",
+		"n_to": "Major More Skin Jellab",
+		"e_to": null,
+		"s_to": "Unstable Complex Heart Cell",
+		"w_to": "New Grim Creature Reformatory"
+	},
+	{
+		"desc": "as you go into the room with the spell and see for yourself what it does, the GM will tell you one kind of creature that will have an interest in your workings. ",
+		"map": "[[0, 1, 0, 6, 5, 6, 5, 6, 0, 0, 2, 1, 1, 5, 0, 0, 3, 1, 5, 3],\r\n       [2, 5, 3, 5, 3, 0, 4, 0, 1, 0, 0, 1, 5, 4, 5, 6, 6, 5, 3, 1],\r\n       [4, 3, 5, 4, 6, 1, 4, 4, 5, 0, 2, 3, 4, 3, 0, 2, 4, 3, 5, 4],\r\n       [1, 6, 4, 6, 3, 5, 1, 5, 3, 0, 5, 0, 0, 4, 2, 1, 4, 5, 0, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [4, 4, 1, 3, 5, 2, 0, 2, 1, 0, 3, 3, 3, 0, 0, 0, 1, 0, 4, 1],\r\n       [0, 0, 6, 5, 5, 0, 1, 5, 4, 0, 1, 4, 5, 5, 5, 2, 5, 1, 2, 6],\r\n       [0, 1, 3, 3, 2, 2, 3, 5, 5, 0, 4, 6, 6, 3, 5, 1, 2, 6, 6, 3],\r\n       [0, 0, 0, 1, 3, 6, 6, 2, 5, 0, 1, 6, 4, 5, 4, 0, 1, 0, 0, 1],\r\n       [6, 3, 1, 5, 1, 1, 5, 4, 6, 0, 1, 6, 5, 6, 4, 0, 4, 2, 5, 6]]",
+		"id": 25,
+		"name": "Own Best Mystery Catacomb",
+		"n_to": "7th Full Suspicion Tower",
+		"e_to": "Close Safe Cast Vault",
+		"s_to": "Other Petty Endures Court",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room kill or be dispelled. All other immediate actions are immediately dispelled, dropping any items it carried. Otherwise the unseen servant serves you until you end the",
+		"map": "[[1, 2, 6, 2, 1, 0, 4, 2, 3, 0, 3, 6, 1, 5, 0, 5, 3, 6, 3, 3],\r\n       [0, 4, 4, 2, 3, 2, 2, 0, 0, 0, 4, 2, 6, 5, 5, 0, 6, 1, 1, 4],\r\n       [1, 2, 3, 3, 2, 4, 3, 3, 1, 0, 2, 6, 3, 1, 1, 2, 6, 4, 0, 2],\r\n       [6, 5, 0, 1, 1, 5, 6, 2, 0, 0, 6, 6, 1, 0, 1, 1, 3, 2, 4, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 1, 2, 6, 3, 2, 1, 0, 4, 0, 6, 4, 5, 6, 1, 2, 0, 3, 0, 3],\r\n       [5, 5, 6, 1, 3, 0, 6, 3, 6, 0, 0, 0, 0, 6, 0, 4, 1, 1, 0, 2],\r\n       [5, 1, 1, 2, 5, 1, 3, 4, 4, 0, 2, 3, 4, 5, 2, 4, 6, 5, 1, 4],\r\n       [1, 5, 1, 1, 0, 0, 3, 3, 5, 0, 1, 4, 4, 5, 4, 6, 4, 1, 6, 5],\r\n       [5, 2, 6, 3, 5, 6, 0, 6, 5, 0, 4, 3, 1, 1, 0, 6, 2, 3, 0, 2]]",
+		"id": 26,
+		"name": "Close Safe Cast Vault",
+		"n_to": "New Grim Creature Reformatory",
+		"e_to": "Unstable Complex Heart Cell",
+		"s_to": "Safe Willing Offer Bullpen",
+		"w_to": "Own Best Mystery Catacomb"
+	},
+	{
+		"desc": "as you go into the room kill or maim any creature within sight of you. It cannot come back to haunt you.  Sleep Level 3 Enchantment  Description ",
+		"map": " [[1, 3, 3, 1, 5, 5, 0, 1, 2, 0, 0, 4, 2, 5, 2, 1, 0, 0, 4, 4],\r\n       [6, 2, 2, 6, 1, 1, 6, 0, 2, 0, 3, 1, 1, 5, 4, 5, 3, 3, 4, 0],\r\n       [1, 5, 5, 2, 5, 5, 4, 1, 2, 0, 2, 0, 5, 0, 5, 5, 5, 4, 2, 1],\r\n       [5, 0, 0, 3, 5, 6, 6, 6, 4, 0, 4, 5, 6, 4, 1, 3, 5, 4, 6, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 4, 0, 3, 5, 0, 2, 1, 6, 0, 4, 6, 3, 3, 2, 0, 5, 3, 4, 5],\r\n       [3, 6, 3, 5, 3, 0, 6, 1, 0, 0, 1, 0, 4, 0, 3, 0, 3, 6, 4, 3],\r\n       [1, 3, 3, 3, 1, 6, 3, 4, 1, 0, 3, 3, 3, 3, 2, 3, 2, 3, 4, 2],\r\n       [6, 5, 0, 6, 6, 1, 5, 3, 2, 0, 5, 4, 6, 3, 2, 4, 3, 0, 4, 4],\r\n       [0, 3, 4, 0, 1, 1, 5, 6, 3, 0, 2, 2, 0, 1, 1, 2, 3, 1, 6, 0]]",
+		"id": 27,
+		"name": "Unstable Complex Heart Cell",
+		"n_to": "Ongoing Last Creature Penitentiary",
+		"e_to": null,
+		"s_to": "Logical Mundane Fools Guardhouse",
+		"w_to": "Close Safe Cast Vault"
+	},
+	{
+		"desc": "as you go into the room with the spell and its effects.  Sleep Level 3 Enchantment  Description  1d4 enemies you can see of the GM",
+		"map": "[[0, 6, 6, 2, 1, 0, 0, 3, 3, 0, 0, 0, 0, 3, 4, 1, 1, 5, 6, 1],\r\n       [5, 5, 0, 0, 3, 2, 4, 3, 2, 0, 4, 5, 1, 5, 0, 6, 6, 4, 4, 1],\r\n       [6, 2, 6, 1, 4, 5, 5, 5, 3, 0, 4, 6, 2, 3, 1, 1, 6, 2, 4, 0],\r\n       [5, 1, 4, 6, 0, 0, 6, 6, 3, 0, 5, 1, 4, 1, 0, 1, 0, 4, 1, 6],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 3, 0, 5, 1, 0, 2, 4, 6, 0, 6, 0, 4, 2, 2, 4, 0, 0, 5, 2],\r\n       [2, 6, 1, 3, 1, 0, 4, 2, 3, 0, 2, 6, 5, 1, 0, 1, 5, 6, 5, 0],\r\n       [6, 0, 1, 5, 1, 3, 2, 5, 0, 0, 3, 6, 0, 5, 0, 3, 5, 1, 4, 5],\r\n       [1, 2, 0, 0, 2, 2, 5, 2, 4, 0, 5, 2, 6, 3, 0, 1, 5, 6, 1, 1],\r\n       [2, 5, 4, 6, 5, 5, 5, 3, 6, 0, 1, 2, 1, 1, 5, 4, 0, 6, 2, 6]]",
+		"id": 28,
+		"name": "Other Petty Endures Court",
+		"n_to": "Own Best Mystery Catacomb",
+		"e_to": "Safe Willing Offer Bullpen",
+		"s_to": "Significant Smooth Damage Bastille",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room with the spell and the other creatures. They have access to all your spellbook and spell-relocation materials. The GM will then tell you one",
+		"map": "[[0, 4, 5, 5, 3, 1, 3, 1, 3, 0, 0, 3, 6, 3, 3, 6, 5, 6, 0, 5],\r\n       [6, 5, 3, 1, 3, 6, 6, 4, 1, 0, 1, 5, 4, 3, 1, 4, 1, 4, 5, 4],\r\n       [1, 3, 3, 4, 2, 3, 1, 2, 2, 0, 2, 4, 4, 5, 6, 1, 3, 1, 6, 4],\r\n       [5, 5, 4, 6, 4, 4, 6, 1, 2, 0, 4, 0, 6, 3, 2, 5, 6, 5, 6, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [4, 6, 6, 0, 3, 1, 2, 6, 1, 0, 4, 0, 2, 6, 6, 6, 2, 4, 6, 4],\r\n       [4, 5, 5, 0, 2, 2, 6, 1, 6, 0, 3, 1, 4, 2, 5, 0, 5, 1, 3, 0],\r\n       [0, 5, 3, 2, 3, 1, 4, 4, 6, 0, 2, 1, 5, 0, 5, 6, 4, 3, 2, 6],\r\n       [6, 3, 1, 1, 1, 6, 6, 3, 3, 0, 5, 0, 3, 3, 6, 6, 4, 4, 6, 6],\r\n       [5, 0, 2, 1, 2, 2, 4, 0, 2, 0, 1, 1, 4, 1, 6, 3, 4, 5, 0, 6]]",
+		"id": 29,
+		"name": "Safe Willing Offer Bullpen",
+		"n_to": "Close Safe Cast Vault",
+		"e_to": "Logical Mundane Fools Guardhouse",
+		"s_to": "Strict Free Contingent Cloister",
+		"w_to": "Other Petty Endures Court"
+	},
+	{
+		"desc": "as you go into the room with the spell and the other spell-casters. It will require a lot of money, but the GM will tell you a very simple but powerful magic",
+		"map": "[[0, 1, 6, 2, 0, 6, 4, 0, 6, 0, 4, 5, 4, 1, 3, 1, 4, 5, 0, 2],\r\n       [2, 6, 2, 0, 6, 0, 1, 2, 2, 0, 4, 5, 4, 5, 0, 3, 2, 0, 6, 3],\r\n       [1, 1, 6, 6, 2, 4, 5, 4, 2, 0, 0, 4, 1, 6, 0, 2, 4, 3, 6, 5],\r\n       [5, 2, 5, 0, 1, 2, 1, 6, 2, 0, 2, 5, 1, 0, 1, 5, 1, 4, 0, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 2, 2, 1, 4, 4, 4, 3, 5, 0, 5, 6, 4, 5, 3, 0, 0, 1, 6, 6],\r\n       [0, 1, 5, 6, 1, 2, 3, 2, 2, 0, 6, 6, 4, 3, 0, 5, 2, 2, 4, 0],\r\n       [3, 3, 4, 0, 2, 1, 3, 3, 4, 0, 0, 0, 3, 4, 5, 4, 4, 4, 6, 5],\r\n       [3, 1, 5, 1, 0, 2, 1, 6, 6, 0, 5, 3, 2, 4, 6, 0, 3, 1, 3, 5],\r\n       [0, 0, 1, 6, 5, 3, 4, 6, 5, 0, 2, 3, 4, 0, 4, 1, 4, 0, 3, 2]]",
+		"id": 30,
+		"name": "Logical Mundane Fools Guardhouse",
+		"n_to": "Unstable Complex Heart Cell",
+		"e_to": null,
+		"s_to": "Better Monstrous Time Cavern",
+		"w_to": "Safe Willing Offer Bullpen"
+	},
+	{
+		"desc": "take damage it restores to you + your maximum HP.  Human When you run out of HP you lose 1 hold.  Spell",
+		"map": "[[5, 1, 5, 1, 1, 2, 6, 3, 1, 0, 1, 3, 4, 0, 6, 2, 6, 1, 1, 2],\r\n       [2, 2, 2, 4, 6, 6, 6, 5, 4, 0, 5, 1, 0, 3, 3, 4, 2, 4, 4, 2],\r\n       [3, 2, 0, 1, 4, 0, 5, 4, 5, 0, 5, 3, 1, 0, 2, 1, 2, 5, 2, 0],\r\n       [6, 4, 0, 3, 0, 0, 0, 0, 2, 0, 1, 6, 1, 4, 1, 6, 1, 3, 2, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 6, 6, 2, 0, 1, 4, 2, 3, 0, 5, 1, 3, 2, 6, 1, 2, 1, 1, 3],\r\n       [5, 0, 2, 1, 1, 5, 3, 2, 6, 0, 6, 3, 2, 5, 0, 0, 6, 6, 6, 6],\r\n       [3, 1, 6, 1, 0, 1, 3, 2, 6, 0, 4, 6, 3, 2, 6, 6, 2, 5, 4, 4],\r\n       [2, 2, 5, 1, 3, 0, 2, 5, 5, 0, 0, 4, 3, 6, 0, 1, 4, 2, 4, 1],\r\n       [6, 1, 0, 6, 4, 5, 5, 3, 1, 0, 4, 6, 2, 5, 5, 4, 1, 6, 4, 0]]",
+		"id": 31,
+		"name": "Significant Smooth Damage Bastille",
+		"n_to": "Other Petty Endures Court",
+		"e_to": "Strict Free Contingent Cloister",
+		"s_to": "Single More Rule Sty",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room kill or maim any creature within sight of you. The creature remains on this plane until it dies or you dismiss it. While the spell is ongoing you",
+		"map": "[[5, 0, 0, 6, 0, 3, 4, 5, 1, 0, 0, 3, 6, 4, 3, 5, 1, 0, 5, 3],\n       [3, 2, 3, 3, 6, 4, 2, 3, 4, 0, 4, 1, 6, 0, 2, 3, 6, 1, 3, 3],\n       [4, 0, 5, 2, 3, 2, 0, 3, 2, 0, 4, 2, 6, 4, 5, 3, 4, 2, 4, 1],\n       [2, 1, 3, 4, 2, 3, 0, 1, 4, 0, 3, 3, 0, 2, 5, 5, 2, 5, 0, 3],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [5, 2, 1, 0, 2, 4, 5, 4, 4, 0, 5, 1, 4, 2, 0, 0, 2, 6, 5, 4],\n       [2, 2, 4, 4, 2, 0, 4, 4, 0, 0, 4, 5, 3, 6, 4, 5, 0, 0, 6, 6],\n       [2, 3, 0, 6, 5, 1, 2, 1, 2, 0, 2, 2, 1, 4, 1, 2, 3, 3, 3, 4],\n       [0, 0, 2, 6, 3, 6, 5, 1, 3, 0, 5, 5, 1, 5, 1, 4, 6, 1, 3, 2],\n       [1, 4, 6, 1, 0, 0, 0, 4, 3, 0, 5, 6, 4, 3, 6, 6, 5, 3, 4, 5]]",
+		"id": 32,
+		"name": "Strict Free Contingent Cloister",
+		"n_to": "Safe Willing Offer Bullpen",
+		"e_to": "Better Monstrous Time Cavern",
+		"s_to": "Crazy Best Fool Sepulcher",
+		"w_to": "Significant Smooth Damage Bastille"
+	},
+	{
+		"desc": "as you go into the room kill the thing it eats or the creature it wounds. The structure endures until you leave it or you end the spell.  Perfect Summons ",
+		"map": "[[5, 2, 4, 3, 4, 2, 0, 6, 2, 0, 2, 6, 1, 2, 3, 3, 5, 4, 6, 5],\r\n       [0, 1, 5, 3, 0, 3, 5, 1, 3, 0, 5, 1, 0, 0, 5, 2, 3, 0, 4, 1],\r\n       [1, 6, 3, 5, 0, 3, 1, 4, 5, 0, 2, 5, 3, 0, 1, 6, 6, 6, 6, 1],\r\n       [4, 4, 1, 5, 6, 0, 1, 2, 0, 0, 2, 3, 1, 3, 0, 1, 3, 1, 4, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 2, 1, 2, 6, 2, 4, 4, 3, 0, 4, 0, 2, 5, 0, 0, 1, 2, 4, 4],\r\n       [5, 6, 6, 5, 0, 2, 3, 4, 2, 0, 6, 4, 6, 1, 3, 4, 0, 4, 4, 4],\r\n       [0, 0, 5, 3, 0, 4, 0, 0, 3, 0, 3, 5, 1, 3, 3, 5, 5, 5, 5, 1],\r\n       [5, 1, 5, 3, 5, 3, 5, 5, 1, 0, 4, 6, 2, 6, 3, 6, 5, 2, 5, 0],\r\n       [2, 4, 0, 1, 4, 4, 5, 3, 4, 0, 0, 1, 4, 1, 5, 3, 1, 4, 6, 3]]",
+		"id": 33,
+		"name": "Better Monstrous Time Cavern",
+		"n_to": "Logical Mundane Fools Guardhouse",
+		"e_to": null,
+		"s_to": "Best Minor Experience Burrow",
+		"w_to": "Strict Free Contingent Cloister"
+	},
+	{
+		"desc": "the corresponding spellbook. The chosen spell is held until you choose to unleash it or the trigger condition is met, whichever happens first",
+		"map": "[[0, 4, 1, 0, 5, 0, 4, 0, 0, 0, 4, 5, 2, 6, 5, 3, 4, 0, 5, 2],\r\n       [4, 4, 0, 6, 1, 3, 0, 5, 6, 0, 3, 0, 0, 3, 4, 0, 4, 5, 4, 2],\r\n       [1, 3, 3, 0, 4, 1, 3, 0, 6, 0, 1, 6, 4, 4, 0, 6, 3, 2, 6, 3],\r\n       [6, 4, 2, 5, 1, 5, 1, 4, 4, 0, 3, 1, 3, 0, 3, 6, 4, 5, 5, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 1, 1, 6, 2, 1, 4, 6, 6, 0, 4, 2, 6, 3, 2, 3, 5, 6, 3, 1],\r\n       [5, 5, 6, 1, 1, 1, 5, 4, 1, 0, 0, 2, 5, 1, 5, 4, 4, 6, 2, 1],\r\n       [5, 6, 0, 3, 6, 3, 3, 3, 5, 0, 0, 1, 5, 3, 1, 5, 0, 5, 4, 5],\r\n       [1, 1, 5, 6, 0, 6, 4, 3, 1, 0, 1, 3, 4, 0, 3, 2, 5, 3, 5, 3],\r\n       [2, 6, 0, 3, 2, 2, 5, 1, 3, 0, 5, 6, 0, 3, 5, 4, 2, 5, 1, 6]]",
+		"id": 34,
+		"name": "Single More Rule Sty",
+		"n_to": "Significant Smooth Damage Bastille",
+		"e_to": "Crazy Best Fool Sepulcher",
+		"s_to": "Greater Unleash Condition Alcove",
+		"w_to": null
+	},
+	{
+		"desc": "the other creatures. They have access to all your spellbook and spell-relocation materials. The GM will then tell you one",
+		"map": "[[1, 0, 0, 1, 6, 5, 4, 2, 6, 0, 0, 0, 4, 4, 0, 1, 4, 1, 1, 4],\r\n       [5, 2, 4, 0, 4, 4, 2, 0, 0, 0, 3, 0, 3, 0, 0, 3, 5, 6, 6, 0],\r\n       [4, 3, 3, 1, 3, 4, 0, 6, 3, 0, 1, 6, 1, 4, 0, 2, 1, 3, 4, 3],\r\n       [0, 5, 5, 2, 3, 6, 5, 0, 1, 0, 1, 1, 1, 4, 1, 6, 3, 0, 2, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 3, 3, 1, 0, 5, 3, 1, 0, 0, 2, 4, 6, 4, 1, 0, 3, 2, 3, 6],\r\n       [3, 4, 0, 1, 4, 3, 1, 2, 6, 0, 0, 1, 5, 1, 6, 3, 0, 5, 6, 1],\r\n       [2, 6, 3, 1, 4, 5, 2, 3, 4, 0, 5, 6, 1, 0, 2, 6, 3, 2, 6, 2],\r\n       [6, 5, 2, 1, 2, 2, 5, 4, 0, 0, 3, 1, 6, 1, 0, 2, 6, 6, 4, 5],\r\n       [1, 4, 4, 3, 1, 4, 2, 1, 3, 0, 6, 3, 3, 0, 4, 2, 2, 5, 4, 6]]",
+		"id": 35,
+		"name": "Crazy Best Fool Sepulcher",
+		"n_to": "Strict Free Contingent Cloister",
+		"e_to": "Best Minor Experience Burrow",
+		"s_to": "Advanced Pure Form Grave",
+		"w_to": "Single More Rule Sty"
+	},
+	{
+		"desc": "maim any creature within sight of you. It takes an unseen to speak a word of truth to anyone concerned with the grim portents dark outcomes",
+		"map": "[[6, 0, 1, 2, 4, 6, 6, 4, 5, 0, 5, 4, 3, 6, 0, 6, 1, 0, 0, 1],\r\n       [1, 0, 5, 0, 0, 4, 6, 3, 2, 0, 0, 0, 4, 3, 4, 6, 0, 5, 2, 2],\r\n       [5, 4, 3, 0, 4, 3, 3, 6, 6, 0, 6, 4, 2, 5, 3, 5, 1, 6, 0, 2],\r\n       [2, 2, 1, 1, 2, 3, 5, 4, 4, 0, 6, 5, 6, 6, 5, 5, 5, 4, 6, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 6, 5, 1, 2, 6, 4, 1, 2, 0, 5, 2, 3, 5, 3, 4, 1, 4, 0, 5],\r\n       [5, 5, 5, 4, 5, 5, 6, 1, 0, 0, 4, 1, 0, 4, 0, 5, 0, 3, 3, 3],\r\n       [0, 6, 5, 2, 3, 6, 0, 4, 0, 0, 4, 1, 6, 3, 0, 3, 2, 4, 2, 3],\r\n       [3, 4, 1, 5, 1, 2, 1, 5, 6, 0, 3, 1, 1, 6, 5, 3, 2, 3, 5, 0],\r\n       [6, 0, 6, 3, 5, 5, 3, 3, 0, 0, 1, 0, 3, 0, 5, 4, 2, 0, 5, 2]]",
+		"id": 36,
+		"name": "Best Minor Experience Burrow",
+		"n_to": "Better Monstrous Time Cavern",
+		"e_to": null,
+		"s_to": "Powerful Minor Cage Receptacle",
+		"w_to": "Crazy Best Fool Sepulcher"
+	},
+	{
+		"desc": "as you go into the room kill or be staked out in the wilds. It can be as large as a castle or as small as a hut, but is impervious to",
+		"map": "[[0, 0, 4, 0, 3, 0, 2, 2, 4, 0, 3, 3, 1, 6, 5, 2, 5, 3, 2, 0],\r\n       [3, 2, 6, 0, 2, 5, 5, 6, 5, 0, 3, 2, 3, 4, 0, 0, 6, 3, 2, 0],\r\n       [6, 2, 4, 2, 3, 5, 2, 1, 1, 0, 1, 4, 6, 3, 2, 2, 0, 1, 1, 6],\r\n       [4, 1, 6, 4, 4, 2, 0, 5, 2, 0, 0, 0, 2, 6, 6, 3, 3, 1, 3, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 6, 4, 1, 4, 6, 4, 5, 3, 0, 3, 1, 6, 1, 1, 4, 0, 2, 4, 6],\r\n       [3, 6, 2, 0, 6, 2, 1, 6, 0, 0, 5, 1, 1, 4, 1, 3, 1, 1, 5, 2],\r\n       [4, 5, 5, 0, 1, 4, 3, 2, 6, 0, 1, 0, 0, 6, 3, 1, 4, 6, 2, 2],\r\n       [3, 0, 4, 1, 0, 1, 1, 0, 3, 0, 5, 1, 3, 0, 3, 6, 2, 2, 2, 3],\r\n       [1, 5, 6, 6, 3, 1, 0, 5, 0, 0, 5, 6, 1, 3, 3, 3, 5, 6, 0, 0]]",
+		"id": 37,
+		"name": "Greater Unleash Condition Alcove",
+		"n_to": "Single More Rule Sty",
+		"e_to": "Advanced Pure Form Grave",
+		"s_to": "Telepathy 7th Room Keep",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room with the spell and The chosen spell is held until you choose to unleash it or the trigger condition is met, whichever happens first",
+		"map": "[[6, 6, 3, 1, 2, 4, 2, 5, 2, 0, 5, 2, 5, 1, 2, 4, 5, 5, 3, 3],\n       [5, 6, 3, 6, 2, 6, 4, 3, 0, 0, 1, 1, 5, 1, 5, 3, 2, 3, 2, 5],\n       [0, 0, 3, 2, 2, 3, 0, 1, 5, 0, 0, 2, 6, 6, 0, 1, 0, 5, 3, 2],\n       [5, 5, 1, 4, 1, 2, 5, 1, 2, 0, 2, 6, 6, 3, 1, 5, 6, 5, 0, 5],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [0, 5, 4, 0, 0, 4, 4, 5, 1, 0, 1, 4, 3, 6, 4, 3, 2, 2, 0, 0],\n       [5, 0, 3, 6, 1, 0, 4, 4, 6, 0, 3, 0, 0, 5, 6, 3, 0, 2, 0, 2],\n       [3, 4, 2, 6, 2, 3, 6, 4, 6, 0, 2, 0, 4, 5, 1, 4, 0, 6, 0, 5],\n       [1, 4, 6, 0, 4, 0, 0, 4, 0, 0, 0, 1, 2, 3, 5, 2, 0, 4, 4, 4],\n       [3, 0, 5, 5, 0, 3, 5, 2, 0, 0, 1, 0, 1, 1, 1, 6, 3, 0, 3, 6]]",
+		"id": 38,
+		"name": "Advanced Pure Form Grave",
+		"n_to": "Crazy Best Fool Sepulcher",
+		"e_to": "Powerful Minor Cage Receptacle",
+		"s_to": "Safe First Event Confinement",
+		"w_to": "Greater Unleash Condition Alcove"
+	},
+	{
+		"desc": "as you go into the room with these people. Strange people, be_tos of all sorts, and the vast unnatural spaces between safe and temple-blessed civilizations. It is a",
+		"map": "[[6, 6, 1, 5, 6, 4, 4, 3, 5, 0, 2, 2, 0, 0, 5, 3, 0, 3, 6, 0],\r\n       [5, 5, 6, 5, 3, 6, 2, 3, 3, 0, 3, 2, 4, 3, 6, 1, 5, 5, 4, 0],\r\n       [0, 4, 1, 1, 4, 2, 6, 5, 2, 0, 1, 3, 4, 3, 2, 6, 3, 3, 0, 0],\r\n       [2, 6, 3, 0, 6, 4, 2, 1, 0, 0, 1, 1, 4, 6, 0, 4, 1, 2, 5, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [4, 2, 1, 1, 1, 5, 4, 6, 5, 0, 1, 6, 3, 1, 2, 3, 2, 1, 1, 1],\r\n       [2, 1, 1, 3, 0, 0, 2, 3, 3, 0, 6, 6, 5, 0, 0, 2, 1, 0, 6, 2],\r\n       [5, 6, 5, 5, 3, 6, 5, 0, 1, 0, 3, 0, 1, 1, 4, 3, 2, 1, 0, 3],\r\n       [0, 0, 0, 5, 3, 5, 1, 3, 1, 0, 2, 2, 4, 3, 2, 3, 0, 6, 4, 0],\r\n       [4, 1, 5, 4, 5, 3, 5, 6, 1, 0, 3, 2, 2, 4, 6, 4, 3, 0, 4, 6]]",
+		"id": 39,
+		"name": "Powerful Minor Cage Receptacle",
+		"n_to": "Best Minor Experience Burrow",
+		"e_to": null,
+		"s_to": "New Lower Spellbook Jail",
+		"w_to": "Advanced Pure Form Grave"
+	},
+	{
+		"desc": "speak to the GM. If you choose, you can view the location of the spell as though you were there in person. ",
+		"map": "[[5, 3, 5, 6, 5, 2, 2, 0, 2, 0, 0, 0, 6, 4, 5, 2, 2, 0, 0, 3],\r\n       [5, 3, 1, 0, 1, 2, 4, 3, 0, 0, 5, 0, 1, 4, 4, 6, 2, 0, 2, 3],\r\n       [3, 6, 0, 4, 4, 2, 2, 1, 1, 0, 1, 3, 0, 2, 4, 6, 2, 6, 5, 1],\r\n       [0, 0, 4, 0, 6, 6, 2, 2, 0, 0, 5, 5, 3, 5, 4, 0, 0, 1, 6, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 4, 0, 1, 4, 1, 4, 3, 3, 0, 4, 4, 5, 5, 3, 3, 6, 2, 4, 4],\r\n       [5, 0, 2, 1, 3, 0, 5, 0, 4, 0, 5, 4, 4, 4, 4, 4, 5, 2, 0, 4],\r\n       [0, 5, 6, 5, 0, 2, 0, 5, 5, 0, 2, 3, 1, 3, 4, 2, 2, 5, 6, 4],\r\n       [2, 0, 0, 3, 5, 3, 4, 2, 3, 0, 0, 5, 2, 6, 0, 6, 0, 0, 1, 5],\r\n       [6, 1, 4, 6, 2, 5, 0, 6, 3, 0, 5, 4, 0, 0, 0, 4, 2, 3, 5, 1]]",
+		"id": 40,
+		"name": "Telepathy 7th Room Keep",
+		"n_to": "Greater Unleash Condition Alcove",
+		"e_to": "Safe First Event Confinement",
+		"s_to": "Temporary Sweet Marks Recess",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room kill or be dispelled, the GM will tell you what here is magical.  Telepathy Level 1 Divination ongoing  Description  ",
+		"map": "[[0, 2, 5, 1, 0, 5, 1, 1, 6, 0, 6, 3, 4, 5, 2, 1, 3, 4, 5, 6],\r\n       [1, 6, 1, 2, 3, 3, 5, 5, 5, 0, 0, 2, 1, 2, 0, 2, 1, 0, 6, 3],\r\n       [2, 0, 1, 2, 2, 4, 1, 4, 4, 0, 1, 1, 1, 1, 3, 2, 5, 2, 5, 1],\r\n       [4, 4, 1, 4, 5, 5, 1, 4, 1, 0, 6, 3, 0, 5, 6, 1, 6, 4, 5, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [4, 0, 3, 6, 2, 1, 5, 5, 3, 0, 2, 5, 3, 6, 1, 6, 6, 2, 2, 6],\r\n       [0, 4, 1, 5, 4, 2, 5, 1, 6, 0, 0, 6, 6, 3, 5, 3, 1, 3, 1, 4],\r\n       [1, 1, 6, 4, 4, 1, 6, 1, 3, 0, 5, 4, 5, 2, 6, 5, 5, 1, 2, 3],\r\n       [5, 0, 5, 6, 5, 6, 4, 6, 5, 0, 6, 4, 3, 1, 6, 0, 2, 4, 3, 6],\r\n       [0, 6, 1, 3, 4, 0, 1, 4, 5, 0, 1, 2, 6, 0, 2, 6, 6, 4, 1, 3]]",
+		"id": 41,
+		"name": "Safe First Event Confinement",
+		"n_to": "Advanced Pure Form Grave",
+		"e_to": "New Lower Spellbook Jail",
+		"s_to": "Single Mighty Ability Mausoleum",
+		"w_to": "Telepathy 7th Room Keep"
+	},
+	{
+		"desc": "as you go into the room kill or be staked out in the wilds. It may take days/weeks/months, but the GM will give you something sweet to drive",
+		"map": "[[2, 0, 5, 6, 5, 2, 0, 2, 0, 0, 5, 3, 5, 1, 3, 4, 3, 6, 5, 4],\r\n       [6, 3, 6, 1, 2, 4, 6, 0, 6, 0, 6, 4, 2, 2, 6, 2, 4, 0, 3, 0],\r\n       [2, 2, 2, 2, 6, 4, 4, 0, 6, 0, 2, 4, 6, 2, 1, 6, 6, 5, 3, 2],\r\n       [2, 1, 3, 3, 2, 5, 0, 1, 5, 0, 4, 4, 3, 2, 2, 6, 3, 6, 0, 6],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [5, 4, 0, 5, 4, 6, 1, 0, 0, 0, 5, 6, 4, 6, 0, 5, 3, 6, 0, 2],\r\n       [1, 0, 4, 0, 2, 5, 1, 3, 0, 0, 4, 2, 3, 5, 6, 4, 4, 4, 2, 0],\r\n       [0, 5, 0, 3, 5, 2, 4, 0, 6, 0, 2, 5, 0, 6, 2, 2, 5, 3, 0, 3],\r\n       [0, 3, 2, 2, 4, 3, 1, 3, 0, 0, 1, 3, 3, 0, 5, 1, 0, 5, 3, 5],\r\n       [1, 4, 0, 6, 4, 0, 4, 2, 0, 0, 1, 5, 0, 4, 2, 5, 4, 2, 2, 6]]",
+		"id": 42,
+		"name": "New Lower Spellbook Jail",
+		"n_to": "Powerful Minor Cage Receptacle",
+		"e_to": null,
+		"s_to": "Le_to Precise Level Crypt",
+		"w_to": "Safe First Event Confinement"
+	},
+	{
+		"desc": "as you go into the room with these spells. They have some kind of danger in them, but the GM will give you one to four of the following conditions:  Its",
+		"map": " [[0, 0, 6, 2, 3, 5, 3, 3, 0, 0, 6, 0, 0, 0, 5, 1, 1, 2, 2, 0],\r\n       [2, 3, 6, 1, 2, 0, 4, 0, 6, 0, 3, 0, 3, 4, 4, 1, 3, 4, 0, 4],\r\n       [5, 2, 6, 0, 1, 1, 0, 5, 4, 0, 6, 2, 4, 1, 1, 0, 3, 2, 4, 4],\r\n       [5, 6, 3, 5, 0, 0, 2, 3, 0, 0, 1, 6, 1, 4, 0, 3, 1, 2, 1, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 4, 3, 6, 3, 3, 0, 2, 2, 0, 5, 0, 1, 6, 1, 0, 2, 0, 6, 3],\r\n       [0, 0, 0, 6, 3, 5, 5, 3, 3, 0, 5, 4, 0, 6, 0, 2, 2, 4, 6, 6],\r\n       [1, 0, 6, 6, 5, 6, 5, 0, 1, 0, 3, 4, 0, 0, 3, 4, 6, 6, 4, 0],\r\n       [1, 1, 3, 4, 4, 2, 3, 6, 5, 0, 3, 5, 2, 3, 3, 2, 5, 2, 2, 4],\r\n       [5, 2, 5, 5, 2, 6, 3, 4, 0, 0, 3, 4, 6, 4, 5, 1, 4, 6, 2, 5]]",
+		"id": 43,
+		"name": "Temporary Sweet Marks Recess",
+		"n_to": "Telepathy 7th Room Keep",
+		"e_to": "Single Mighty Ability Mausoleum",
+		"s_to": "Invisible Defenseless Control Jellab",
+		"w_to": null
+	},
+	{
+		"desc": "The new spellbook is always new and has its own name.  Ethereal Tether When",
+		"map": "[[2, 0, 0, 6, 5, 4, 3, 4, 4, 0, 5, 2, 1, 6, 0, 4, 1, 1, 0, 6],\r\n       [3, 6, 5, 2, 3, 0, 4, 0, 2, 0, 4, 1, 5, 6, 4, 1, 5, 2, 0, 1],\r\n       [5, 5, 2, 6, 6, 3, 6, 4, 1, 0, 0, 2, 1, 4, 4, 3, 1, 0, 4, 2],\r\n       [5, 2, 2, 4, 4, 1, 2, 2, 1, 0, 0, 2, 2, 3, 1, 5, 0, 6, 2, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 0, 2, 4, 1, 2, 0, 6, 3, 0, 1, 1, 1, 5, 3, 5, 6, 6, 2, 3],\r\n       [2, 3, 3, 6, 5, 5, 4, 4, 2, 0, 6, 5, 6, 5, 0, 4, 1, 6, 3, 1],\r\n       [4, 0, 4, 4, 3, 6, 1, 2, 0, 0, 4, 3, 3, 3, 2, 1, 0, 0, 0, 3],\r\n       [2, 2, 3, 2, 1, 3, 5, 0, 3, 0, 2, 2, 2, 4, 1, 5, 1, 2, 4, 2],\r\n       [2, 3, 6, 1, 4, 3, 2, 4, 0, 0, 6, 2, 1, 1, 5, 2, 6, 1, 6, 5]]",
+		"id": 44,
+		"name": "Single Mighty Ability Mausoleum",
+		"n_to": "Safe First Event Confinement",
+		"e_to": "Le_to Precise Level Crypt",
+		"s_to": "Filthy Safe Fire Tower",
+		"w_to": "Temporary Sweet Marks Recess"
+	},
+	{
+		"desc": "be staked out in the wilds.  Alarm Level 1  Description  Walk a wide circle as you cast this",
+		"map": "[[1, 0, 6, 1, 4, 5, 4, 5, 2, 0, 3, 2, 0, 6, 4, 5, 3, 6, 6, 1],\r\n       [1, 2, 3, 3, 2, 6, 4, 1, 2, 0, 4, 4, 1, 1, 4, 3, 0, 0, 0, 5],\r\n       [0, 5, 5, 2, 1, 1, 3, 2, 0, 0, 5, 3, 0, 1, 2, 3, 6, 4, 1, 6],\r\n       [4, 5, 4, 2, 4, 2, 1, 1, 3, 0, 6, 6, 6, 0, 5, 1, 3, 2, 3, 6],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 6, 6, 0, 2, 6, 0, 0, 0, 0, 5, 1, 6, 6, 2, 1, 4, 1, 4, 4],\r\n       [6, 3, 6, 6, 5, 4, 4, 1, 0, 0, 2, 3, 4, 6, 4, 1, 6, 0, 1, 1],\r\n       [3, 5, 3, 3, 4, 4, 3, 0, 2, 0, 4, 5, 1, 6, 6, 6, 3, 5, 0, 1],\r\n       [1, 2, 2, 0, 5, 6, 2, 2, 6, 0, 1, 2, 6, 4, 3, 6, 5, 4, 2, 3],\r\n       [5, 3, 6, 3, 4, 1, 6, 6, 0, 0, 5, 3, 0, 2, 6, 4, 2, 1, 2, 6]]",
+		"id": 45,
+		"name": "Le_to Precise Level Crypt",
+		"n_to": "New Lower Spellbook Jail",
+		"e_to": null,
+		"s_to": "Unwelcome Extra Armor Reformatory",
+		"w_to": "Single Mighty Ability Mausoleum"
+	},
+	{
+		"desc": "as you go into the room with these things. You can only have one Alert active at a time.  Soul Gem Level 9  Description  You trap the",
+		"map": "[[5, 5, 2, 2, 0, 4, 5, 5, 4, 0, 6, 5, 2, 2, 6, 6, 0, 6, 5, 3],\r\n       [6, 3, 0, 3, 6, 4, 0, 4, 4, 0, 6, 1, 4, 4, 0, 4, 6, 1, 5, 4],\r\n       [0, 1, 2, 2, 2, 0, 2, 3, 0, 0, 0, 4, 1, 0, 3, 2, 2, 2, 6, 3],\r\n       [0, 2, 4, 0, 3, 5, 3, 2, 5, 0, 6, 6, 5, 2, 4, 5, 2, 0, 1, 5],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [4, 1, 2, 0, 5, 4, 6, 3, 4, 0, 3, 1, 1, 5, 6, 6, 2, 6, 1, 1],\r\n       [2, 2, 1, 5, 5, 6, 1, 5, 5, 0, 0, 3, 6, 2, 5, 6, 4, 2, 1, 3],\r\n       [0, 6, 5, 3, 6, 0, 1, 5, 2, 0, 1, 1, 4, 0, 5, 6, 1, 0, 2, 0],\r\n       [4, 0, 1, 4, 2, 2, 6, 4, 2, 0, 0, 4, 5, 4, 1, 6, 5, 3, 4, 5],\r\n       [3, 3, 0, 0, 1, 3, 6, 4, 3, 0, 4, 6, 0, 0, 6, 5, 0, 3, 2, 3]]",
+		"id": 46,
+		"name": "Invisible Defenseless Control Jellab",
+		"n_to": "Temporary Sweet Marks Recess",
+		"e_to": "Filthy Safe Fire Tower",
+		"s_to": "First Other Thunder Penitentiary",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room with the spell and ask the GM any three questions.  Self-Powered When you have time, arcane materials, and a safe space",
+		"map": "[[2, 5, 6, 1, 2, 1, 2, 2, 0, 0, 0, 5, 1, 2, 0, 5, 0, 5, 3, 0],\r\n       [5, 5, 4, 5, 1, 5, 4, 3, 2, 0, 5, 6, 2, 0, 0, 0, 2, 4, 0, 2],\r\n       [3, 2, 3, 1, 6, 3, 2, 0, 3, 0, 2, 2, 4, 3, 6, 2, 1, 1, 3, 6],\r\n       [2, 6, 4, 3, 5, 1, 3, 5, 6, 0, 6, 6, 2, 2, 1, 2, 5, 2, 1, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 6, 2, 2, 1, 1, 5, 4, 3, 0, 3, 0, 4, 2, 4, 5, 0, 4, 3, 6],\r\n       [0, 2, 6, 6, 2, 5, 6, 3, 6, 0, 3, 4, 4, 4, 5, 4, 0, 4, 6, 0],\r\n       [4, 3, 2, 3, 4, 5, 5, 6, 4, 0, 4, 0, 0, 2, 1, 4, 0, 3, 3, 4],\r\n       [3, 4, 1, 4, 0, 1, 0, 3, 5, 0, 1, 1, 4, 3, 6, 5, 6, 1, 0, 0],\r\n       [0, 0, 0, 5, 6, 5, 5, 6, 0, 0, 4, 6, 6, 4, 6, 2, 2, 6, 2, 2]]",
+		"id": 47,
+		"name": "Filthy Safe Fire Tower",
+		"n_to": "Single Mighty Ability Mausoleum",
+		"e_to": "Unwelcome Extra Armor Reformatory",
+		"s_to": "Important Mysterious Attack Catacomb",
+		"w_to": "Invisible Defenseless Control Jellab"
+	},
+	{
+		"desc": "take damage it takes an additional, separate 1d6 damage which  ignores armor. This spell persists so long as you can see the",
+		"map": "[[3, 4, 6, 5, 6, 1, 1, 4, 2, 0, 1, 6, 0, 1, 2, 2, 5, 0, 3, 1],\n       [0, 1, 5, 4, 2, 3, 2, 0, 3, 0, 2, 4, 4, 3, 4, 5, 5, 5, 1, 0],\n       [6, 3, 5, 5, 6, 1, 0, 0, 1, 0, 0, 3, 3, 1, 1, 4, 6, 2, 3, 1],\n       [0, 2, 4, 6, 0, 3, 3, 5, 4, 0, 2, 5, 2, 2, 6, 2, 1, 3, 3, 0],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [6, 1, 3, 3, 5, 6, 0, 4, 2, 0, 6, 2, 0, 3, 5, 6, 1, 4, 1, 6],\n       [1, 5, 3, 4, 5, 1, 2, 5, 0, 0, 5, 6, 5, 0, 5, 6, 5, 6, 3, 3],\n       [2, 5, 6, 5, 3, 1, 0, 4, 3, 0, 3, 4, 2, 3, 2, 4, 1, 3, 3, 1],\n       [1, 4, 6, 2, 4, 4, 0, 2, 2, 0, 1, 1, 4, 5, 1, 6, 0, 4, 2, 4],\n       [6, 1, 0, 6, 1, 5, 1, 1, 4, 0, 6, 4, 4, 4, 2, 6, 4, 0, 4, 3]]",
+		"id": 48,
+		"name": "Unwelcome Extra Armor Reformatory",
+		"n_to": "Le_to Precise Level Crypt",
+		"e_to": null,
+		"s_to": "Noble Additional ' Vault",
+		"w_to": "Filthy Safe Fire Tower"
+	},
+	{
+		"desc": "as you go into the room kill or plant traps for the GM. The GM will then tell you one or more of these:  The GMs advice and they get you what",
+		"map": "[[1, 4, 2, 5, 4, 1, 0, 4, 2, 0, 4, 0, 2, 5, 5, 1, 1, 0, 0, 2],\r\n       [0, 4, 0, 6, 0, 0, 2, 6, 2, 0, 0, 2, 5, 0, 4, 4, 2, 1, 4, 1],\r\n       [2, 3, 2, 6, 3, 0, 4, 4, 6, 0, 3, 6, 1, 4, 6, 2, 2, 4, 0, 5],\r\n       [5, 1, 5, 4, 1, 4, 0, 3, 5, 0, 5, 6, 3, 4, 5, 0, 5, 5, 4, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [5, 3, 5, 0, 4, 6, 6, 5, 1, 0, 1, 3, 3, 6, 1, 5, 4, 2, 0, 5],\r\n       [3, 5, 0, 2, 0, 0, 0, 1, 1, 0, 0, 1, 2, 3, 4, 5, 5, 6, 1, 2],\r\n       [3, 3, 1, 3, 6, 6, 1, 4, 6, 0, 3, 3, 2, 2, 2, 5, 2, 4, 2, 1],\r\n       [0, 3, 2, 4, 0, 1, 2, 4, 5, 0, 0, 4, 0, 1, 2, 5, 6, 3, 0, 3],\r\n       [1, 2, 4, 2, 0, 5, 0, 4, 0, 0, 6, 3, 5, 1, 5, 0, 5, 1, 2, 0]]",
+		"id": 49,
+		"name": "First Other Thunder Penitentiary",
+		"n_to": "Invisible Defenseless Control Jellab",
+		"e_to": "Important Mysterious Attack Catacomb",
+		"s_to": "Unleash Humble Protection Cell",
+		"w_to": null
+	},
+	{
+		"desc": "be dispelled. All other immediate actions are immediately dispelled, dropping any items it carried. Otherwise the unseen servant serves you until you end the",
+		"map": "[[0, 0, 2, 3, 1, 5, 5, 3, 1, 0, 0, 2, 2, 0, 4, 2, 4, 1, 6, 5],\n       [3, 1, 2, 6, 0, 4, 0, 1, 6, 0, 6, 4, 6, 6, 0, 2, 4, 2, 3, 1],\n       [2, 1, 5, 3, 1, 0, 0, 5, 1, 0, 1, 4, 4, 4, 0, 5, 6, 5, 0, 2],\n       [5, 3, 2, 4, 2, 4, 2, 1, 5, 0, 2, 0, 2, 5, 6, 0, 6, 2, 6, 2],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [0, 5, 0, 6, 6, 4, 2, 2, 6, 0, 1, 5, 4, 5, 1, 6, 5, 0, 3, 4],\n       [0, 4, 1, 3, 6, 4, 0, 2, 2, 0, 5, 1, 5, 5, 2, 5, 1, 3, 3, 5],\n       [6, 5, 3, 0, 3, 5, 2, 3, 5, 0, 1, 2, 3, 5, 0, 5, 0, 5, 6, 3],\n       [0, 3, 3, 0, 0, 0, 5, 6, 2, 0, 1, 4, 1, 6, 5, 6, 6, 6, 1, 0],\n       [2, 1, 4, 0, 6, 0, 3, 2, 6, 0, 0, 4, 1, 2, 5, 1, 0, 5, 0, 3]]",
+		"id": 50,
+		"name": "Important Mysterious Attack Catacomb",
+		"n_to": "Filthy Safe Fire Tower",
+		"e_to": "Noble Additional ' Vault",
+		"s_to": "Best Dangerous Truth Court",
+		"w_to": "First Other Thunder Penitentiary"
+	},
+	{
+		"desc": "as you go into the room to hear them.  Sleep Level 3 Enchantment  Description  1d4 enemies you can see of the GMs choice fall",
+		"map": "[[1, 3, 3, 2, 2, 2, 4, 2, 1, 0, 1, 5, 0, 5, 1, 6, 5, 2, 2, 0],\r\n       [6, 0, 5, 6, 0, 3, 4, 2, 4, 0, 6, 5, 3, 2, 6, 1, 3, 4, 5, 5],\r\n       [6, 2, 0, 3, 3, 5, 1, 0, 4, 0, 6, 6, 6, 1, 1, 4, 5, 4, 2, 3],\r\n       [0, 1, 6, 2, 0, 3, 4, 6, 5, 0, 5, 3, 3, 3, 3, 5, 4, 3, 4, 5],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 3, 0, 6, 1, 2, 6, 3, 1, 0, 1, 4, 5, 0, 6, 0, 2, 6, 4, 3],\r\n       [1, 3, 2, 2, 0, 0, 2, 6, 2, 0, 5, 4, 1, 3, 2, 0, 5, 0, 0, 1],\r\n       [5, 1, 0, 6, 5, 4, 6, 5, 5, 0, 4, 6, 2, 4, 4, 5, 6, 1, 6, 5],\r\n       [1, 3, 0, 5, 0, 3, 1, 1, 2, 0, 4, 4, 6, 6, 3, 6, 4, 6, 6, 6],\r\n       [3, 3, 6, 0, 0, 4, 2, 1, 5, 0, 4, 3, 1, 1, 2, 2, 3, 2, 2, 6]]\r",
+		"id": 51,
+		"name": "Noble Additional ' Vault",
+		"n_to": "Unwelcome Extra Armor Reformatory",
+		"e_to": null,
+		"s_to": "Free Uninterrupted Communication Bullpen",
+		"w_to": "Important Mysterious Attack Catacomb"
+	},
+	{
+		"desc": "as you go into the room kill or be poisoned.  Sleep Level 3 Enchantment  Description  1d4 enemies you can see of the GMs choice fall",
+		"map": "[[6, 3, 4, 1, 2, 0, 0, 5, 5, 0, 1, 5, 3, 0, 1, 2, 3, 3, 4, 6],\r\n       [5, 3, 1, 6, 1, 0, 2, 3, 0, 0, 1, 6, 4, 2, 0, 4, 1, 4, 6, 6],\r\n       [3, 5, 5, 6, 2, 1, 2, 6, 6, 0, 3, 0, 5, 3, 2, 3, 0, 1, 3, 0],\r\n       [2, 1, 0, 0, 0, 4, 6, 6, 4, 0, 2, 3, 3, 4, 3, 5, 1, 6, 3, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [4, 2, 4, 6, 3, 3, 2, 6, 2, 0, 4, 5, 4, 3, 2, 2, 2, 5, 2, 0],\r\n       [5, 4, 4, 3, 2, 3, 4, 3, 3, 0, 6, 2, 5, 5, 2, 1, 2, 0, 5, 4],\r\n       [6, 2, 4, 1, 0, 1, 3, 0, 5, 0, 6, 0, 4, 3, 6, 2, 5, 5, 6, 4],\r\n       [1, 6, 1, 1, 3, 5, 5, 4, 1, 0, 2, 4, 5, 0, 3, 3, 6, 6, 4, 5],\r\n       [4, 2, 5, 2, 6, 4, 5, 3, 2, 0, 5, 3, 1, 4, 6, 0, 6, 5, 3, 5]]",
+		"id": 52,
+		"name": "Unleash Humble Protection Cell",
+		"n_to": "First Other Thunder Penitentiary",
+		"e_to": "Best Dangerous Truth Court",
+		"s_to": "Templar Ongoing Level Guardhouse",
+		"w_to": null
+	},
+	{
+		"desc": "the other effects. The wizard will tell you what here is magical.  Telepathy Level 1 Divination ongoing  ",
+		"map": "[[2, 1, 3, 1, 5, 6, 0, 2, 4, 0, 5, 5, 1, 1, 0, 0, 2, 4, 4, 0],\r\n       [5, 1, 5, 3, 0, 3, 3, 1, 5, 0, 3, 6, 6, 0, 1, 1, 6, 6, 0, 4],\r\n       [0, 4, 0, 5, 5, 5, 1, 2, 3, 0, 0, 4, 6, 5, 6, 4, 6, 5, 5, 5],\r\n       [0, 6, 4, 6, 4, 6, 5, 6, 6, 0, 0, 0, 5, 5, 0, 0, 2, 1, 3, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 2, 2, 5, 1, 2, 4, 1, 6, 0, 0, 3, 0, 0, 6, 6, 2, 4, 3, 1],\r\n       [5, 5, 0, 4, 3, 5, 6, 3, 2, 0, 0, 1, 3, 3, 3, 2, 3, 0, 4, 3],\r\n       [3, 5, 5, 1, 3, 1, 4, 3, 6, 0, 4, 1, 5, 6, 1, 2, 0, 0, 6, 2],\r\n       [4, 2, 5, 2, 4, 2, 1, 0, 6, 0, 6, 3, 1, 1, 6, 1, 4, 1, 0, 1],\r\n       [4, 3, 4, 1, 4, 5, 0, 0, 6, 0, 1, 3, 0, 4, 2, 6, 4, 0, 5, 0]]",
+		"id": 53,
+		"name": "Best Dangerous Truth Court",
+		"n_to": "Important Mysterious Attack Catacomb",
+		"e_to": "Free Uninterrupted Communication Bullpen",
+		"s_to": "More New Paladin Bastille",
+		"w_to": "Unleash Humble Protection Cell"
+	},
+	{
+		"desc": "as you go into the room with the spell.  The best you can do is a lesser version, unreliable and limited The spells targets are doubled Fount of Knowledge",
+		"map": "[[0, 3, 2, 0, 1, 4, 4, 0, 1, 0, 4, 2, 3, 2, 1, 3, 2, 3, 3, 1],\r\n       [1, 2, 5, 3, 6, 6, 2, 0, 1, 0, 3, 5, 3, 6, 2, 6, 0, 4, 1, 1],\r\n       [5, 2, 3, 3, 1, 6, 1, 2, 3, 0, 0, 6, 3, 1, 0, 1, 5, 3, 4, 2],\r\n       [6, 2, 2, 1, 4, 4, 6, 4, 2, 0, 5, 0, 6, 2, 5, 2, 4, 6, 5, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 5, 4, 3, 0, 5, 3, 0, 1, 0, 4, 3, 4, 5, 3, 4, 6, 4, 1, 6],\r\n       [3, 0, 2, 1, 4, 4, 3, 4, 3, 0, 2, 5, 3, 4, 0, 2, 6, 2, 2, 5],\r\n       [1, 2, 1, 3, 0, 3, 6, 5, 0, 0, 4, 6, 1, 5, 3, 6, 6, 0, 5, 3],\r\n       [3, 3, 5, 2, 6, 5, 2, 2, 0, 0, 3, 3, 6, 1, 3, 3, 1, 5, 5, 4],\r\n       [2, 2, 3, 5, 5, 0, 3, 1, 2, 0, 3, 6, 0, 0, 4, 1, 3, 0, 0, 3]]",
+		"id": 54,
+		"name": "Free Uninterrupted Communication Bullpen",
+		"n_to": "Noble Additional ' Vault",
+		"e_to": null,
+		"s_to": "Open Higher Attempt Cloister",
+		"w_to": "Best Dangerous Truth Court"
+	},
+	{
+		"desc": "as you go into the room with the spell and The spellbook may have some relevance to your own realities, but the GM will give you one to four",
+		"map": "[[6, 2, 3, 5, 5, 1, 1, 4, 4, 0, 3, 1, 3, 2, 5, 6, 5, 5, 6, 4],\r\n       [5, 3, 4, 0, 5, 5, 1, 3, 0, 0, 1, 6, 2, 6, 3, 1, 3, 5, 4, 1],\r\n       [6, 6, 6, 0, 3, 6, 2, 2, 4, 0, 6, 5, 2, 5, 2, 1, 6, 4, 6, 4],\r\n       [1, 6, 5, 6, 5, 6, 3, 6, 6, 0, 1, 4, 4, 2, 5, 2, 3, 1, 2, 5],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 3, 3, 0, 2, 3, 0, 4, 6, 0, 4, 5, 3, 1, 4, 0, 3, 6, 0, 5],\r\n       [4, 6, 1, 5, 5, 0, 6, 3, 6, 0, 5, 5, 2, 6, 1, 5, 6, 3, 0, 4],\r\n       [1, 1, 5, 4, 5, 1, 2, 1, 4, 0, 3, 0, 1, 4, 0, 0, 1, 0, 2, 1],\r\n       [3, 1, 2, 0, 6, 2, 3, 6, 4, 0, 1, 5, 5, 4, 2, 0, 1, 0, 5, 4],\r\n       [6, 4, 2, 5, 1, 0, 2, 6, 4, 0, 2, 4, 6, 0, 4, 0, 4, 3, 2, 2]]",
+		"id": 55,
+		"name": "Templar Ongoing Level Guardhouse",
+		"n_to": "Unleash Humble Protection Cell",
+		"e_to": "More New Paladin Bastille",
+		"s_to": "Safe Telepathic Use Cavern",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room with the spell and ask these questions:  Is there a trap here and if so, what activates it? What does the trap do when",
+		"map": "[[3, 1, 5, 5, 6, 2, 2, 2, 2, 0, 4, 5, 3, 0, 4, 6, 6, 6, 1, 3],\r\n       [3, 4, 6, 6, 4, 0, 3, 0, 3, 0, 2, 1, 5, 6, 5, 2, 0, 3, 5, 0],\r\n       [0, 2, 1, 3, 1, 4, 5, 5, 2, 0, 4, 4, 2, 0, 2, 4, 1, 3, 0, 2],\r\n       [6, 1, 0, 3, 1, 6, 2, 1, 6, 0, 0, 6, 3, 5, 5, 1, 1, 2, 0, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 6, 1, 6, 0, 2, 4, 1, 5, 0, 5, 6, 3, 2, 6, 1, 2, 4, 1, 2],\r\n       [6, 0, 2, 5, 3, 1, 0, 5, 5, 0, 6, 4, 3, 2, 3, 2, 6, 0, 1, 1],\r\n       [6, 6, 2, 6, 6, 0, 4, 4, 1, 0, 3, 4, 3, 4, 2, 6, 6, 1, 0, 0],\r\n       [3, 6, 4, 6, 5, 3, 6, 3, 4, 0, 3, 6, 1, 6, 5, 1, 4, 3, 4, 0],\r\n       [2, 0, 5, 0, 3, 5, 0, 2, 4, 0, 4, 1, 5, 0, 2, 5, 2, 2, 1, 2]]",
+		"id": 56,
+		"name": "More New Paladin Bastille",
+		"n_to": "Best Dangerous Truth Court",
+		"e_to": "Open Higher Attempt Cloister",
+		"s_to": "Tricky Evil Cause Sty",
+		"w_to": "Templar Ongoing Level Guardhouse"
+	},
+	{
+		"desc": "as you go into the room kill or maim any creature within sight of you.  Sleep Level 3 Enchantment  Description  1d4 enemies you can see",
+		"map": "[[6, 1, 6, 2, 2, 6, 0, 5, 1, 0, 0, 1, 1, 5, 6, 3, 0, 3, 6, 6],\r\n       [5, 5, 1, 0, 0, 2, 3, 5, 2, 0, 6, 1, 5, 4, 5, 1, 2, 0, 2, 0],\r\n       [6, 3, 0, 0, 0, 2, 5, 6, 4, 0, 5, 3, 5, 0, 5, 2, 4, 5, 3, 2],\r\n       [6, 3, 0, 1, 3, 0, 2, 4, 4, 0, 1, 6, 3, 5, 6, 0, 3, 3, 0, 6],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 6, 3, 0, 0, 6, 0, 2, 3, 0, 4, 2, 2, 3, 3, 6, 0, 2, 1, 6],\r\n       [0, 2, 6, 0, 1, 4, 1, 1, 1, 0, 6, 4, 1, 2, 3, 5, 4, 4, 0, 1],\r\n       [6, 3, 5, 5, 2, 2, 3, 1, 5, 0, 4, 2, 1, 2, 2, 3, 1, 1, 1, 2],\r\n       [6, 3, 5, 3, 6, 2, 5, 5, 3, 0, 4, 4, 6, 5, 6, 0, 4, 2, 0, 2],\r\n       [2, 1, 1, 3, 4, 5, 4, 4, 2, 0, 4, 6, 0, 3, 1, 0, 3, 0, 0, 0]]",
+		"id": 57,
+		"name": "Open Higher Attempt Cloister",
+		"n_to": "Free Uninterrupted Communication Bullpen",
+		"e_to": null,
+		"s_to": "Higher Higher Potion Sepulcher",
+		"w_to": "More New Paladin Bastille"
+	},
+	{
+		"desc": "as you go into the room with the spell and The spellbook may have some relevance to your nature, but the GM will give you one to four of",
+		"map": "[[1, 0, 5, 5, 5, 1, 2, 0, 0, 0, 4, 2, 5, 5, 1, 1, 3, 4, 3, 6],\r\n       [6, 4, 3, 4, 1, 5, 5, 4, 4, 0, 2, 0, 2, 2, 0, 5, 3, 1, 4, 4],\r\n       [6, 3, 1, 0, 6, 0, 2, 3, 4, 0, 1, 1, 2, 0, 4, 5, 5, 4, 2, 0],\r\n       [4, 4, 1, 1, 1, 2, 5, 1, 5, 0, 0, 6, 6, 3, 3, 5, 4, 6, 3, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 3, 5, 1, 6, 2, 2, 2, 5, 0, 5, 2, 6, 5, 5, 5, 5, 5, 0, 4],\r\n       [6, 1, 5, 6, 5, 1, 5, 5, 3, 0, 4, 1, 5, 6, 4, 5, 3, 0, 5, 2],\r\n       [3, 3, 4, 0, 4, 4, 1, 5, 0, 0, 2, 3, 6, 6, 4, 4, 5, 4, 3, 5],\r\n       [5, 4, 4, 1, 0, 5, 5, 2, 6, 0, 4, 3, 0, 5, 4, 2, 4, 5, 6, 4],\r\n       [5, 4, 0, 0, 2, 0, 0, 1, 6, 0, 1, 4, 5, 2, 0, 0, 6, 5, 0, 4]]",
+		"id": 58,
+		"name": "Safe Telepathic Use Cavern",
+		"n_to": "Templar Ongoing Level Guardhouse",
+		"e_to": "Tricky Evil Cause Sty",
+		"s_to": "Magical Mad Effects Burrow",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room with the spell, the GM will tell you what here is magical.  Telepathy Level 1 Divination ongoing  Description  You",
+		"map": "[[5, 6, 3, 0, 5, 1, 1, 2, 3, 0, 6, 2, 3, 2, 4, 1, 6, 6, 1, 1],\r\n       [0, 3, 1, 6, 4, 4, 5, 6, 3, 0, 0, 3, 0, 1, 0, 1, 6, 3, 5, 4],\r\n       [1, 2, 0, 4, 6, 4, 3, 1, 1, 0, 6, 2, 5, 6, 4, 3, 3, 0, 0, 6],\r\n       [5, 4, 3, 4, 4, 4, 4, 1, 4, 0, 5, 2, 0, 0, 5, 6, 3, 2, 1, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 3, 0, 3, 0, 0, 2, 2, 4, 0, 6, 2, 5, 0, 3, 1, 1, 3, 6, 3],\r\n       [5, 0, 1, 0, 4, 6, 2, 4, 4, 0, 2, 5, 0, 6, 4, 2, 0, 0, 6, 1],\r\n       [0, 5, 4, 6, 1, 2, 4, 5, 6, 0, 5, 4, 6, 0, 6, 4, 6, 5, 2, 5],\r\n       [0, 6, 0, 1, 0, 4, 0, 5, 3, 0, 2, 5, 0, 4, 0, 3, 1, 0, 3, 0],\r\n       [6, 2, 1, 6, 6, 3, 4, 4, 2, 0, 6, 6, 3, 5, 1, 6, 5, 2, 0, 5]]",
+		"id": 59,
+		"name": "Tricky Evil Cause Sty",
+		"n_to": "More New Paladin Bastille",
+		"e_to": "Higher Higher Potion Sepulcher",
+		"s_to": "Better Ongoing Companions Alcove",
+		"w_to": "Safe Telepathic Use Cavern"
+	},
+	{
+		"desc": "as you go into the room kill or take damage as well Flexible Morals When you are held in a place of power you have no mercy  Shelter",
+		"map": "[[2, 1, 2, 1, 6, 1, 5, 2, 5, 0, 0, 6, 6, 6, 5, 5, 6, 1, 4, 2],\r\n       [1, 6, 5, 1, 6, 5, 4, 1, 2, 0, 2, 5, 3, 2, 0, 1, 2, 5, 2, 1],\r\n       [2, 1, 3, 5, 6, 2, 0, 3, 1, 0, 2, 2, 2, 5, 2, 0, 3, 1, 2, 3],\r\n       [5, 2, 6, 3, 5, 5, 0, 6, 5, 0, 2, 4, 3, 0, 3, 0, 6, 1, 4, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 2, 0, 1, 2, 5, 5, 0, 2, 0, 6, 1, 5, 4, 5, 3, 1, 5, 1, 3],\r\n       [6, 1, 0, 4, 6, 5, 5, 6, 5, 0, 5, 0, 6, 3, 1, 2, 2, 6, 4, 6],\r\n       [0, 5, 5, 1, 4, 6, 5, 5, 2, 0, 5, 3, 6, 4, 1, 3, 3, 5, 1, 3],\r\n       [2, 3, 3, 3, 0, 1, 0, 5, 1, 0, 4, 0, 1, 2, 1, 2, 5, 6, 3, 4],\r\n       [2, 5, 3, 6, 6, 1, 5, 0, 2, 0, 3, 1, 0, 0, 5, 4, 0, 2, 2, 6]]",
+		"id": 60,
+		"name": "Higher Higher Potion Sepulcher",
+		"n_to": "Open Higher Attempt Cloister",
+		"e_to": null,
+		"s_to": "Deep Ongoing Soul Grave",
+		"w_to": "Tricky Evil Cause Sty"
+	},
+	{
+		"desc": "be poisoned.  Sleep Level 3 Enchantment  Description  1d4 enemies you can see of the GMs choice fall",
+		"map": "[[2, 2, 1, 4, 4, 6, 1, 0, 3, 0, 2, 1, 6, 4, 6, 3, 3, 0, 1, 2],\r\n       [1, 3, 6, 0, 2, 6, 4, 2, 1, 0, 2, 3, 5, 1, 3, 2, 2, 3, 2, 0],\r\n       [6, 5, 3, 0, 4, 3, 6, 2, 2, 0, 3, 3, 4, 2, 0, 5, 5, 1, 6, 4],\r\n       [5, 3, 4, 3, 2, 6, 0, 2, 3, 0, 2, 1, 1, 6, 3, 2, 5, 5, 1, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 2, 0, 1, 5, 5, 1, 6, 3, 0, 3, 4, 5, 6, 1, 2, 0, 2, 1, 0],\r\n       [6, 3, 4, 2, 5, 5, 3, 3, 2, 0, 6, 5, 4, 5, 1, 0, 1, 0, 4, 5],\r\n       [0, 3, 0, 2, 2, 4, 2, 1, 1, 0, 1, 0, 2, 6, 1, 3, 4, 3, 5, 0],\r\n       [6, 4, 1, 5, 0, 5, 6, 4, 6, 0, 3, 2, 3, 2, 1, 0, 6, 3, 6, 3],\r\n       [4, 3, 3, 0, 0, 0, 5, 2, 6, 0, 0, 5, 2, 5, 4, 1, 2, 2, 4, 0]]",
+		"id": 61,
+		"name": "Magical Mad Effects Burrow",
+		"n_to": "Safe Telepathic Use Cavern",
+		"e_to": "Better Ongoing Companions Alcove",
+		"s_to": "More Next Life Receptacle",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room kill or take damage it takes an additional, separate 1d6 damage which  ignores armor. This spell persists so long as you can see the",
+		"map": "[[2, 6, 3, 3, 1, 3, 0, 3, 3, 0, 0, 6, 0, 1, 0, 4, 4, 5, 5, 5],\r\n       [1, 4, 1, 3, 1, 1, 0, 2, 0, 0, 5, 0, 6, 6, 1, 2, 2, 2, 3, 5],\r\n       [3, 0, 4, 4, 3, 2, 6, 3, 5, 0, 3, 6, 5, 6, 0, 3, 6, 5, 0, 2],\r\n       [1, 5, 4, 6, 5, 4, 0, 6, 2, 0, 1, 5, 3, 1, 5, 3, 5, 6, 5, 6],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [5, 5, 1, 4, 5, 6, 1, 4, 0, 0, 0, 6, 1, 0, 1, 2, 3, 1, 5, 1],\r\n       [3, 2, 0, 6, 1, 3, 3, 4, 1, 0, 4, 0, 0, 0, 0, 0, 0, 0, 3, 3],\r\n       [5, 2, 4, 5, 3, 4, 6, 5, 2, 0, 2, 2, 3, 4, 2, 5, 5, 2, 3, 3],\r\n       [6, 6, 1, 4, 0, 4, 0, 4, 2, 0, 4, 6, 0, 0, 5, 1, 4, 5, 2, 0],\r\n       [2, 3, 5, 5, 0, 1, 3, 4, 2, 0, 1, 0, 0, 2, 3, 0, 0, 1, 0, 6]]",
+		"id": 62,
+		"name": "Better Ongoing Companions Alcove",
+		"n_to": "Tricky Evil Cause Sty",
+		"e_to": "Deep Ongoing Soul Grave",
+		"s_to": "Logical True Thoughts Keep",
+		"w_to": "Magical Mad Effects Burrow"
+	},
+	{
+		"desc": "maim and the rest is flashback.  1st Level Contact Spirits Level 1 Summoning  Description  Name the spirit",
+		"map": "[[4, 3, 2, 4, 6, 2, 3, 6, 1, 0, 3, 1, 5, 2, 1, 5, 3, 3, 6, 4],\r\n       [2, 2, 5, 1, 6, 3, 1, 0, 3, 0, 1, 3, 0, 2, 3, 5, 0, 2, 1, 5],\r\n       [3, 2, 6, 1, 3, 1, 1, 6, 1, 0, 4, 6, 1, 4, 5, 3, 4, 5, 5, 2],\r\n       [1, 5, 0, 5, 5, 1, 3, 6, 5, 0, 0, 1, 1, 5, 0, 1, 5, 5, 6, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 3, 5, 0, 6, 2, 2, 1, 3, 0, 3, 6, 2, 6, 0, 0, 0, 4, 5, 4],\r\n       [3, 4, 6, 6, 2, 2, 5, 5, 0, 0, 4, 5, 0, 2, 1, 4, 4, 5, 4, 5],\r\n       [5, 3, 1, 5, 0, 2, 2, 5, 1, 0, 0, 5, 0, 6, 1, 3, 5, 3, 0, 6],\r\n       [3, 5, 3, 5, 2, 0, 4, 0, 5, 0, 1, 0, 5, 5, 5, 0, 2, 2, 2, 2],\r\n       [0, 6, 1, 5, 6, 4, 6, 4, 4, 0, 6, 6, 5, 2, 2, 2, 1, 6, 5, 3]]",
+		"id": 63,
+		"name": "Deep Ongoing Soul Grave",
+		"n_to": "Higher Higher Potion Sepulcher",
+		"e_to": null,
+		"s_to": "Nearby New Spell Confinement",
+		"w_to": "Better Ongoing Companions Alcove"
+	},
+	{
+		"desc": "maim any creature within sight of you.  Sleep Level 3 Enchantment  Description  1d4 enemies you can see",
+		"map": "[[5, 4, 1, 0, 1, 5, 5, 2, 6, 0, 5, 2, 2, 4, 2, 3, 3, 5, 3, 1],\r\n       [2, 2, 4, 3, 0, 4, 6, 3, 1, 0, 6, 3, 5, 1, 3, 0, 4, 5, 3, 4],\r\n       [2, 0, 2, 0, 6, 6, 0, 4, 0, 0, 6, 6, 0, 4, 1, 3, 3, 0, 5, 3],\r\n       [4, 2, 5, 4, 2, 3, 2, 5, 5, 0, 4, 5, 5, 5, 2, 4, 5, 1, 0, 6],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 3, 4, 3, 4, 5, 1, 4, 4, 0, 0, 6, 6, 3, 2, 5, 0, 3, 3, 2],\r\n       [6, 5, 4, 6, 6, 1, 6, 1, 3, 0, 4, 0, 3, 3, 3, 0, 2, 5, 2, 3],\r\n       [2, 0, 0, 6, 0, 2, 3, 2, 3, 0, 6, 1, 6, 5, 6, 4, 4, 3, 1, 1],\r\n       [2, 6, 6, 3, 2, 6, 2, 4, 1, 0, 5, 2, 4, 3, 2, 6, 0, 4, 2, 3],\r\n       [4, 4, 4, 0, 4, 3, 1, 4, 1, 0, 0, 2, 0, 5, 3, 4, 0, 4, 4, 5]]",
+		"id": 64,
+		"name": "More Next Life Receptacle",
+		"n_to": "Magical Mad Effects Burrow",
+		"e_to": "Logical True Thoughts Keep",
+		"s_to": null,
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room with the spell and use the energy of a zenith to make sure nothing dangerous happens in the room. ",
+		"map": "[[1, 0, 6, 2, 3, 3, 2, 1, 5, 0, 2, 4, 3, 0, 5, 4, 0, 4, 2, 1],\r\n       [4, 0, 6, 0, 2, 5, 1, 3, 0, 0, 4, 5, 1, 5, 1, 6, 6, 4, 6, 0],\r\n       [1, 0, 1, 6, 6, 2, 5, 6, 6, 0, 0, 4, 5, 0, 1, 3, 0, 4, 2, 1],\r\n       [0, 6, 6, 4, 5, 1, 6, 2, 1, 0, 2, 1, 6, 5, 5, 6, 3, 0, 4, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 5, 5, 2, 5, 1, 2, 6, 4, 0, 3, 3, 1, 3, 2, 6, 1, 1, 2, 3],\r\n       [2, 6, 4, 5, 4, 6, 5, 0, 4, 0, 3, 1, 4, 1, 5, 0, 2, 6, 3, 0],\r\n       [6, 4, 5, 0, 1, 0, 1, 3, 2, 0, 2, 6, 4, 2, 0, 3, 5, 1, 4, 1],\r\n       [5, 4, 4, 2, 1, 6, 1, 4, 5, 0, 6, 6, 4, 0, 6, 3, 0, 0, 2, 0],\r\n       [5, 0, 3, 1, 6, 1, 6, 6, 0, 0, 5, 4, 5, 3, 2, 6, 6, 6, 4, 1]]",
+		"id": 65,
+		"name": "Logical True Thoughts Keep",
+		"n_to": "Better Ongoing Companions Alcove",
+		"e_to": "Nearby New Spell Confinement",
+		"s_to": null,
+		"w_to": "More Next Life Receptacle"
+	},
+	{
+		"desc": "as you go into the room kill or maim any enemies you can see of the GMs choice fall asleep. Only creatures capable of sleeping are affected. They awake as normal: loud",
+		"map": "[[3, 2, 1, 3, 4, 1, 2, 5, 3, 0, 4, 5, 2, 3, 0, 6, 6, 6, 0, 4],\r\n       [5, 0, 0, 6, 1, 2, 1, 0, 6, 0, 2, 6, 2, 4, 1, 4, 6, 4, 4, 5],\r\n       [2, 1, 6, 0, 5, 0, 0, 0, 3, 0, 3, 4, 1, 5, 0, 3, 5, 4, 6, 2],\r\n       [2, 5, 3, 2, 4, 2, 2, 0, 2, 0, 4, 6, 2, 5, 2, 5, 0, 4, 0, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 3, 2, 5, 2, 4, 3, 4, 2, 0, 5, 1, 1, 1, 4, 6, 0, 1, 0, 3],\r\n       [1, 1, 0, 5, 0, 1, 6, 4, 2, 0, 2, 6, 3, 2, 3, 3, 0, 5, 6, 3],\r\n       [0, 0, 6, 2, 4, 2, 0, 6, 0, 0, 3, 0, 3, 4, 2, 1, 4, 0, 0, 5],\r\n       [1, 4, 0, 4, 2, 0, 6, 0, 1, 0, 5, 6, 1, 5, 0, 6, 1, 2, 6, 0],\r\n       [1, 1, 5, 3, 3, 3, 1, 5, 0, 0, 0, 1, 4, 6, 0, 2, 0, 3, 6, 5]]",
+		"id": 66,
+		"name": "Nearby New Spell Confinement",
+		"n_to": "Deep Ongoing Soul Grave",
+		"e_to": null,
+		"s_to": "Lesser Diabolist Sidelong Mausoleum",
+		"w_to": "Logical True Thoughts Keep"
+	},
+	{
+		"desc": "the corresponding spellbook. The spellbook may have some relevance to your nature, but the GM will give you one to four of",
+		"map": "[[1, 2, 5, 2, 4, 1, 1, 5, 1, 0, 3, 2, 1, 5, 4, 3, 4, 0, 1, 5],\r\n       [6, 5, 5, 6, 4, 0, 1, 5, 1, 0, 6, 5, 3, 1, 5, 6, 6, 5, 2, 0],\r\n       [2, 4, 5, 2, 2, 0, 0, 5, 3, 0, 4, 4, 3, 1, 2, 5, 1, 4, 6, 2],\r\n       [6, 2, 6, 4, 3, 1, 1, 5, 2, 0, 5, 0, 0, 3, 4, 2, 1, 0, 4, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 0, 3, 4, 1, 6, 5, 4, 1, 0, 0, 1, 4, 0, 1, 2, 2, 5, 4, 2],\r\n       [3, 0, 5, 6, 5, 2, 4, 4, 1, 0, 4, 2, 4, 3, 6, 6, 0, 1, 2, 5],\r\n       [0, 2, 0, 3, 2, 6, 2, 6, 0, 0, 6, 2, 4, 5, 1, 1, 3, 0, 3, 4],\r\n       [2, 4, 3, 2, 6, 4, 5, 0, 3, 0, 4, 5, 1, 1, 5, 5, 2, 1, 3, 4],\r\n       [1, 4, 2, 1, 1, 1, 3, 0, 1, 0, 4, 0, 5, 1, 4, 6, 3, 1, 2, 4]]",
+		"id": 67,
+		"name": "Next Free Friends Jail",
+		"n_to": null,
+		"e_to": "Long Aware Counter Recess",
+		"s_to": "Awake Static Level Crypt",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room kill or behead anyone they see fit to do so alter their state of affairs forever.  Spell Augmentation When you deal damage to a creature",
+		"map": "[[0, 4, 2, 0, 2, 0, 4, 5, 5, 0, 5, 1, 4, 4, 2, 5, 5, 0, 2, 2],\n       [0, 1, 0, 5, 5, 2, 4, 6, 1, 0, 0, 1, 0, 4, 1, 2, 2, 4, 5, 6],\n       [4, 1, 4, 5, 1, 0, 6, 0, 1, 0, 4, 6, 5, 0, 0, 4, 6, 6, 0, 3],\n       [5, 4, 3, 1, 4, 4, 0, 3, 5, 0, 0, 1, 6, 3, 3, 0, 6, 5, 1, 4],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [0, 1, 6, 4, 0, 3, 3, 3, 1, 0, 1, 2, 4, 1, 5, 6, 1, 3, 1, 5],\n       [0, 0, 1, 3, 6, 1, 3, 4, 2, 0, 1, 3, 5, 0, 1, 6, 3, 0, 6, 4],\n       [5, 3, 2, 2, 6, 4, 1, 5, 0, 0, 1, 6, 4, 6, 2, 1, 2, 1, 4, 5],\n       [4, 4, 6, 3, 3, 2, 0, 2, 5, 0, 4, 2, 1, 3, 3, 2, 5, 3, 6, 4],\n       [5, 2, 3, 1, 2, 4, 0, 6, 6, 0, 3, 6, 1, 1, 2, 0, 3, 5, 6, 5]]",
+		"id": 68,
+		"name": "Long Aware Counter Recess",
+		"n_to": null,
+		"e_to": "Lesser Diabolist Sidelong Mausoleum",
+		"s_to": null,
+		"w_to": "Next Free Friends Jail"
+	},
+	{
+		"desc": "as you go into the room kill or maim and the others.  Sleep Level 3 Enchantment  Description  1d4 enemies you can see of the GM",
+		"map": "[[6, 3, 1, 0, 2, 0, 0, 6, 6, 0, 6, 3, 6, 3, 5, 1, 1, 2, 6, 1],\r\n       [5, 1, 0, 0, 3, 6, 4, 6, 0, 0, 1, 0, 5, 1, 5, 2, 2, 6, 4, 4],\r\n       [4, 3, 2, 2, 1, 4, 3, 2, 0, 0, 5, 5, 3, 0, 3, 4, 4, 2, 6, 6],\r\n       [5, 5, 3, 6, 3, 0, 0, 6, 2, 0, 0, 5, 6, 3, 1, 1, 3, 1, 5, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [4, 3, 6, 0, 4, 3, 6, 1, 6, 0, 6, 6, 2, 0, 4, 0, 4, 6, 0, 3],\r\n       [0, 4, 4, 2, 6, 2, 6, 3, 2, 0, 1, 2, 3, 6, 1, 2, 2, 3, 3, 2],\r\n       [0, 3, 1, 6, 2, 3, 0, 5, 0, 0, 6, 1, 2, 1, 0, 2, 6, 3, 0, 6],\r\n       [0, 5, 4, 0, 5, 0, 6, 6, 0, 0, 0, 2, 1, 2, 4, 0, 2, 1, 6, 0],\r\n       [3, 0, 0, 5, 2, 6, 4, 1, 6, 0, 0, 3, 1, 0, 4, 2, 3, 4, 0, 5]]",
+		"id": 69,
+		"name": "Lesser Diabolist Sidelong Mausoleum",
+		"n_to": "Nearby New Spell Confinement",
+		"e_to": null,
+		"s_to": "Magical Reckless Righteousness Tower",
+		"w_to": "Long Aware Counter Recess"
+	},
+	{
+		"desc": "as you go into the room kill or maim any creature in sight. The spell persists until you leave the targets presence or you dismiss the spell. While the spell is ongoing you take",
+		"map": "[[5, 6, 0, 3, 2, 2, 2, 6, 4, 0, 4, 1, 4, 3, 6, 6, 1, 4, 3, 1],\r\n       [3, 4, 6, 5, 4, 0, 2, 4, 6, 0, 5, 3, 3, 2, 2, 4, 0, 4, 4, 4],\r\n       [5, 0, 5, 6, 6, 5, 1, 3, 2, 0, 4, 4, 4, 2, 6, 1, 5, 6, 1, 4],\r\n       [2, 4, 1, 5, 2, 3, 3, 2, 0, 0, 6, 3, 6, 5, 0, 0, 5, 3, 0, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 1, 0, 4, 6, 0, 5, 4, 1, 0, 2, 3, 3, 3, 0, 5, 6, 2, 3, 1],\r\n       [3, 1, 2, 1, 6, 3, 1, 3, 3, 0, 2, 6, 0, 1, 1, 5, 5, 5, 2, 2],\r\n       [5, 1, 2, 2, 3, 1, 2, 4, 4, 0, 3, 2, 3, 3, 1, 3, 2, 1, 6, 6],\r\n       [5, 3, 2, 3, 2, 0, 4, 0, 4, 0, 6, 1, 4, 1, 0, 2, 1, 1, 6, 0],\r\n       [1, 2, 6, 1, 6, 4, 4, 6, 4, 0, 6, 1, 2, 4, 5, 3, 4, 0, 1, 3]]",
+		"id": 70,
+		"name": "Awake Static Level Crypt",
+		"n_to": "Next Free Friends Jail",
+		"e_to": "Le_to 5th Create Jellab",
+		"s_to": "Ongoing Ongoing Replaces Reformatory",
+		"w_to": null
+	},
+	{
+		"desc": "maim and the rest is forgetling options.  Sleep Level 3 Enchantment  Description  1d4 enemies you can",
+		"map": "[[5, 0, 4, 4, 5, 5, 2, 4, 3, 0, 3, 0, 3, 2, 3, 6, 0, 3, 3, 6],\r\n       [4, 4, 5, 6, 2, 2, 4, 5, 5, 0, 3, 2, 2, 4, 1, 3, 6, 2, 4, 1],\r\n       [0, 1, 0, 1, 0, 1, 2, 2, 3, 0, 0, 3, 5, 2, 2, 4, 3, 4, 0, 2],\r\n       [3, 5, 6, 2, 3, 6, 1, 0, 6, 0, 5, 1, 5, 5, 2, 4, 3, 6, 2, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 4, 1, 1, 2, 6, 4, 5, 4, 0, 0, 2, 4, 3, 0, 4, 0, 6, 2, 2],\r\n       [2, 4, 3, 2, 5, 4, 3, 2, 1, 0, 1, 0, 3, 1, 6, 1, 6, 3, 1, 3],\r\n       [5, 0, 0, 1, 2, 0, 2, 2, 4, 0, 4, 3, 5, 3, 5, 5, 1, 5, 2, 0],\r\n       [5, 2, 5, 5, 3, 1, 5, 4, 1, 0, 2, 2, 4, 2, 6, 0, 4, 3, 4, 1],\r\n       [2, 5, 2, 2, 2, 5, 1, 2, 1, 0, 3, 5, 1, 4, 2, 6, 0, 3, 2, 4]]",
+		"id": 71,
+		"name": "Le_to 5th Create Jellab",
+		"n_to": null,
+		"e_to": "Magical Reckless Righteousness Tower",
+		"s_to": "More Magical Armor Penitentiary",
+		"w_to": "Awake Static Level Crypt"
+	},
+	{
+		"desc": "as you go into the room with the spell and The new spellbook is always new and has its own name.  Ethereal Tether When",
+		"map": "[[5, 5, 3, 2, 2, 5, 5, 2, 3, 0, 3, 0, 1, 3, 3, 4, 2, 0, 4, 3],\r\n       [4, 5, 1, 1, 4, 1, 5, 4, 4, 0, 2, 4, 5, 6, 0, 6, 3, 6, 2, 0],\r\n       [5, 4, 5, 3, 2, 0, 0, 0, 2, 0, 2, 5, 5, 4, 0, 2, 2, 0, 1, 4],\r\n       [0, 6, 2, 3, 2, 0, 0, 3, 1, 0, 3, 6, 3, 1, 2, 6, 2, 3, 2, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 2, 1, 0, 6, 2, 3, 6, 6, 0, 2, 4, 0, 1, 6, 6, 2, 3, 4, 1],\r\n       [2, 5, 6, 3, 0, 5, 2, 1, 6, 0, 1, 6, 5, 1, 5, 5, 6, 0, 6, 4],\r\n       [3, 5, 1, 4, 4, 5, 6, 4, 4, 0, 0, 4, 3, 2, 2, 1, 6, 3, 3, 3],\r\n       [2, 1, 5, 4, 0, 2, 1, 3, 2, 0, 2, 6, 4, 0, 5, 2, 4, 3, 0, 1],\r\n       [4, 4, 5, 5, 3, 2, 2, 0, 0, 0, 2, 1, 2, 3, 2, 4, 0, 5, 2, 3]]\r\n",
+		"id": 72,
+		"name": "Magical Reckless Righteousness Tower",
+		"n_to": "Lesser Diabolist Sidelong Mausoleum",
+		"e_to": null,
+		"s_to": "Professional Maximum Effects Catacomb",
+		"w_to": "Le_to 5th Create Jellab"
+	},
+	{
+		"desc": "as you go into the room with them. They get your benefit of the doubt, but the spell can affect multiple allies at a time.  Fount of Knowledge When",
+		"map": "[[3, 3, 2, 2, 3, 0, 2, 3, 0, 0, 4, 3, 4, 0, 3, 5, 0, 0, 4, 1],\r\n       [4, 4, 3, 4, 3, 6, 5, 2, 6, 0, 5, 4, 4, 0, 0, 1, 4, 1, 4, 2],\r\n       [1, 5, 5, 1, 0, 3, 3, 6, 4, 0, 0, 5, 0, 2, 1, 6, 1, 6, 4, 5],\r\n       [6, 5, 5, 2, 2, 6, 5, 5, 2, 0, 1, 4, 3, 1, 3, 4, 3, 4, 2, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 5, 1, 6, 0, 6, 3, 1, 3, 0, 1, 5, 1, 0, 2, 5, 6, 1, 1, 3],\r\n       [3, 2, 5, 1, 5, 0, 4, 0, 5, 0, 5, 0, 4, 0, 4, 3, 6, 3, 1, 6],\r\n       [4, 5, 1, 4, 6, 5, 6, 5, 5, 0, 3, 3, 5, 0, 2, 3, 1, 4, 3, 2],\r\n       [1, 2, 2, 6, 1, 1, 1, 5, 1, 0, 1, 4, 2, 2, 2, 6, 0, 3, 3, 6],\r\n       [1, 2, 3, 5, 6, 0, 6, 3, 0, 0, 0, 1, 4, 1, 2, 2, 6, 6, 0, 1]]",
+		"id": 73,
+		"name": "Ongoing Ongoing Replaces Reformatory",
+		"n_to": "Awake Static Level Crypt",
+		"e_to": "More Magical Armor Penitentiary",
+		"s_to": "Mad Long Spell Vault",
+		"w_to": null
+	},
+	{
+		"desc": "ask the GM any three questions.  Self-Powered When you have time, arcane materials, and a safe space",
+		"map": "[[5, 0, 5, 2, 0, 1, 4, 4, 3, 0, 2, 1, 4, 2, 3, 5, 3, 5, 5, 1],\r\n       [5, 1, 1, 4, 0, 3, 6, 6, 4, 0, 2, 1, 6, 1, 3, 3, 1, 1, 4, 6],\r\n       [2, 0, 2, 6, 5, 0, 2, 3, 3, 0, 4, 6, 1, 1, 0, 0, 4, 0, 0, 3],\r\n       [2, 5, 1, 2, 3, 4, 4, 1, 4, 0, 1, 1, 0, 3, 4, 6, 0, 1, 1, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 2, 5, 4, 6, 6, 3, 1, 3, 0, 6, 4, 1, 5, 5, 4, 5, 4, 3, 2],\r\n       [6, 0, 4, 5, 2, 4, 0, 1, 3, 0, 3, 3, 2, 6, 3, 5, 5, 5, 1, 4],\r\n       [2, 2, 1, 1, 0, 2, 4, 5, 1, 0, 3, 2, 6, 3, 5, 2, 1, 1, 4, 4],\r\n       [6, 3, 2, 6, 2, 0, 3, 3, 0, 0, 4, 0, 0, 0, 4, 0, 1, 5, 6, 2],\r\n       [6, 3, 1, 6, 3, 2, 5, 5, 1, 0, 3, 0, 3, 1, 1, 6, 3, 3, 3, 1]]",
+		"id": 74,
+		"name": "More Magical Armor Penitentiary",
+		"n_to": "Le_to 5th Create Jellab",
+		"e_to": "Professional Maximum Effects Catacomb",
+		"s_to": "Present Ongoing Level Cell",
+		"w_to": "Ongoing Ongoing Replaces Reformatory"
+	},
+	{
+		"desc": "as you go into the room to hear them speak to you.  Sleep Level 3 Enchantment  Description  1d4 enemies you can see of the GM",
+		"map": "[[2, 0, 5, 1, 0, 1, 4, 5, 4, 0, 5, 2, 1, 6, 1, 5, 4, 3, 6, 6],\r\n       [0, 1, 6, 4, 2, 5, 3, 3, 6, 0, 2, 3, 4, 4, 3, 4, 4, 2, 6, 0],\r\n       [5, 1, 6, 5, 2, 2, 0, 6, 0, 0, 5, 2, 5, 1, 4, 1, 1, 4, 5, 0],\r\n       [1, 6, 0, 0, 6, 6, 2, 5, 0, 0, 2, 6, 2, 0, 5, 1, 6, 0, 6, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 4, 4, 5, 2, 0, 3, 5, 1, 0, 4, 1, 6, 0, 4, 2, 3, 1, 3, 2],\r\n       [0, 4, 5, 0, 0, 0, 3, 5, 2, 0, 6, 5, 0, 2, 4, 3, 4, 1, 2, 3],\r\n       [4, 3, 4, 1, 2, 4, 3, 0, 4, 0, 1, 5, 3, 3, 1, 4, 6, 4, 3, 0],\r\n       [1, 6, 2, 3, 2, 0, 6, 2, 6, 0, 2, 3, 3, 0, 2, 6, 0, 4, 5, 6],\r\n       [3, 4, 0, 1, 5, 5, 0, 3, 4, 0, 6, 3, 4, 6, 5, 5, 2, 1, 6, 1]]",
+		"id": 75,
+		"name": "Professional Maximum Effects Catacomb",
+		"n_to": "Magical Reckless Righteousness Tower",
+		"e_to": null,
+		"s_to": "Humble Ongoing Fabric Court",
+		"w_to": "More Magical Armor Penitentiary"
+	},
+	{
+		"desc": "see for yourself what it does, the GM will tell you one kind of creature that will have an interest in your workings. ",
+		"map": "[[3, 0, 3, 4, 5, 4, 1, 2, 4, 0, 0, 0, 5, 5, 2, 0, 2, 2, 3, 6],\r\n       [3, 6, 2, 3, 2, 4, 0, 5, 0, 0, 6, 5, 5, 3, 0, 2, 1, 0, 5, 1],\r\n       [1, 6, 6, 0, 6, 4, 4, 2, 2, 0, 5, 3, 0, 4, 6, 5, 1, 4, 3, 3],\r\n       [4, 1, 1, 6, 5, 3, 3, 0, 6, 0, 5, 1, 1, 3, 2, 5, 4, 2, 3, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [5, 1, 2, 1, 2, 5, 5, 6, 5, 0, 0, 6, 1, 3, 3, 0, 4, 6, 5, 5],\r\n       [4, 2, 4, 1, 2, 4, 2, 2, 6, 0, 0, 2, 5, 2, 1, 5, 2, 1, 0, 1],\r\n       [6, 4, 6, 6, 3, 0, 5, 6, 0, 0, 2, 1, 2, 3, 6, 3, 5, 2, 0, 5],\r\n       [2, 3, 6, 3, 6, 3, 1, 1, 4, 0, 3, 1, 4, 6, 5, 5, 4, 2, 2, 2],\r\n       [1, 4, 0, 5, 1, 3, 4, 1, 1, 0, 2, 6, 1, 4, 3, 0, 6, 5, 1, 1]]",
+		"id": 76,
+		"name": "Mad Long Spell Vault",
+		"n_to": "Ongoing Ongoing Replaces Reformatory",
+		"e_to": "Present Ongoing Level Cell",
+		"s_to": "Capable Dead Spell Bullpen",
+		"w_to": null
+	},
+	{
+		"desc": "maim any creature in sight. The spell lasts as long as it is in your presence.  Unseen Servant Level Cantrip",
+		"map": "[[4, 2, 2, 6, 2, 1, 5, 3, 3, 0, 6, 1, 2, 1, 2, 5, 5, 1, 3, 1],\r\n       [6, 0, 3, 6, 1, 1, 5, 2, 2, 0, 0, 2, 3, 3, 5, 6, 4, 0, 4, 4],\r\n       [6, 5, 2, 5, 5, 5, 2, 0, 5, 0, 0, 6, 6, 1, 5, 5, 1, 1, 5, 4],\r\n       [2, 5, 0, 3, 4, 1, 1, 1, 6, 0, 1, 4, 4, 1, 2, 3, 1, 5, 4, 5],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 0, 1, 1, 3, 2, 0, 5, 2, 0, 5, 1, 4, 4, 1, 0, 6, 1, 3, 4],\r\n       [3, 5, 2, 0, 1, 4, 3, 0, 2, 0, 2, 4, 6, 0, 5, 4, 2, 5, 4, 1],\r\n       [1, 6, 2, 5, 3, 0, 1, 5, 1, 0, 5, 3, 6, 1, 1, 3, 6, 1, 6, 4],\r\n       [2, 1, 1, 1, 4, 4, 1, 5, 4, 0, 4, 0, 2, 0, 6, 0, 1, 4, 1, 6],\r\n       [3, 2, 3, 2, 6, 3, 1, 4, 0, 0, 6, 6, 3, 2, 2, 1, 1, 5, 2, 1]]",
+		"id": 77,
+		"name": "Present Ongoing Level Cell",
+		"n_to": "More Magical Armor Penitentiary",
+		"e_to": "Humble Ongoing Fabric Court",
+		"s_to": "Dangerous Secret ' Guardhouse",
+		"w_to": "Mad Long Spell Vault"
+	},
+	{
+		"desc": "as you go into the room kill or maim anyone you come within sight of. The GM will tell you one kind of creature that will have an interest in your workings.  ",
+		"map": "[[0, 2, 6, 6, 0, 1, 0, 3, 5, 0, 6, 6, 4, 4, 1, 6, 4, 4, 0, 5],\r\n       [1, 6, 3, 0, 2, 1, 0, 5, 2, 0, 2, 5, 5, 0, 2, 6, 5, 1, 2, 2],\r\n       [0, 1, 4, 5, 2, 0, 2, 6, 5, 0, 6, 2, 5, 3, 3, 2, 5, 2, 6, 3],\r\n       [4, 3, 3, 1, 0, 3, 4, 2, 1, 0, 5, 4, 5, 3, 3, 6, 1, 3, 1, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 4, 5, 1, 1, 5, 5, 4, 5, 0, 2, 1, 3, 3, 3, 5, 6, 4, 2, 1],\r\n       [6, 1, 1, 3, 2, 5, 0, 5, 4, 0, 5, 5, 2, 0, 0, 1, 6, 5, 5, 2],\r\n       [2, 2, 5, 5, 1, 1, 1, 0, 5, 0, 3, 5, 1, 4, 6, 3, 0, 4, 1, 5],\r\n       [1, 0, 0, 0, 6, 5, 1, 1, 2, 0, 4, 6, 2, 3, 1, 0, 0, 1, 3, 4],\r\n       [0, 4, 2, 3, 6, 6, 2, 4, 4, 0, 2, 4, 3, 0, 0, 1, 2, 5, 6, 2]]",
+		"id": 78,
+		"name": "Humble Ongoing Fabric Court",
+		"n_to": "Professional Maximum Effects Catacomb",
+		"e_to": null,
+		"s_to": "Most Large Civilizations Bastille",
+		"w_to": "Present Ongoing Level Cell"
+	},
+	{
+		"desc": "as you go into the room kill or maim and the rest is flashback.  1st Level Contact Spirits Level 1 Summoning  Description  Name the spirit",
+		"map": "[[0, 4, 0, 5, 6, 1, 5, 3, 1, 0, 6, 0, 6, 3, 6, 5, 1, 4, 3, 0],\r\n       [4, 2, 2, 4, 0, 5, 6, 1, 0, 0, 5, 2, 4, 2, 6, 6, 4, 3, 6, 6],\r\n       [5, 5, 2, 6, 5, 5, 6, 5, 1, 0, 4, 5, 6, 5, 6, 4, 1, 3, 0, 1],\r\n       [0, 3, 2, 0, 4, 6, 0, 6, 0, 0, 2, 5, 2, 4, 3, 0, 5, 3, 2, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 4, 1, 3, 6, 4, 5, 6, 1, 0, 1, 4, 2, 4, 6, 6, 5, 3, 3, 1],\r\n       [6, 6, 2, 3, 4, 2, 2, 5, 3, 0, 4, 0, 1, 6, 3, 5, 3, 6, 3, 4],\r\n       [3, 1, 2, 5, 3, 2, 0, 6, 2, 0, 2, 6, 5, 3, 0, 2, 3, 2, 4, 5],\r\n       [3, 4, 5, 6, 1, 1, 3, 6, 5, 0, 6, 5, 2, 5, 2, 2, 0, 2, 0, 1],\r\n       [1, 4, 6, 6, 0, 5, 3, 4, 5, 0, 2, 1, 0, 1, 6, 1, 2, 4, 2, 0]]",
+		"id": 79,
+		"name": "Capable Dead Spell Bullpen",
+		"n_to": "Mad Long Spell Vault",
+		"e_to": "Dangerous Secret ' Guardhouse",
+		"s_to": "Useful Dangerous Craft Cloister",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room kill or take damage take -1d4 damage ongoing until you leave the target or you end the spell.  Antipathy Level 9 Enchant",
+		"map": "[[0, 2, 3, 5, 4, 5, 1, 6, 4, 0, 5, 2, 0, 3, 0, 3, 6, 0, 1, 1],\r\n       [6, 0, 5, 3, 5, 2, 3, 3, 5, 0, 6, 4, 6, 6, 5, 6, 1, 2, 2, 4],\r\n       [3, 2, 2, 3, 3, 6, 2, 3, 2, 0, 2, 4, 2, 0, 1, 3, 0, 5, 6, 0],\r\n       [2, 1, 2, 6, 3, 5, 6, 2, 2, 0, 2, 5, 5, 3, 3, 3, 0, 6, 4, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 1, 1, 5, 6, 5, 2, 0, 2, 0, 0, 3, 0, 2, 3, 6, 0, 4, 3, 5],\r\n       [2, 2, 0, 4, 4, 1, 1, 3, 6, 0, 1, 2, 5, 5, 4, 0, 1, 4, 1, 1],\r\n       [5, 5, 3, 6, 1, 1, 2, 2, 1, 0, 4, 0, 3, 2, 0, 2, 6, 4, 5, 2],\r\n       [0, 4, 4, 2, 5, 0, 1, 1, 4, 0, 2, 3, 6, 4, 6, 4, 1, 3, 1, 4],\r\n       [4, 6, 6, 0, 5, 4, 2, 5, 1, 0, 5, 1, 4, 5, 6, 1, 1, 6, 2, 4]]",
+		"id": 80,
+		"name": "Dangerous Secret ' Guardhouse",
+		"n_to": "Present Ongoing Level Cell",
+		"e_to": "Most Large Civilizations Bastille",
+		"s_to": "Strange False Image Cavern",
+		"w_to": "Capable Dead Spell Bullpen"
+	},
+	{
+		"desc": "The spells inventory is 1 weight.  Quick Study When you see the effects of an arcane spell",
+		"map": "[[3, 4, 5, 1, 0, 5, 4, 6, 0, 0, 4, 2, 0, 5, 5, 0, 3, 6, 5, 2],\r\n       [0, 2, 0, 4, 5, 2, 1, 1, 4, 0, 3, 5, 3, 6, 4, 3, 3, 6, 3, 6],\r\n       [1, 5, 1, 0, 5, 2, 4, 3, 5, 0, 2, 1, 6, 1, 2, 5, 3, 0, 4, 5],\r\n       [6, 5, 4, 6, 1, 5, 2, 6, 3, 0, 2, 2, 0, 2, 3, 6, 6, 6, 4, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 2, 1, 4, 5, 1, 3, 0, 2, 0, 1, 3, 6, 2, 4, 6, 2, 0, 0, 3],\r\n       [3, 6, 2, 4, 0, 3, 2, 4, 0, 0, 3, 1, 3, 1, 5, 1, 5, 0, 4, 0],\r\n       [6, 5, 2, 6, 4, 2, 1, 6, 4, 0, 4, 5, 2, 2, 1, 3, 1, 3, 0, 1],\r\n       [0, 0, 4, 6, 1, 6, 6, 4, 3, 0, 5, 0, 2, 1, 4, 4, 6, 5, 4, 4],\r\n       [3, 5, 3, 4, 5, 3, 2, 5, 5, 0, 1, 2, 0, 2, 1, 3, 4, 3, 5, 3]]",
+		"id": 81,
+		"name": "Most Large Civilizations Bastille",
+		"n_to": "Humble Ongoing Fabric Court",
+		"e_to": null,
+		"s_to": "Impervious Ancient Spell Sty",
+		"w_to": "Dangerous Secret ' Guardhouse"
+	},
+	{
+		"desc": "as you go into the room with the spell and the corresponding spellbook. The spellbook may have some relevance to your own realities, but the GM will give you one to four",
+		"map": "[[4, 3, 0, 0, 2, 2, 4, 1, 4, 0, 2, 4, 5, 1, 2, 5, 5, 5, 0, 3],\r\n       [5, 4, 1, 0, 6, 2, 0, 3, 5, 0, 1, 0, 4, 0, 1, 3, 5, 4, 5, 0],\r\n       [1, 4, 4, 2, 6, 5, 4, 5, 6, 0, 6, 4, 5, 6, 4, 4, 6, 4, 6, 4],\r\n       [0, 2, 5, 1, 3, 3, 4, 2, 1, 0, 5, 2, 3, 1, 2, 0, 2, 1, 1, 5],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 1, 2, 6, 1, 2, 1, 4, 0, 0, 2, 5, 6, 4, 3, 1, 3, 0, 1, 4],\r\n       [3, 4, 5, 3, 6, 6, 5, 0, 2, 0, 3, 0, 6, 2, 5, 4, 2, 6, 6, 5],\r\n       [0, 0, 1, 2, 3, 3, 5, 0, 6, 0, 6, 5, 0, 2, 1, 1, 5, 3, 0, 6],\r\n       [1, 1, 3, 6, 6, 3, 3, 1, 4, 0, 0, 0, 5, 0, 0, 5, 6, 1, 3, 6],\r\n       [6, 6, 4, 2, 1, 6, 4, 6, 4, 0, 3, 4, 2, 2, 3, 5, 6, 6, 4, 5]]",
+		"id": 82,
+		"name": "Useful Dangerous Craft Cloister",
+		"n_to": "Capable Dead Spell Bullpen",
+		"e_to": "Strange False Image Cavern",
+		"s_to": "Long Temporary Place Sepulcher",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room kill or be staked out in the wilds.  Evil Use magic to cause terror and fear. ",
+		"map": "[[4, 1, 2, 6, 5, 5, 1, 5, 4, 0, 2, 3, 0, 3, 1, 5, 0, 2, 2, 4],\r\n       [1, 6, 4, 3, 6, 0, 0, 5, 1, 0, 3, 3, 4, 1, 1, 4, 2, 6, 6, 5],\r\n       [5, 3, 2, 3, 0, 0, 6, 2, 3, 0, 5, 3, 5, 4, 6, 6, 6, 3, 4, 6],\r\n       [5, 3, 3, 5, 2, 0, 3, 0, 5, 0, 5, 5, 0, 3, 1, 3, 3, 6, 6, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [3, 4, 1, 5, 6, 1, 4, 1, 5, 0, 4, 6, 4, 1, 2, 1, 0, 5, 1, 0],\r\n       [3, 2, 3, 6, 5, 2, 4, 6, 4, 0, 6, 4, 6, 4, 3, 3, 0, 1, 0, 1],\r\n       [5, 6, 0, 0, 1, 0, 5, 6, 2, 0, 3, 3, 1, 3, 5, 1, 5, 4, 0, 3],\r\n       [0, 3, 3, 5, 2, 6, 4, 5, 2, 0, 1, 1, 3, 5, 1, 0, 4, 2, 4, 3],\r\n       [5, 6, 4, 1, 1, 6, 6, 5, 4, 0, 6, 2, 3, 1, 5, 5, 4, 5, 4, 6]]",
+		"id": 83,
+		"name": "Strange False Image Cavern",
+		"n_to": "Dangerous Secret ' Guardhouse",
+		"e_to": "Impervious Ancient Spell Sty",
+		"s_to": "Better Ongoing Cubs Burrow",
+		"w_to": "Useful Dangerous Craft Cloister"
+	},
+	{
+		"desc": "as you go into the room with the spell and the spellbook. The best you can do is a lesser version, unreliable and limited Prepare new spells of your choice from",
+		"map": "[[2, 3, 4, 1, 2, 4, 0, 6, 6, 0, 2, 0, 4, 6, 0, 3, 5, 1, 0, 2],\n       [1, 1, 1, 4, 0, 0, 1, 2, 6, 0, 0, 6, 6, 2, 4, 0, 3, 1, 6, 3],\n       [4, 6, 0, 0, 4, 4, 6, 5, 6, 0, 1, 0, 3, 1, 3, 6, 1, 3, 1, 1],\n       [0, 1, 6, 1, 4, 1, 2, 5, 1, 0, 5, 6, 6, 4, 2, 2, 3, 1, 3, 6],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [2, 0, 0, 5, 3, 1, 2, 4, 1, 0, 5, 2, 1, 2, 5, 3, 4, 4, 1, 5],\n       [4, 6, 2, 1, 0, 2, 4, 4, 5, 0, 4, 5, 3, 5, 6, 1, 0, 5, 3, 0],\n       [2, 1, 5, 6, 3, 2, 0, 6, 4, 0, 6, 3, 1, 5, 3, 1, 6, 3, 6, 5],\n       [4, 3, 1, 6, 6, 5, 1, 1, 4, 0, 6, 4, 2, 2, 2, 0, 4, 3, 0, 0],\n       [1, 3, 6, 6, 3, 6, 4, 2, 3, 0, 5, 3, 0, 3, 3, 1, 3, 0, 5, 3]]",
+		"id": 84,
+		"name": "Impervious Ancient Spell Sty",
+		"n_to": "Most Large Civilizations Bastille",
+		"e_to": null,
+		"s_to": "Diabolist Magical Heroism Alcove",
+		"w_to": "Strange False Image Cavern"
+	},
+	{
+		"desc": "the corresponding spellbook. The spellbook may have some relevance to your daily activities, but is otherwise non-interactive. ",
+		"map": "[[1, 2, 5, 0, 4, 3, 1, 3, 5, 0, 0, 5, 0, 0, 6, 6, 5, 2, 1, 2],\r\n       [6, 3, 4, 0, 4, 4, 3, 4, 3, 0, 4, 6, 2, 4, 1, 5, 1, 3, 1, 4],\r\n       [6, 5, 6, 4, 2, 1, 5, 4, 5, 0, 5, 6, 3, 3, 2, 3, 5, 2, 6, 4],\r\n       [2, 4, 5, 0, 2, 0, 0, 2, 2, 0, 6, 4, 3, 5, 3, 2, 6, 6, 4, 5],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [5, 5, 1, 3, 5, 4, 1, 5, 6, 0, 0, 2, 2, 3, 5, 2, 5, 4, 6, 3],\r\n       [3, 1, 3, 1, 1, 1, 3, 2, 2, 0, 6, 6, 0, 0, 2, 0, 4, 1, 2, 3],\r\n       [1, 3, 1, 4, 2, 4, 1, 6, 4, 0, 0, 6, 5, 4, 3, 4, 0, 1, 3, 6],\r\n       [0, 2, 5, 6, 5, 6, 5, 0, 3, 0, 2, 3, 0, 5, 3, 6, 5, 2, 3, 0],\r\n       [3, 0, 6, 6, 0, 5, 5, 4, 5, 0, 2, 1, 5, 3, 0, 2, 5, 5, 2, 1]]",
+		"id": 85,
+		"name": "Long Temporary Place Sepulcher",
+		"n_to": "Useful Dangerous Craft Cloister",
+		"e_to": "Better Ongoing Cubs Burrow",
+		"s_to": "Simple Bigger Diving Grave",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room with the spell and the corresponding spellbook. The spells inventory is 1 weight.  Quick Study When you see the effects of an arcane spell",
+		"map": "[[0, 6, 3, 0, 2, 5, 2, 1, 4, 0, 0, 2, 6, 4, 0, 5, 3, 1, 4, 1],\r\n       [2, 6, 1, 3, 3, 5, 0, 5, 0, 0, 4, 0, 5, 3, 1, 5, 4, 6, 4, 4],\r\n       [5, 2, 1, 2, 3, 2, 3, 3, 4, 0, 3, 2, 1, 3, 2, 4, 6, 4, 2, 3],\r\n       [2, 4, 3, 0, 6, 4, 6, 2, 0, 0, 2, 2, 2, 6, 3, 1, 4, 2, 2, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 2, 6, 1, 2, 5, 6, 6, 6, 0, 4, 4, 6, 1, 5, 0, 0, 1, 2, 0],\r\n       [6, 1, 0, 0, 3, 6, 0, 4, 1, 0, 3, 4, 1, 0, 4, 2, 5, 6, 5, 4],\r\n       [0, 0, 2, 3, 5, 3, 3, 6, 1, 0, 4, 6, 4, 3, 2, 2, 5, 6, 0, 3],\r\n       [2, 6, 0, 0, 1, 0, 1, 5, 4, 0, 3, 5, 5, 1, 6, 3, 6, 3, 1, 4],\r\n       [1, 1, 0, 3, 2, 6, 0, 4, 0, 0, 3, 2, 2, 3, 3, 6, 1, 6, 0, 1]]",
+		"id": 86,
+		"name": "Better Ongoing Cubs Burrow",
+		"n_to": "Strange False Image Cavern",
+		"e_to": "Diabolist Magical Heroism Alcove",
+		"s_to": "Long Dark Item Receptacle",
+		"w_to": "Long Temporary Place Sepulcher"
+	},
+	{
+		"desc": "as you go into the room kill the creature you contacted.  Polymorph Level 5 Enchantment  Description  Your touch reshapes a creature entirely, they stay in",
+		"map": "[[0, 4, 1, 5, 4, 4, 0, 2, 2, 0, 6, 3, 1, 0, 0, 4, 4, 1, 4, 2],\r\n       [2, 6, 0, 2, 6, 5, 6, 3, 6, 0, 5, 4, 0, 4, 3, 1, 2, 2, 4, 4],\r\n       [0, 0, 4, 5, 1, 2, 2, 3, 2, 0, 5, 3, 2, 3, 3, 6, 5, 1, 5, 0],\r\n       [5, 0, 3, 1, 2, 0, 1, 2, 0, 0, 3, 4, 2, 6, 1, 3, 3, 0, 4, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 4, 3, 2, 6, 6, 6, 1, 2, 0, 6, 2, 6, 6, 4, 6, 4, 5, 4, 6],\r\n       [3, 1, 5, 2, 2, 5, 6, 0, 2, 0, 6, 6, 2, 0, 5, 1, 3, 4, 3, 4],\r\n       [5, 2, 1, 5, 5, 0, 3, 0, 0, 0, 3, 3, 2, 0, 5, 3, 4, 3, 5, 0],\r\n       [4, 2, 4, 0, 3, 4, 5, 5, 1, 0, 6, 5, 0, 5, 3, 3, 4, 0, 4, 0],\r\n       [6, 0, 4, 5, 2, 1, 4, 3, 6, 0, 0, 0, 1, 4, 3, 0, 2, 2, 1, 6]]",
+		"id": 87,
+		"name": "Diabolist Magical Heroism Alcove",
+		"n_to": "Impervious Ancient Spell Sty",
+		"e_to": null,
+		"s_to": "Infiltrate Old Characteristics Keep",
+		"w_to": "Better Ongoing Cubs Burrow"
+	},
+	{
+		"desc": "the corresponding spellbook. The new spellbook is always new and has its own name.  Ethereal Tether When",
+		"map": "[[3, 3, 0, 5, 4, 1, 4, 3, 3, 0, 1, 1, 6, 3, 3, 6, 1, 1, 6, 0],\r\n       [6, 0, 4, 5, 0, 5, 4, 6, 6, 0, 0, 3, 1, 0, 4, 2, 5, 0, 4, 4],\r\n       [2, 6, 5, 4, 5, 2, 3, 6, 3, 0, 1, 6, 6, 0, 1, 3, 5, 0, 2, 5],\r\n       [6, 2, 3, 4, 4, 5, 2, 2, 0, 0, 1, 5, 1, 3, 0, 5, 6, 1, 3, 2],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [6, 6, 1, 2, 3, 0, 5, 0, 2, 0, 6, 4, 6, 1, 2, 4, 0, 2, 6, 6],\r\n       [5, 5, 3, 3, 1, 0, 1, 3, 0, 0, 0, 4, 1, 2, 6, 3, 2, 1, 3, 3],\r\n       [3, 2, 5, 1, 4, 0, 0, 1, 2, 0, 4, 2, 5, 3, 0, 4, 3, 5, 2, 3],\r\n       [4, 0, 0, 1, 4, 3, 3, 4, 4, 0, 6, 4, 4, 2, 3, 2, 1, 1, 6, 1],\r\n       [2, 0, 0, 4, 1, 6, 3, 2, 6, 0, 1, 4, 4, 6, 6, 3, 1, 1, 6, 0]]",
+		"id": 88,
+		"name": "Simple Bigger Diving Grave",
+		"n_to": "Long Temporary Place Sepulcher",
+		"e_to": "Long Dark Item Receptacle",
+		"s_to": "Telepathic Reflective Guide Confinement",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room with the spell and the corresponding spellbook. The spellbook may have some relevance to your own workings, but the details are those of the GM.",
+		"map": "[[4, 5, 6, 3, 6, 4, 6, 5, 5, 0, 0, 4, 4, 1, 3, 6, 4, 6, 4, 4],\r\n       [2, 5, 5, 2, 5, 1, 4, 1, 3, 0, 6, 5, 2, 4, 0, 4, 5, 0, 5, 1],\r\n       [5, 2, 5, 3, 2, 5, 6, 4, 4, 0, 1, 2, 1, 5, 3, 3, 1, 0, 6, 5],\r\n       [6, 0, 6, 5, 5, 4, 6, 6, 2, 0, 2, 6, 0, 0, 3, 6, 2, 3, 2, 6],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [5, 5, 2, 2, 5, 3, 4, 3, 6, 0, 3, 1, 0, 6, 4, 6, 4, 1, 5, 5],\r\n       [6, 3, 3, 2, 0, 4, 0, 6, 2, 0, 3, 1, 5, 6, 4, 0, 5, 5, 5, 1],\r\n       [4, 5, 4, 5, 6, 0, 5, 6, 2, 0, 2, 1, 0, 0, 3, 4, 6, 3, 3, 2],\r\n       [6, 4, 0, 6, 1, 6, 1, 2, 0, 0, 1, 1, 1, 1, 1, 3, 1, 0, 6, 0],\r\n       [3, 2, 3, 5, 2, 6, 2, 2, 3, 0, 5, 2, 3, 6, 1, 1, 2, 2, 6, 5]]",
+		"id": 89,
+		"name": "Long Dark Item Receptacle",
+		"n_to": "Better Ongoing Cubs Burrow",
+		"e_to": "Infiltrate Old Characteristics Keep",
+		"s_to": "Secret Long Cast Jail",
+		"w_to": "Simple Bigger Diving Grave"
+	},
+	{
+		"desc": "as you go into the room kill the thing youd like to contact by touch.  Telepathy Level 1 Divination ongoing  Description  You form a telepathic",
+		"map": "[[2, 4, 0, 0, 5, 0, 0, 2, 6, 0, 0, 3, 5, 5, 3, 1, 6, 6, 4, 5],\r\n       [1, 4, 6, 5, 6, 5, 3, 1, 2, 0, 0, 6, 6, 6, 6, 1, 4, 6, 5, 3],\r\n       [1, 6, 3, 1, 6, 5, 1, 4, 6, 0, 0, 2, 4, 5, 5, 6, 6, 5, 1, 6],\r\n       [6, 0, 4, 6, 2, 4, 6, 3, 3, 0, 5, 4, 3, 0, 1, 4, 6, 5, 3, 5],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 3, 1, 0, 2, 5, 6, 5, 1, 0, 1, 6, 3, 3, 4, 4, 2, 0, 2, 0],\r\n       [6, 0, 2, 5, 6, 6, 0, 3, 2, 0, 4, 0, 3, 0, 4, 2, 5, 6, 6, 3],\r\n       [3, 3, 0, 2, 4, 0, 3, 1, 2, 0, 5, 6, 6, 4, 5, 4, 0, 4, 2, 6],\r\n       [0, 3, 3, 6, 0, 6, 3, 6, 0, 0, 2, 1, 3, 5, 3, 3, 4, 5, 0, 4],\r\n       [6, 2, 1, 4, 4, 2, 2, 0, 3, 0, 4, 1, 1, 0, 1, 2, 1, 2, 3, 4]]",
+		"id": 90,
+		"name": "Infiltrate Old Characteristics Keep",
+		"n_to": "Diabolist Magical Heroism Alcove",
+		"e_to": null,
+		"s_to": "Bleak Dead Race Recess",
+		"w_to": "Long Dark Item Receptacle"
+	},
+	{
+		"desc": "maim enemies with a melee weapon in a specified area. The monster also gets your choice of 1d6 of these traits:  It",
+		"map": " [[3, 0, 1, 4, 5, 0, 2, 2, 6, 0, 0, 5, 3, 5, 4, 4, 5, 2, 3, 1],\r\n       [2, 1, 6, 3, 2, 2, 6, 3, 6, 0, 4, 6, 1, 5, 1, 5, 6, 2, 3, 6],\r\n       [3, 5, 1, 6, 1, 5, 5, 2, 6, 0, 4, 1, 1, 6, 0, 1, 6, 2, 5, 5],\r\n       [2, 3, 2, 4, 1, 2, 5, 3, 3, 0, 5, 1, 4, 1, 6, 0, 1, 3, 3, 3],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 1, 4, 2, 1, 2, 0, 4, 3, 0, 1, 4, 4, 3, 5, 3, 0, 3, 0, 3],\r\n       [0, 4, 5, 3, 6, 4, 0, 6, 1, 0, 5, 0, 2, 6, 1, 1, 6, 5, 5, 2],\r\n       [4, 5, 0, 3, 4, 6, 0, 3, 4, 0, 5, 3, 4, 0, 4, 3, 6, 3, 2, 4],\r\n       [4, 4, 5, 1, 1, 1, 1, 1, 4, 0, 3, 3, 6, 5, 1, 2, 2, 0, 1, 4],\r\n       [1, 0, 6, 6, 6, 0, 0, 1, 4, 0, 1, 2, 6, 4, 3, 2, 3, 6, 2, 4]]",
+		"id": 91,
+		"name": "Telepathic Reflective Guide Confinement",
+		"n_to": "Simple Bigger Diving Grave",
+		"e_to": "Secret Long Cast Jail",
+		"s_to": "True Filthy Creature Mausoleum",
+		"w_to": null
+	},
+	{
+		"desc": "be dragged off to some ancient dark temple. Blaze a trail through the blood and dark, strider.  Youve heard them, sitting",
+		"map": "[[4, 4, 5, 4, 4, 6, 5, 0, 2, 0, 6, 1, 0, 3, 6, 1, 4, 6, 2, 3],\n       [6, 0, 0, 2, 1, 3, 4, 3, 1, 0, 4, 2, 1, 4, 4, 4, 2, 3, 0, 6],\n       [2, 6, 5, 6, 0, 1, 4, 6, 3, 0, 0, 0, 5, 2, 5, 3, 0, 3, 4, 5],\n       [0, 2, 5, 5, 3, 1, 6, 2, 2, 0, 6, 6, 0, 5, 5, 5, 3, 4, 3, 3],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [0, 3, 6, 6, 4, 6, 1, 6, 5, 0, 1, 3, 2, 3, 2, 2, 3, 6, 1, 5],\n       [4, 5, 3, 3, 6, 6, 3, 5, 2, 0, 4, 1, 0, 6, 2, 2, 5, 0, 0, 3],\n       [1, 4, 6, 5, 6, 0, 1, 1, 5, 0, 5, 6, 6, 1, 0, 2, 5, 4, 6, 3],\n       [1, 1, 0, 0, 4, 1, 0, 1, 3, 0, 6, 1, 4, 4, 5, 5, 6, 1, 4, 6],\n       [1, 0, 5, 6, 1, 6, 0, 4, 2, 0, 3, 0, 3, 2, 4, 5, 0, 6, 6, 6]]\n",
+		"id": 92,
+		"name": "Secret Long Cast Jail",
+		"n_to": "Long Dark Item Receptacle",
+		"e_to": "Bleak Dead Race Recess",
+		"s_to": "Dark Wide Day Crypt",
+		"w_to": "Telepathic Reflective Guide Confinement"
+	},
+	{
+		"desc": "the spellbook. The best you can do is a lesser version, unreliable and limited Prepare new spells of your choice from",
+		"map": "[[3, 2, 1, 6, 1, 5, 4, 3, 4, 0, 3, 5, 2, 2, 2, 0, 0, 0, 2, 4],\r\n       [3, 0, 2, 5, 2, 2, 3, 6, 5, 0, 3, 3, 5, 0, 2, 1, 5, 2, 2, 0],\r\n       [4, 1, 5, 3, 1, 6, 6, 4, 0, 0, 5, 2, 4, 4, 5, 5, 1, 5, 5, 4],\r\n       [5, 5, 2, 5, 2, 2, 5, 2, 5, 0, 2, 4, 5, 0, 3, 6, 0, 3, 5, 4],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 3, 6, 4, 4, 0, 0, 3, 4, 0, 5, 3, 3, 1, 5, 3, 2, 4, 4, 1],\r\n       [2, 3, 1, 0, 4, 0, 0, 4, 0, 0, 5, 5, 5, 1, 2, 6, 0, 6, 0, 0],\r\n       [6, 4, 3, 5, 6, 3, 3, 3, 5, 0, 5, 0, 1, 6, 6, 4, 3, 2, 3, 2],\r\n       [4, 3, 4, 4, 3, 0, 5, 6, 1, 0, 2, 3, 4, 2, 3, 5, 6, 1, 1, 4],\r\n       [6, 3, 5, 3, 5, 1, 6, 5, 1, 0, 2, 3, 1, 6, 6, 4, 6, 2, 2, 4]]",
+		"id": 93,
+		"name": "Bleak Dead Race Recess",
+		"n_to": "Infiltrate Old Characteristics Keep",
+		"e_to": null,
+		"s_to": "Mighty Best Clue Jellab",
+		"w_to": "Secret Long Cast Jail"
+	},
+	{
+		"desc": "as you go into the room kill or maim and the rest is forgetling options.  Sleep Level 3 Enchantment  Description  1d4 enemies you can",
+		"map": "[[0, 2, 1, 2, 3, 5, 4, 0, 3, 0, 1, 3, 0, 3, 6, 2, 4, 2, 4, 5],\r\n       [6, 6, 0, 1, 2, 3, 0, 5, 5, 0, 4, 6, 3, 5, 0, 2, 1, 0, 2, 0],\r\n       [1, 6, 1, 4, 4, 5, 2, 1, 5, 0, 0, 1, 3, 4, 3, 4, 2, 6, 3, 6],\r\n       [1, 1, 6, 5, 4, 4, 1, 0, 2, 0, 0, 4, 1, 6, 3, 5, 3, 6, 6, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [4, 4, 3, 4, 5, 5, 6, 4, 6, 0, 1, 2, 3, 6, 5, 0, 4, 1, 6, 5],\r\n       [5, 6, 1, 0, 5, 6, 1, 2, 1, 0, 6, 3, 5, 6, 5, 4, 0, 6, 2, 3],\r\n       [2, 1, 0, 6, 5, 5, 6, 4, 5, 0, 4, 2, 5, 2, 5, 3, 4, 4, 1, 5],\r\n       [2, 2, 3, 1, 3, 3, 0, 2, 0, 0, 5, 5, 1, 5, 1, 5, 1, 5, 1, 0],\r\n       [1, 0, 1, 3, 5, 4, 4, 5, 6, 0, 0, 2, 0, 4, 2, 4, 2, 1, 1, 2]]",
+		"id": 94,
+		"name": "True Filthy Creature Mausoleum",
+		"n_to": "Telepathic Reflective Guide Confinement",
+		"e_to": "Dark Wide Day Crypt",
+		"s_to": "Long Cheap Time Tower",
+		"w_to": null
+	},
+	{
+		"desc": "be bound to a place of power you can then unleash it to cause terror and fear.  Gear Your load is 9+Str.",
+		"map": "[[2, 2, 6, 6, 4, 5, 4, 6, 1, 0, 3, 1, 0, 1, 4, 0, 2, 1, 6, 0],\r\n       [4, 3, 0, 5, 6, 4, 0, 4, 2, 0, 4, 2, 1, 6, 3, 6, 2, 3, 2, 3],\r\n       [2, 4, 5, 5, 0, 0, 6, 6, 0, 0, 5, 0, 1, 2, 1, 2, 0, 0, 6, 1],\r\n       [3, 0, 1, 0, 4, 6, 0, 3, 6, 0, 3, 6, 4, 0, 0, 5, 2, 0, 2, 0],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [2, 0, 1, 3, 6, 2, 5, 5, 3, 0, 4, 1, 0, 0, 3, 0, 4, 2, 0, 5],\r\n       [2, 4, 2, 6, 3, 2, 0, 1, 1, 0, 5, 1, 6, 2, 4, 1, 6, 6, 5, 4],\r\n       [0, 1, 6, 6, 2, 5, 3, 3, 1, 0, 1, 2, 6, 0, 1, 4, 0, 2, 6, 6],\r\n       [6, 4, 5, 3, 2, 4, 2, 0, 6, 0, 5, 0, 0, 2, 2, 5, 0, 2, 3, 1],\r\n       [4, 1, 4, 2, 5, 4, 6, 0, 4, 0, 6, 1, 4, 5, 0, 5, 3, 5, 6, 0]]",
+		"id": 95,
+		"name": "Dark Wide Day Crypt",
+		"n_to": "Secret Long Cast Jail",
+		"e_to": "Mighty Best Clue Jellab",
+		"s_to": "Neutral Safe Form Reformatory",
+		"w_to": "True Filthy Creature Mausoleum"
+	},
+	{
+		"desc": "The spellbook may have some relation to the natural world, but the soul of a being of your choice",
+		"map": "[[6, 2, 0, 1, 5, 1, 2, 4, 1, 0, 4, 6, 2, 2, 0, 4, 1, 1, 5, 6],\r\n       [1, 1, 2, 1, 1, 3, 2, 3, 4, 0, 3, 5, 6, 2, 2, 0, 2, 6, 0, 0],\r\n       [6, 3, 4, 0, 0, 1, 1, 3, 4, 0, 5, 3, 6, 4, 3, 0, 4, 1, 0, 3],\r\n       [5, 4, 6, 3, 5, 6, 3, 3, 1, 0, 2, 0, 2, 3, 2, 5, 2, 0, 1, 5],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [1, 2, 6, 1, 5, 3, 3, 4, 1, 0, 0, 1, 3, 5, 3, 2, 6, 6, 4, 5],\r\n       [5, 2, 1, 6, 5, 3, 2, 4, 1, 0, 4, 6, 2, 2, 2, 0, 1, 1, 5, 5],\r\n       [4, 3, 2, 1, 5, 4, 4, 2, 3, 0, 6, 1, 1, 0, 0, 3, 5, 5, 1, 6],\r\n       [1, 6, 6, 4, 0, 5, 0, 0, 2, 0, 4, 6, 2, 4, 1, 6, 5, 4, 5, 1],\r\n       [1, 4, 6, 5, 5, 6, 3, 3, 2, 0, 3, 0, 6, 4, 4, 6, 5, 1, 0, 5]]",
+		"id": 96,
+		"name": "Mighty Best Clue Jellab",
+		"n_to": "Bleak Dead Race Recess",
+		"e_to": null,
+		"s_to": "Concerted Crazy Mouse Penitentiary",
+		"w_to": "Dark Wide Day Crypt"
+	},
+	{
+		"desc": "as you go into the room kill or maim any creature within sight of the cage.  Contact Other Plane Level 5 Divination  Description  You send a request",
+		"map": "[[1, 2, 3, 5, 1, 1, 1, 0, 4, 0, 4, 0, 4, 0, 0, 2, 6, 6, 4, 0],\n       [2, 4, 0, 6, 4, 6, 3, 1, 1, 0, 4, 4, 3, 3, 1, 5, 6, 4, 5, 3],\n       [0, 4, 0, 1, 1, 1, 6, 5, 2, 0, 5, 3, 1, 1, 0, 2, 0, 2, 4, 5],\n       [4, 3, 6, 2, 0, 2, 4, 3, 3, 0, 3, 1, 6, 1, 1, 1, 0, 6, 1, 3],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [3, 3, 5, 6, 1, 5, 4, 0, 6, 0, 1, 0, 3, 1, 5, 4, 4, 1, 2, 3],\n       [3, 4, 3, 0, 5, 6, 5, 3, 2, 0, 3, 2, 0, 3, 0, 3, 2, 2, 1, 2],\n       [0, 2, 0, 3, 1, 6, 1, 6, 4, 0, 3, 3, 2, 3, 3, 1, 3, 4, 2, 1],\n       [5, 0, 5, 2, 1, 4, 1, 3, 4, 0, 5, 3, 3, 3, 1, 4, 3, 6, 0, 1],\n       [0, 4, 4, 1, 5, 3, 5, 5, 2, 0, 3, 6, 0, 5, 1, 5, 1, 1, 2, 2]]",
+		"id": 97,
+		"name": "Long Cheap Time Tower",
+		"n_to": "True Filthy Creature Mausoleum",
+		"e_to": "Neutral Safe Form Reformatory",
+		"s_to": "Close Best Skill Catacomb",
+		"w_to": null
+	},
+	{
+		"desc": "as you go into the room with the spell and The spellbook may have some relation to the natural world, but the soul of a being of your choice",
+		"map": "[[1, 0, 2, 4, 6, 5, 3, 2, 2, 0, 6, 6, 3, 0, 5, 3, 5, 3, 1, 2],\r\n       [2, 3, 5, 6, 3, 4, 1, 1, 5, 0, 2, 0, 1, 5, 5, 4, 4, 5, 3, 1],\r\n       [5, 0, 4, 4, 1, 5, 0, 6, 0, 0, 3, 4, 6, 6, 1, 5, 3, 3, 5, 2],\r\n       [2, 3, 4, 1, 6, 4, 1, 5, 3, 0, 0, 4, 6, 5, 2, 6, 6, 2, 5, 1],\r\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n       [0, 6, 5, 4, 3, 0, 0, 3, 0, 0, 6, 1, 2, 5, 5, 5, 1, 5, 2, 2],\r\n       [0, 6, 6, 0, 6, 1, 0, 6, 5, 0, 3, 2, 0, 4, 2, 1, 2, 2, 0, 6],\r\n       [0, 0, 5, 3, 6, 1, 0, 0, 6, 0, 4, 4, 1, 5, 2, 4, 4, 5, 2, 2],\r\n       [6, 5, 1, 6, 0, 2, 2, 1, 2, 0, 2, 5, 4, 4, 5, 0, 4, 0, 5, 3],\r\n       [1, 4, 1, 1, 5, 0, 2, 2, 4, 0, 0, 2, 6, 0, 3, 1, 0, 5, 1, 1]]\r\n",
+		"id": 98,
+		"name": "Neutral Safe Form Reformatory",
+		"n_to": "Dark Wide Day Crypt",
+		"e_to": "Concerted Crazy Mouse Penitentiary",
+		"s_to": null,
+		"w_to": "Long Cheap Time Tower"
+	},
+	{
+		"desc": "as you go into the room with the spell and the caged creature can hear your thoughts and you cannot leave sight of the cage.  Contact Other Plane Level 5 Div",
+		"map": "[[6, 3, 0, 5, 1, 4, 1, 2, 4, 0, 4, 5, 1, 4, 5, 6, 6, 2, 6, 6],\n       [4, 3, 6, 0, 6, 5, 6, 4, 3, 0, 5, 5, 1, 5, 2, 4, 2, 5, 4, 0],\n       [4, 3, 4, 3, 3, 0, 5, 2, 4, 0, 6, 4, 6, 2, 5, 6, 0, 2, 3, 4],\n       [3, 6, 1, 5, 5, 5, 3, 6, 5, 0, 0, 2, 6, 5, 1, 2, 6, 1, 3, 4],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [0, 3, 6, 4, 0, 4, 0, 6, 5, 0, 2, 3, 3, 3, 4, 5, 0, 1, 0, 6],\n       [2, 0, 6, 4, 1, 0, 6, 4, 4, 0, 2, 0, 5, 3, 1, 6, 3, 0, 3, 2],\n       [6, 6, 1, 3, 5, 6, 0, 4, 0, 0, 0, 6, 1, 6, 5, 0, 3, 5, 5, 4],\n       [5, 3, 2, 1, 4, 6, 5, 4, 5, 0, 0, 4, 4, 0, 4, 1, 3, 6, 2, 3],\n       [5, 5, 1, 1, 6, 3, 3, 6, 0, 0, 2, 5, 1, 6, 4, 0, 6, 4, 5, 3]]",
+		"id": 99,
+		"name": "Concerted Crazy Mouse Penitentiary",
+		"n_to": "Mighty Best Clue Jellab",
+		"e_to": null,
+		"s_to": null,
+		"w_to": "Neutral Safe Form Reformatory"
+	},
+	{
+		"desc": "as you go into the room with the spell. The GM will reveal the details of a grim portent to youa bleak event that will come to pass without your intervention. They",
+		"map": "[[3, 6, 2, 5, 4, 3, 3, 0, 6, 0, 5, 5, 0, 5, 0, 3, 5, 6, 2, 5],\n       [6, 3, 4, 3, 3, 1, 1, 6, 5, 0, 1, 5, 6, 5, 6, 4, 0, 0, 1, 6],\n       [0, 1, 2, 0, 4, 0, 1, 1, 2, 0, 0, 1, 5, 5, 0, 2, 4, 1, 0, 2],\n       [6, 3, 5, 1, 0, 4, 0, 5, 3, 0, 3, 0, 3, 3, 4, 6, 6, 1, 0, 1],\n       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\n       [2, 0, 3, 6, 2, 1, 6, 6, 2, 0, 4, 5, 2, 4, 3, 6, 0, 6, 5, 1],\n       [3, 5, 6, 0, 6, 0, 5, 3, 6, 0, 3, 0, 1, 2, 0, 0, 2, 3, 3, 3],\n       [4, 3, 3, 5, 4, 5, 5, 1, 1, 0, 5, 5, 3, 6, 1, 5, 0, 0, 3, 5],\n       [2, 3, 2, 6, 1, 5, 5, 6, 1, 0, 6, 0, 6, 0, 2, 3, 6, 2, 1, 5],\n       [4, 4, 1, 3, 5, 6, 4, 0, 6, 0, 1, 5, 6, 2, 4, 2, 2, 6, 6, 3]]",
+		"id": 100,
+		"name": "Close Best Skill Catacomb",
+		"n_to": "Long Cheap Time Tower",
+		"e_to": null,
+		"s_to": null,
+		"w_to": null
+	}
+]
