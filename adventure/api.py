@@ -6,8 +6,6 @@ from decouple import config
 from django.contrib.auth.models import User
 from .models import *
 from rest_framework.decorators import api_view
-from django.core.serializers import serialize
-
 import json
 
 # instantiate pusher
@@ -18,20 +16,24 @@ import json
 @api_view(["GET"])
 def initialize(request):
     user = request.user
+    print("user", user)
     player = user.player
     player_id = player.id
     uuid = player.uuid
     room = player.room()
     players = room.playerNames(player_id)
-    return JsonResponse({'uuid': uuid, 'name': player.user.username, 'title': room.title, 'description': room.description, 'players': players}, safe=True)
+    x = room.x
+    y = room.y
+    return JsonResponse({'uuid': uuid, 'name': player.user.username, 'title': room.title, 'description': room.description, 'players': players, 'x': x, 'y': y}, safe=True)
 
 
-@csrf_exempt
+# @csrf_exempt
 @api_view(["POST"])
 def move(request):
+    user = request.user
     dirs = {"n": "north", "s": "south", "e": "east", "w": "west"}
     reverse_dirs = {"n": "south", "s": "north", "e": "west", "w": "east"}
-    player = request.user.player
+    player = user.player
     player_id = player.id
     player_uuid = player.uuid
     data = json.loads(request.body)
@@ -46,9 +48,9 @@ def move(request):
         nextRoomID = room.e_to
     elif direction == "w":
         nextRoomID = room.w_to
-    if nextRoomID is not None and nextRoomID > 0:
+    if nextRoomID is not None:
         nextRoom = Room.objects.get(id=nextRoomID)
-        player.current_room = nextRoomID
+        player.currentRoom = nextRoomID
         player.save()
         players = nextRoom.playerNames(player_id)
         currentPlayerUUIDs = room.playerUUIDs(player_id)
@@ -57,10 +59,11 @@ def move(request):
         #     pusher.trigger(f'p-channel-{p_uuid}', u'broadcast', {'message':f'{player.user.username} has walked {dirs[direction]}.'})
         # for p_uuid in nextPlayerUUIDs:
         #     pusher.trigger(f'p-channel-{p_uuid}', u'broadcast', {'message':f'{player.user.username} has entered from the {reverse_dirs[direction]}.'})
-        return JsonResponse({'name': player.user.username, 'room_name': nextRoom.name, 'description': nextRoom.description, 'players': players, 'error_msg': ""}, safe=True)
+        return JsonResponse({'name': player.user.username, 'title': nextRoom.title, 'description': nextRoom.description, 'players': players, 'error_msg': ""}, safe=True)
     else:
+        print("nextroom id", nextRoomID)
         players = room.playerNames(player_id)
-        return JsonResponse({'name': player.user.username, 'room_name': room.name, 'description': room.description, 'players': players, 'error_msg': "You cannot move that way."}, safe=True)
+        return JsonResponse({'name': player.user.username, 'title': room.title, 'description': room.description, 'players': players, 'error_msg': "You cannot move that way."}, safe=True)
 
 
 @csrf_exempt
@@ -71,22 +74,22 @@ def say(request):
 
 
 @csrf_exempt
-@api_view(['GET'])
-def map(request):
-    room_data = []
-    rooms = Room.objects.all()
-    for i in rooms:
-        room = {
-            'id': i.id,
-            'room_name': i.name,
-            'description': i.description,
-            'n_to': i.n_to,
-            's_to': i.s_to,
-            'e_to': i.e_to,
-            'w_to': i.w_to,
-            'x': i.x,
-            'y': i.y
+@api_view(["GET"])
+def map_endpoint(request):
+    data = Room.objects.all()
+    #tracks = dict()
+    tracks = []
+    for item in data:
+        new_room = {
+            "id": item.id,
+            "title": item.title,
+            "description": item.description,
+            "n_to": item.n_to,
+            "s_to": item.s_to,
+            "w_to": item.w_to,
+            "e_to": item.e_to,
+            "x": item.x,
+            "y": item.y,
         }
-        room_data.append(room)
-    # serial = serialize('json', rooms)
-    return JsonResponse({'room_data': room_data}, safe=True)
+        tracks.append(new_room)
+    return JsonResponse(tracks, safe=False)
