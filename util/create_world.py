@@ -1,30 +1,55 @@
 from django.contrib.auth.models import User
 from adventure.models import Player, Room
 from util.generator import World
+import random
 
 Room.objects.all().delete()
+world = World()
+world.generate_rooms(10, 10, 100)
 
-w = World()
-w.generate_rooms(14, 14, 120)
-w.new_print_rooms()
+room_descriptions = [
+    'This is a generic room',
+    'BOOOOMMM!',
+    'AHHHH',
+    'RUNN',
+    'BLAMM',
+    'Peace at last',
+    'It only gets worse from here',
+    'Go',
+    'stars are awesome',
+    'what will you do now?',
+    'natural',
+    'Fantacy',
+    'today is your lucky day',
+    'brooom',
+]
 
-for row in w.grid:
-	for room in row:
-		if room.x == 5 and room.y == 5:
-			currRoom = Room(id=room.id, title=room.name, description=room.description, x=room.x, y=room.y)
-			currRoom.save()
-			room.n_to and currRoom.connectRoomByID(room.n_to, 'n')
-			room.s_to and currRoom.connectRoomByID(room.s_to, 's')
-			room.e_to and currRoom.connectRoomByID(room.e_to, 'e')
-			room.w_to and currRoom.connectRoomByID(room.w_to, 'w')
-			players=Player.objects.all()
-			for p in players:
-			  p.currentRoom=currRoom.id
-			  p.save()
-		if room:
-			new_room = Room(id=room.id, title=room.name, description=room.description, x=room.x, y=room.y)
-			new_room.save()
-			room.n_to and new_room.connectRoomByID(room.n_to, 'n')
-			room.s_to and new_room.connectRoomByID(room.s_to, 's')
-			room.e_to and new_room.connectRoomByID(room.e_to, 'e')
-			room.w_to and new_room.connectRoomByID(room.w_to, 'w')
+
+roomTracker = {}
+
+for row in world.grid:
+    for rm in row:
+        des = random.choice(room_descriptions)
+        room = Room(title=f'{rm.name}', description=des)
+        room.save()
+        roomTracker[(rm.x, rm.y)] = room
+        if rm.e_to != None:
+            coords = (rm.e_to.x, rm.e_to.y)
+            if coords in roomTracker:
+                roomTracker[rm.x, rm.y].connectRooms(roomTracker[coords], 'e')
+                roomTracker[coords].connectRooms(roomTracker[rm.x, rm.y], 'w')
+        if rm.w_to != None:
+            coords = (rm.w_to.x, rm.w_to.y)
+            if coords in roomTracker:
+                roomTracker[rm.x, rm.y].connectRooms(roomTracker[coords], 'w')
+                roomTracker[coords].connectRooms(roomTracker[rm.x, rm.y], 'e')
+        if rm.s_to != None:
+            coords = (rm.s_to.x, rm.s_to.y)
+            if coords in roomTracker:
+                roomTracker[rm.x, rm.y].connectRooms(roomTracker[coords], 's')
+                roomTracker[coords].connectRooms(roomTracker[rm.x, rm.y], 'n')
+
+players = Player.objects.all()
+for p in players:
+    p.currentRoom = world.grid[0][0].id
+    p.save()
