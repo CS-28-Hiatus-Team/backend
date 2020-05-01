@@ -8,7 +8,7 @@ world = World()
 world.generate_rooms(10, 10, 100)
 
 room_descriptions = [
-    'This is a generic room',
+    "as you go into the room with the spell. Only creatures capable of sleeping are affected. They awake as normal: loud noises, jolts, pain.  5th",
 
 ]
 
