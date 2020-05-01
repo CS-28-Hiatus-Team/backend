@@ -48,7 +48,7 @@ def move(request):
         nextRoomID = room.w_to
     if nextRoomID is not None and nextRoomID > 0:
         nextRoom = Room.objects.get(id=nextRoomID)
-        player.currentRoom = nextRoomID
+        player.current_room = nextRoomID
         player.save()
         players = nextRoom.playerNames(player_id)
         currentPlayerUUIDs = room.playerUUIDs(player_id)
@@ -84,8 +84,8 @@ def map(request):
             's_to': i.s_to,
             'e_to': i.e_to,
             'w_to': i.w_to,
-			'x': i.x,
-			'y': i.y
+            'x': i.x,
+            'y': i.y
         }
         maps.append(room)
     # serial = serialize('json', rooms)

@@ -51,5 +51,5 @@ for row in world.grid:
 
 players = Player.objects.all()
 for p in players:
-    p.currentRoom = world.grid[0][0].id
+    p.current_room = world.grid[0][0].id
     p.save()

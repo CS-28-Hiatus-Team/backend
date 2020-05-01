@@ -40,25 +40,25 @@ class Room(models.Model):
             self.save()
 
     def playerNames(self, currentPlayerID):
-        return [p.user.username for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
+        return [p.user.username for p in Player.objects.filter(current_room=self.id) if p.id != int(currentPlayerID)]
 
     def playerUUIDs(self, currentPlayerID):
-        return [p.uuid for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
+        return [p.uuid for p in Player.objects.filter(current_room=self.id) if p.id != int(currentPlayerID)]
 
 
 class Player(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    currentRoom = models.IntegerField(default=0)
+    current_room = models.IntegerField(default=0)
     uuid = models.UUIDField(default=uuid.uuid4, unique=True)
 
     def initialize(self):
-        if self.currentRoom == 0:
-            self.currentRoom = Room.objects[0].id
+        if self.current_room == 0:
+            self.current_room = Room.objects.first().id
             self.save()
 
     def room(self):
         try:
-            return Room.objects.get(id=self.currentRoom)
+            return Room.objects.get(id=self.current_room)
         except Room.DoesNotExist:
             self.initialize()
             return self.room()
