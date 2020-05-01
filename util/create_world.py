@@ -5,7 +5,7 @@ import random
 
 # Room.objects.all().delete()
 world = World()
-world.generate_rooms(10, 10, 100)
+world.generate_rooms(10, 10, 10)
 
 room_descriptions = [
     "as you go into the room with the spell. Only creatures capable of sleeping are affected. They awake as normal: loud noises, jolts, pain.  5th",
