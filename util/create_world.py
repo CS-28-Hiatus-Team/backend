@@ -36,18 +36,18 @@ for row in world.grid:
         if rm.e_to != None:
             coords = (rm.e_to.x, rm.e_to.y)
             if coords in roomTracker:
-                roomTracker[rm.x, rm.y].connectRooms(roomTracker[coords], 'e')
-                roomTracker[coords].connectRooms(roomTracker[rm.x, rm.y], 'w')
+                roomTracker[rm.x, rm.y].connect_rooms(roomTracker[coords], 'e')
+                roomTracker[coords].connect_rooms(roomTracker[rm.x, rm.y], 'w')
         if rm.w_to != None:
             coords = (rm.w_to.x, rm.w_to.y)
             if coords in roomTracker:
-                roomTracker[rm.x, rm.y].connectRooms(roomTracker[coords], 'w')
-                roomTracker[coords].connectRooms(roomTracker[rm.x, rm.y], 'e')
+                roomTracker[rm.x, rm.y].connect_rooms(roomTracker[coords], 'w')
+                roomTracker[coords].connect_rooms(roomTracker[rm.x, rm.y], 'e')
         if rm.s_to != None:
             coords = (rm.s_to.x, rm.s_to.y)
             if coords in roomTracker:
-                roomTracker[rm.x, rm.y].connectRooms(roomTracker[coords], 's')
-                roomTracker[coords].connectRooms(roomTracker[rm.x, rm.y], 'n')
+                roomTracker[rm.x, rm.y].connect_rooms(roomTracker[coords], 's')
+                roomTracker[coords].connect_rooms(roomTracker[rm.x, rm.y], 'n')
 
 players = Player.objects.all()
 for p in players:

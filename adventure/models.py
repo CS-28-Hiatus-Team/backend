@@ -19,7 +19,7 @@ class Room(models.Model):
     y = models.IntegerField(default=0)
     
 
-    def connectRooms(self, destinationRoom, direction):
+    def connect_rooms(self, destinationRoom, direction):
         destinationRoomID = destinationRoom.id
         try:
             destinationRoom = Room.objects.get(id=destinationRoomID)
@@ -53,7 +53,7 @@ class Player(models.Model):
 
     def initialize(self):
         if self.currentRoom == 0:
-            self.currentRoom = Room.objects.first().id
+            self.currentRoom = Room.objects[0].id
             self.save()
 
     def room(self):
