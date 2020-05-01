@@ -3,7 +3,7 @@ from adventure.models import Player, Room
 from util.generator import World
 import random
 
-Room.objects.all().delete()
+# Room.objects.all().delete()
 world = World()
 world.generate_rooms(10, 10, 100)
 
@@ -19,7 +19,7 @@ room_descriptions = [
     'stars are awesome',
     'what will you do now?',
     'natural',
-    'Fantacy',
+    'Fantasy',
     'today is your lucky day',
     'brooom',
 ]
